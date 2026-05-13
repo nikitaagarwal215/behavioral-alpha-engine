@@ -46,12 +46,6 @@ html, body, [class*="css"] {
     padding-bottom: 2rem;
 }
 
-/* ALL TEXT */
-
-p, span, div, label, li {
-    color: black !important;
-}
-
 /* HEADINGS */
 
 h1 {
@@ -159,26 +153,6 @@ input, textarea {
     color: black !important;
 }
 
-/* NUMBER INPUT */
-
-.stNumberInput input {
-    background-color: white !important;
-    color: black !important;
-}
-
-/* SLIDER */
-
-.stSlider {
-    color: #2563EB;
-}
-
-/* DATAFRAME */
-
-[data-testid="stDataFrame"] {
-    border-radius: 14px;
-    overflow: hidden;
-}
-
 /* CUSTOM BOX */
 
 .tech-box {
@@ -188,21 +162,11 @@ input, textarea {
     box-shadow: 0px 8px 20px rgba(0,0,0,0.08);
 }
 
-/* SUCCESS / INFO / WARNING */
+/* DATAFRAME */
 
-.stSuccess {
-    background-color: rgba(34,197,94,0.12) !important;
-    color: black !important;
-}
-
-.stInfo {
-    background-color: rgba(59,130,246,0.12) !important;
-    color: black !important;
-}
-
-.stWarning {
-    background-color: rgba(245,158,11,0.12) !important;
-    color: black !important;
+[data-testid="stDataFrame"] {
+    border-radius: 14px;
+    overflow: hidden;
 }
 
 </style>
@@ -217,7 +181,7 @@ df = pd.read_csv("investor_behavior_data.csv")
 df.columns = df.columns.str.strip()
 
 # =========================================================
-# SYNTHETIC COLUMNS
+# SYNTHETIC DATA
 # =========================================================
 
 if "Age" not in df.columns:
@@ -234,6 +198,15 @@ if "Risk_Score" not in df.columns:
 
 if "Portfolio_Value" not in df.columns:
     df["Portfolio_Value"] = [3,6,10,18,25,40,60] * (len(df)//7) + [8]*(len(df)%7)
+
+# =========================================================
+# ADD BEHAVIORAL SCORES
+# =========================================================
+
+df["Loss_Aversion"] = [78,65,88,70,60,92,55] * (len(df)//7) + [70]*(len(df)%7)
+df["Home_Bias"] = [55,72,64,81,69,50,75] * (len(df)//7) + [65]*(len(df)%7)
+df["Overconfidence"] = [66,82,74,91,58,80,62] * (len(df)//7) + [68]*(len(df)%7)
+df["FOMO_Score"] = [72,85,69,78,64,88,59] * (len(df)//7) + [70]*(len(df)%7)
 
 # =========================================================
 # INVESTOR TYPES
@@ -268,7 +241,7 @@ goals = [
 df["Goal"] = [goals[i % len(goals)] for i in range(len(df))]
 
 # =========================================================
-# SIDEBAR
+# SIDEBAR FILTERS
 # =========================================================
 
 st.sidebar.title("⚡ Dashboard Controls")
@@ -285,13 +258,6 @@ age_filter = st.sidebar.slider(
     (22,45)
 )
 
-income_filter = st.sidebar.slider(
-    "Income Range (LPA)",
-    int(df["Income"].min()),
-    int(df["Income"].max()),
-    (5,50)
-)
-
 risk_filter = st.sidebar.slider(
     "Risk Appetite",
     1,
@@ -303,8 +269,6 @@ filtered_df = df[
     (df["Goal"] == goal_filter) &
     (df["Age"] >= age_filter[0]) &
     (df["Age"] <= age_filter[1]) &
-    (df["Income"] >= income_filter[0]) &
-    (df["Income"] <= income_filter[1]) &
     (df["Risk_Score"] >= risk_filter[0]) &
     (df["Risk_Score"] <= risk_filter[1])
 ]
@@ -320,15 +284,9 @@ st.markdown("""
 
 <h3>AI-Powered Behavioral Wealth Intelligence Platform</h3>
 
-Advanced behavioral finance dashboard analyzing:
-<br><br>
-
-• Investor psychology  
-• Risk appetite  
-• Portfolio intelligence  
-• Wealth creation goals  
-• Emotional investing patterns  
-• Financial behavior analytics  
+This dashboard helps wealth managers understand investor psychology,
+risk appetite, emotional investing patterns,
+and portfolio suitability in real time.
 
 </div>
 """, unsafe_allow_html=True)
@@ -366,11 +324,12 @@ with c4:
 # TABS
 # =========================================================
 
-tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
+tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs([
     "📊 Demographics",
     "🧠 Behavioral Scorecard",
     "🎯 Financial Goals",
     "💼 Portfolio Intelligence",
+    "⚖ Balanced Scorecard",
     "🤖 AI Advisory",
     "📈 Survey Insights"
 ])
@@ -381,31 +340,15 @@ tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
 
 with tab1:
 
-    col1, col2 = st.columns(2)
+    fig1 = px.histogram(
+        filtered_df,
+        x="Age",
+        color="Investor_Type",
+        title="Investor Age Distribution",
+        template="plotly_white"
+    )
 
-    with col1:
-
-        fig1 = px.histogram(
-            filtered_df,
-            x="Age",
-            color="Investor_Type",
-            title="Investor Age Distribution",
-            template="plotly_white"
-        )
-
-        st.plotly_chart(fig1, use_container_width=True)
-
-    with col2:
-
-        fig2 = px.pie(
-            filtered_df,
-            names="Investor_Type",
-            hole=0.55,
-            title="Investor Type Distribution",
-            template="plotly_white"
-        )
-
-        st.plotly_chart(fig2, use_container_width=True)
+    st.plotly_chart(fig1, use_container_width=True)
 
 # =========================================================
 # TAB 2
@@ -413,18 +356,46 @@ with tab1:
 
 with tab2:
 
-    fig3 = px.scatter(
-        filtered_df,
-        x="Risk_Score",
-        y="Behavioral_Score",
-        size="Portfolio_Value",
-        color="Investor_Type",
-        hover_data=["Goal"],
-        title="Behavioral Intelligence Mapping",
+    st.subheader("Behavioral Bias Scorecard")
+
+    bias_scores = pd.DataFrame({
+        "Bias": [
+            "Loss Aversion",
+            "Home Bias",
+            "Overconfidence",
+            "FOMO"
+        ],
+        "Score": [
+            filtered_df["Loss_Aversion"].mean(),
+            filtered_df["Home_Bias"].mean(),
+            filtered_df["Overconfidence"].mean(),
+            filtered_df["FOMO_Score"].mean()
+        ]
+    })
+
+    fig2 = px.bar(
+        bias_scores,
+        x="Bias",
+        y="Score",
+        color="Bias",
+        title="Average Behavioral Bias Scores",
         template="plotly_white"
     )
 
-    st.plotly_chart(fig3, use_container_width=True)
+    st.plotly_chart(fig2, use_container_width=True)
+
+    st.markdown("""
+<div class="tech-box">
+
+<h3>Business Interpretation</h3>
+
+Higher loss aversion indicates emotional panic-selling tendencies.
+High overconfidence suggests excessive trading behavior.
+Strong home bias reflects preference toward familiar assets.
+Elevated FOMO scores indicate trend-chasing investment patterns.
+
+</div>
+""", unsafe_allow_html=True)
 
 # =========================================================
 # TAB 3
@@ -432,7 +403,7 @@ with tab2:
 
 with tab3:
 
-    fig4 = px.sunburst(
+    fig3 = px.sunburst(
         filtered_df,
         path=["Goal", "Investor_Type"],
         values="Portfolio_Value",
@@ -441,9 +412,7 @@ with tab3:
         template="plotly_white"
     )
 
-    st.plotly_chart(fig4, use_container_width=True)
-
-    st.dataframe(filtered_df)
+    st.plotly_chart(fig3, use_container_width=True)
 
 # =========================================================
 # TAB 4
@@ -451,22 +420,78 @@ with tab3:
 
 with tab4:
 
-    fig5 = px.treemap(
+    fig4 = px.scatter(
         filtered_df,
-        path=["Investor_Type"],
-        values="Portfolio_Value",
-        color="Behavioral_Score",
-        title="Portfolio Allocation Intelligence",
+        x="Risk_Score",
+        y="Portfolio_Value",
+        color="Investor_Type",
+        size="Behavioral_Score",
+        title="Risk vs Portfolio Intelligence",
         template="plotly_white"
     )
 
-    st.plotly_chart(fig5, use_container_width=True)
+    st.plotly_chart(fig4, use_container_width=True)
+
+    st.markdown("""
+<div class="tech-box">
+
+<h3>Portfolio Intelligence</h3>
+
+This section helps RuDo Wealth identify
+which investor categories are overexposed to risk,
+under-diversified, or emotionally driven.
+
+</div>
+""", unsafe_allow_html=True)
 
 # =========================================================
 # TAB 5
 # =========================================================
 
 with tab5:
+
+    st.subheader("Balanced Wealth Scorecard")
+
+    scorecard = pd.DataFrame({
+        "Metric": [
+            "Behavioral Stability",
+            "Portfolio Diversification",
+            "Risk Alignment",
+            "Goal Clarity",
+            "Investment Discipline"
+        ],
+        "Score": [72,68,75,80,64]
+    })
+
+    fig5 = px.bar(
+        scorecard,
+        x="Metric",
+        y="Score",
+        color="Score",
+        title="Balanced Wealth Performance Scorecard",
+        template="plotly_white"
+    )
+
+    st.plotly_chart(fig5, use_container_width=True)
+
+    st.markdown("""
+<div class="tech-box">
+
+<h3>Strategic Use for RuDo Wealth</h3>
+
+The balanced scorecard enables advisors
+to identify weaknesses in client behavior,
+improve retention, personalize financial advice,
+and optimize long-term wealth outcomes.
+
+</div>
+""", unsafe_allow_html=True)
+
+# =========================================================
+# TAB 6
+# =========================================================
+
+with tab6:
 
     st.subheader("AI Recommendation Engine")
 
@@ -487,8 +512,8 @@ with tab5:
         st.success("""
 Recommended Strategy:
 
-Capital preservation focused investing strategy
-with debt allocation and conservative SIPs.
+Conservative allocation with debt instruments,
+gold exposure, and low-volatility SIPs.
         """)
 
     elif user_risk <= 7:
@@ -496,8 +521,8 @@ with debt allocation and conservative SIPs.
         st.info("""
 Recommended Strategy:
 
-Balanced long-term wealth creation strategy
-with diversified asset allocation.
+Balanced wealth creation through diversified
+mutual funds and long-term investing.
         """)
 
     else:
@@ -505,15 +530,15 @@ with diversified asset allocation.
         st.warning("""
 Recommended Strategy:
 
-Aggressive growth strategy with high equity exposure,
+Aggressive growth strategy involving equities,
 global diversification, and thematic investing.
         """)
 
 # =========================================================
-# TAB 6
+# TAB 7
 # =========================================================
 
-with tab6:
+with tab7:
 
     survey_chart = go.Figure(data=[
         go.Bar(
@@ -534,18 +559,6 @@ with tab6:
 
     st.plotly_chart(survey_chart, use_container_width=True)
 
-    st.markdown("""
-<div class="tech-box">
-
-<h3>Key Research Findings</h3>
-
-Most investors belong to the 22–35 demographic and display moderate-to-high behavioral influence in financial decision-making.
-
-Long-term wealth creation remains the dominant financial objective while emotional investing patterns significantly influence portfolio actions.
-
-</div>
-""", unsafe_allow_html=True)
-
 # =========================================================
 # FOOTER
 # =========================================================
@@ -554,5 +567,5 @@ st.markdown("---")
 
 st.caption("""
 Behavioral Alpha Engine © 2026  
-AI + Behavioral Finance Research Platform
+Behavioral Finance Dashboard for RuDo Wealth
 """)
