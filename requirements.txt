@@ -1,0 +1,13 @@
+
+streamlit
+pandas
+numpy
+plotly
+scikit-learn
+matplotlib
+seaborn
+faker
+openpyxl
+scipy
+streamlit-option-menu
+streamlit-lottie
