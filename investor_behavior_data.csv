@@ -1,0 +1,1001 @@
+investor_id,name,age_group,profession,investable_assets,confidence_score,loss_aversion,herding_bias,familiarity_bias,overconfidence_bias,recency_bias,disposition_effect,behavioral_risk_score,portfolio_reactivity,diversification_score,peer_influence_score,emotional_volatility,trading_frequency,risk_tolerance,panic_sell_probability,segment,ai_advisory_recommendation,cluster
+INV-1000,Nicole Butler,35-44,Town planner,950960.73,82,82,80,50,48,32,46,62,56,21,44,57,Daily,High,69,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1001,Teresa Evans,45-54,Field trials officer,613594.89,44,83,68,56,83,71,84,72,68,81,76,66,Weekly,Moderate,74,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1002,Jermaine Garcia,65+,"Development worker, international aid",469429.08,33,76,70,36,45,68,42,60,55,79,28,28,Daily,Low,52,Passive Followers,Introduce stop-loss discipline and emotional coaching,1
+INV-1003,James Herman,25-34,Electronics engineer,684847.2,33,83,27,76,59,65,74,62,55,21,20,73,Weekly,Low,78,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1004,Joshua Oliver,65+,Video editor,776257.16,91,73,81,65,38,77,39,75,76,59,94,72,Weekly,High,72,Passive Followers,Deploy anti-herding conviction framework,0
+INV-1005,Ivan West,45-54,Medical physicist,279619.19,37,68,34,74,89,38,25,41,33,82,25,27,Monthly,Moderate,47,Confident Actives,Benchmark portfolio against passive strategies,2
+INV-1006,Michelle Evans,18-24,Health physicist,361673.4,77,80,47,36,36,63,57,61,55,42,76,56,Monthly,Moderate,68,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1007,Jaime Reed,55-64,Operational investment banker,474853.85,43,76,66,43,27,30,29,67,64,46,23,98,Weekly,Low,87,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1008,Jessica Salazar,25-34,Medical illustrator,36272.04,72,78,71,61,28,52,39,58,51,48,50,32,Daily,Low,55,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1009,Kevin Schwartz,25-34,"Therapist, sports",930049.16,73,84,81,86,30,57,52,79,77,49,76,94,Weekly,Low,89,Cautious Reactors,Introduce stop-loss discipline and emotional coaching,2
+INV-1010,Brian Santos,35-44,Automotive engineer,907294.3,91,40,46,86,27,56,33,51,55,56,65,63,Daily,Low,51,Passive Followers,Recommend international diversification strategy,0
+INV-1011,Christopher Young,25-34,Training and development officer,560311.49,68,91,81,78,82,81,36,82,79,21,17,75,Daily,Moderate,83,Cautious Reactors,Introduce stop-loss discipline and emotional coaching,1
+INV-1012,Rachel Anderson,35-44,Product manager,56221.36,61,76,20,48,26,82,68,66,63,89,46,87,Daily,Moderate,81,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1013,Adrian Manning,25-34,Mudlogger,804124.06,49,44,30,77,40,88,27,50,52,78,50,38,Monthly,High,41,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1014,Jack Tucker,35-44,Software engineer,100695.67,86,80,52,69,63,30,35,53,44,69,37,50,Occasionally,Low,65,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1015,David Lewis,45-54,Armed forces technical officer,818136.09,41,91,79,78,26,30,72,62,53,88,51,51,Weekly,Moderate,71,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1016,Mark Johnson,35-44,Educational psychologist,727325.9,65,42,39,53,78,62,48,45,46,57,39,37,Daily,Moderate,39,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1017,Erica Adams,45-54,Energy engineer,653701.45,77,80,52,33,57,43,45,50,40,39,22,26,Monthly,Moderate,53,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1018,David Perez,35-44,Human resources officer,511270.01,83,61,41,75,54,67,75,53,51,27,41,46,Monthly,Moderate,53,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1019,Melissa Sexton,45-54,Heritage manager,495055.11,93,44,80,77,43,33,59,55,58,68,31,63,Occasionally,High,53,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1020,Timothy Garrett,65+,Community arts worker,373307.91,92,80,56,53,70,82,84,76,74,51,47,86,Daily,Moderate,83,Cautious Reactors,Introduce stop-loss discipline and emotional coaching,1
+INV-1021,Lisa Rodriguez,65+,IT technical support officer,697549.65,56,79,65,53,56,76,47,68,64,21,31,52,Daily,Moderate,65,Passive Followers,Introduce stop-loss discipline and emotional coaching,1
+INV-1022,Ruben Hogan,45-54,"Scientist, research (medical)",300027.59,36,65,69,54,48,42,84,60,58,76,50,64,Daily,Low,64,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1023,Devon Ponce,35-44,Agricultural consultant,55514.69,80,90,34,57,90,61,87,66,59,44,72,82,Occasionally,High,86,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1024,Karen Perry,55-64,Textile designer,254000.1,89,81,34,83,84,37,77,44,32,24,82,25,Daily,Moderate,53,Confident Actives,Introduce stop-loss discipline and emotional coaching,2
+INV-1025,Samuel Meyers,35-44,Product manager,639242.75,92,91,35,42,54,48,41,62,52,38,72,74,Daily,Low,82,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1026,Allison Shaw,18-24,Special educational needs teacher,431172.9,30,51,20,87,25,63,72,54,55,35,75,83,Weekly,Moderate,67,Passive Followers,Recommend international diversification strategy,0
+INV-1027,Brian Henderson,35-44,Geophysical data processor,251492.33,91,55,70,66,81,58,71,54,54,88,90,35,Daily,Moderate,45,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1028,Ariana Herring,35-44,"Engineer, civil (contracting)",177335.86,39,69,42,87,34,63,76,48,41,38,72,20,Weekly,Moderate,44,Passive Followers,Recommend international diversification strategy,0
+INV-1029,Spencer Powell,45-54,Cytogeneticist,944172.15,64,41,51,56,48,41,74,53,57,52,47,80,Weekly,High,60,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1030,Jonathan Lowe,35-44,Toxicologist,961384.61,75,49,62,73,53,42,36,45,43,21,49,27,Weekly,Moderate,38,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1031,Joshua Vargas,35-44,"Engineer, production",264391.06,65,46,77,82,53,65,45,57,61,29,87,43,Monthly,High,44,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1032,Dr. Elizabeth Watkins,35-44,Farm manager,375158.0,84,78,43,52,86,66,36,59,52,32,37,49,Occasionally,Moderate,63,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1033,Susan Smith,55-64,"Journalist, magazine",323449.35,38,58,68,65,36,90,43,71,76,47,92,71,Weekly,Moderate,64,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1034,Frank Nolan,35-44,Automotive engineer,296744.72,86,64,71,88,77,52,40,62,61,58,67,61,Occasionally,High,62,Confident Actives,Deploy anti-herding conviction framework,2
+INV-1035,Stephen Smith,18-24,Air traffic controller,738350.38,36,68,37,76,33,87,41,62,61,65,27,59,Daily,High,63,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1036,Jennifer Coleman,45-54,Broadcast presenter,85942.04,74,76,57,48,32,94,41,79,80,23,50,89,Monthly,Moderate,82,Cautious Reactors,Introduce stop-loss discipline and emotional coaching,0
+INV-1037,Alexandra Martin,35-44,Editorial assistant,706558.94,87,49,38,68,91,74,37,60,64,39,86,80,Monthly,Moderate,64,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1038,Adrienne Hernandez,45-54,Orthoptist,241318.94,87,88,44,85,57,67,30,62,54,63,59,51,Weekly,Moderate,69,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1039,Robyn Wong,18-24,Commercial horticulturist,925020.11,47,76,55,64,43,49,81,53,45,66,63,33,Daily,High,54,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1040,Deborah Wright,45-54,Accounting technician,387280.82,57,62,76,40,36,45,48,52,49,27,50,27,Weekly,Moderate,44,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1041,David Eaton,18-24,Psychiatric nurse,974522.83,75,66,82,46,57,58,37,73,76,54,20,88,Weekly,Moderate,77,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1042,Nathaniel Mosley,65+,Research scientist (maths),866733.57,78,84,24,84,57,94,42,71,66,30,40,82,Weekly,High,83,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1043,Cindy Williams,45-54,Print production planner,68194.27,32,80,20,50,79,35,29,51,42,72,37,72,Occasionally,High,76,Confident Actives,Introduce stop-loss discipline and emotional coaching,2
+INV-1044,Jeffery Morgan,25-34,"Psychologist, prison and probation services",453291.41,94,85,20,80,69,33,86,57,48,51,48,91,Daily,Moderate,88,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1045,Anthony Webb,35-44,Higher education careers adviser,832214.63,46,89,31,30,78,34,81,63,54,66,37,98,Monthly,Moderate,93,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1046,Sherry Wilson,55-64,Cabin crew,903635.3,81,73,57,79,54,80,87,64,62,57,93,49,Weekly,High,61,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1047,Renee Tucker,65+,Chartered loss adjuster,151338.11,82,56,36,89,93,63,30,54,53,85,91,62,Daily,Low,59,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1048,Paul Yu,25-34,Press photographer,132405.61,54,70,35,37,28,33,80,46,38,86,81,46,Monthly,Low,58,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1049,John Hernandez,25-34,"Exhibitions officer, museum/gallery",45664.27,41,44,61,51,45,30,29,50,53,65,48,68,Weekly,Moderate,56,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1050,Kevin Acosta Jr.,18-24,IT technical support officer,800413.35,55,61,75,59,87,77,85,60,59,55,15,27,Monthly,Low,44,Confident Actives,Deploy anti-herding conviction framework,1
+INV-1051,Linda Keith,25-34,Private music teacher,373619.74,43,61,33,55,52,31,50,37,30,78,70,26,Monthly,High,43,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1052,Danielle Griffin,45-54,"Administrator, arts",35319.79,68,57,57,64,39,93,52,67,71,76,31,63,Daily,Moderate,60,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1053,Michelle Perez,35-44,Location manager,358328.78,71,80,37,76,58,37,64,56,48,60,20,71,Weekly,Moderate,75,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1054,Joseph Perez,35-44,"Engineer, civil (contracting)",986582.67,91,76,52,82,46,50,28,63,58,81,38,74,Monthly,Low,75,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1055,Heather Perry,18-24,TEFL teacher,698476.66,91,63,25,31,28,35,75,55,52,76,80,98,Weekly,Moderate,80,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1056,James Little,55-64,"Conservator, museum/gallery",209052.17,30,65,38,49,44,41,71,50,45,33,78,57,Weekly,Low,61,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1057,Shannon Anderson,35-44,"Surveyor, mining",534926.49,39,72,25,79,34,34,47,40,30,63,16,32,Monthly,Low,52,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1058,James Case,25-34,Software engineer,7697.34,91,48,34,53,62,64,73,60,65,79,64,97,Occasionally,High,72,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1059,Karina Cook,25-34,"Buyer, retail",382332.44,43,40,59,51,84,93,35,61,68,79,44,54,Daily,High,47,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1060,Robert Murray,45-54,Financial trader,525450.1,43,43,61,54,42,69,63,57,62,51,65,57,Weekly,Moderate,50,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1061,Darryl Cooper,45-54,Interior and spatial designer,358585.64,35,86,72,69,75,68,75,74,70,86,21,70,Weekly,Low,78,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1062,Jaime Freeman,55-64,Chief Executive Officer,621972.39,56,91,46,65,53,67,81,72,66,74,47,87,Weekly,Moderate,89,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1063,Sierra Gutierrez,55-64,Industrial/product designer,345371.34,44,77,32,60,71,81,80,53,45,48,22,24,Weekly,Moderate,50,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1064,Katherine Vargas,55-64,Recycling officer,17142.06,49,90,55,65,50,72,51,68,61,30,88,57,Daily,Moderate,73,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1065,Cynthia Holmes,25-34,Futures trader,616875.51,34,65,32,69,86,89,67,59,57,56,86,50,Weekly,Moderate,57,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1066,Erin Bowen,45-54,"Copywriter, advertising",934695.18,65,61,30,52,25,75,45,46,41,73,71,20,Occasionally,Moderate,40,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1067,Christopher Taylor,45-54,Best boy,402007.69,70,48,72,38,76,86,50,62,67,54,77,44,Occasionally,High,46,Confident Actives,Deploy anti-herding conviction framework,1
+INV-1068,Franklin Doyle,35-44,"Engineer, water",483432.79,53,66,36,72,83,80,78,63,62,44,85,71,Weekly,High,68,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1069,Terry Brown,35-44,Armed forces training and education officer,582685.41,92,61,45,57,73,78,44,68,71,80,63,90,Weekly,Low,75,Confident Actives,Maintain structured long-term allocation strategy,1
+INV-1070,Tracy Pierce,45-54,"Administrator, charities/voluntary organisations",213856.07,74,58,81,61,54,58,73,64,66,49,30,59,Weekly,Low,58,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1071,Michele Graham,45-54,"Psychotherapist, dance movement",530009.49,37,93,57,80,87,33,25,51,37,48,69,22,Weekly,Low,57,Confident Actives,Introduce stop-loss discipline and emotional coaching,2
+INV-1072,Shane Wyatt,45-54,"Lecturer, higher education",411690.5,37,62,74,57,56,79,31,75,79,84,71,86,Daily,Moderate,74,Passive Followers,Deploy anti-herding conviction framework,1
+INV-1073,Mary Flores,18-24,Tax inspector,108588.04,61,86,70,62,32,63,59,76,73,65,30,87,Occasionally,Low,86,Cautious Reactors,Introduce stop-loss discipline and emotional coaching,0
+INV-1074,Gabriel Taylor,35-44,Homeopath,327370.11,48,57,26,39,31,62,47,48,45,38,50,48,Weekly,High,52,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1075,Lisa Harris,55-64,Plant breeder/geneticist,345108.26,66,81,21,32,36,49,29,55,47,57,23,72,Daily,High,76,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1076,Rachel Smith,55-64,"Surveyor, mining",144412.61,69,49,49,85,83,43,33,58,61,85,39,92,Daily,High,70,Confident Actives,Benchmark portfolio against passive strategies,2
+INV-1077,Victoria Johnson,65+,IT sales professional,528061.73,70,84,56,40,94,47,66,55,46,57,48,36,Weekly,Moderate,60,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1078,Haley Torres,45-54,"Designer, television/film set",111045.84,41,61,46,86,55,35,64,42,36,72,85,29,Occasionally,Moderate,45,Passive Followers,Recommend international diversification strategy,2
+INV-1079,Kimberly Anderson,35-44,Accounting technician,521323.12,65,41,73,72,89,80,77,58,64,45,43,40,Monthly,Moderate,40,Confident Actives,Deploy anti-herding conviction framework,1
+INV-1080,William Simmons,65+,Metallurgist,722925.2,85,79,73,63,79,53,46,61,55,52,50,39,Daily,High,59,Confident Actives,Introduce stop-loss discipline and emotional coaching,2
+INV-1081,David Rios,55-64,"Surveyor, insurance",955460.13,90,82,45,31,64,46,25,54,45,62,56,44,Daily,High,63,Passive Followers,Introduce stop-loss discipline and emotional coaching,1
+INV-1082,Robert Jensen,55-64,Recycling officer,696222.99,90,69,31,48,68,88,73,66,65,36,88,76,Weekly,Low,72,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1083,James Aguilar,35-44,"Surveyor, mining",873581.11,44,47,40,46,94,54,36,46,46,78,40,45,Daily,Moderate,46,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1084,Christopher Grant,65+,"Radiographer, diagnostic",184672.47,88,60,26,43,31,38,72,50,47,58,32,78,Monthly,Low,69,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1085,John Jackson,45-54,Sales executive,233858.79,68,84,22,66,67,69,79,54,45,34,18,44,Monthly,Moderate,64,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1086,Miranda Hill,35-44,Production engineer,877282.05,42,41,74,64,66,63,54,57,62,32,32,51,Occasionally,Low,46,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1087,Jason Sanders,18-24,Printmaker,57420.42,39,88,81,82,81,45,80,59,50,49,39,24,Monthly,Low,56,Confident Actives,Introduce stop-loss discipline and emotional coaching,2
+INV-1088,Kyle Roberts,35-44,Volunteer coordinator,300517.86,82,89,37,66,49,77,89,72,67,34,63,87,Daily,High,88,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1089,Kellie Brock,55-64,IT sales professional,93963.95,91,45,58,85,87,75,35,62,68,44,85,71,Daily,Moderate,58,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1090,Jessica Gomez,55-64,Arts administrator,234416.35,34,90,76,55,65,32,30,66,58,24,68,66,Daily,Moderate,78,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1091,Jennifer Figueroa,45-54,Insurance broker,527406.34,61,81,54,79,86,46,27,67,62,32,87,87,Weekly,Low,84,Confident Actives,Introduce stop-loss discipline and emotional coaching,2
+INV-1092,Marcus Norman,55-64,Product designer,269272.04,38,67,48,38,91,54,66,48,42,59,39,24,Monthly,Low,45,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1093,Joseph Peters,25-34,Recruitment consultant,10056.73,77,44,67,55,42,66,84,68,76,47,83,96,Occasionally,Moderate,70,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1094,Peter Miranda,35-44,Conference centre manager,594445.75,48,42,75,69,64,62,30,64,71,59,73,78,Daily,Moderate,60,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1095,Sharon Gibson,25-34,Social researcher,930439.9,34,75,82,56,62,89,31,74,73,64,72,50,Monthly,Low,62,Passive Followers,Deploy anti-herding conviction framework,1
+INV-1096,Brenda Mason,35-44,IT sales professional,744790.72,75,70,21,43,36,68,37,59,56,46,31,79,Daily,High,74,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1097,Linda Nelson,25-34,"Pharmacist, hospital",286926.23,49,46,82,57,84,66,46,57,61,87,78,36,Monthly,Moderate,41,Confident Actives,Deploy anti-herding conviction framework,1
+INV-1098,Anthony Clark Jr.,35-44,"Administrator, sports",62630.86,65,57,69,43,88,76,53,57,57,71,90,26,Daily,High,41,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1099,Robyn Cook,35-44,Hospital pharmacist,819691.72,33,50,77,52,50,75,53,59,62,32,53,34,Monthly,Moderate,42,Passive Followers,Deploy anti-herding conviction framework,1
+INV-1100,Paige James,25-34,"Librarian, public",86969.14,76,53,41,40,51,85,45,54,54,78,20,38,Daily,High,45,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1101,Nicole Franklin,35-44,Farm manager,894628.71,41,54,53,64,88,54,48,65,68,37,29,99,Weekly,Low,76,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1102,Daniel Johnson,25-34,Psychiatrist,95708.67,73,47,46,75,74,32,88,51,52,72,38,79,Occasionally,Low,63,Confident Actives,Maintain structured long-term allocation strategy,2
+INV-1103,Aaron Jones,35-44,Tax adviser,6225.68,89,46,36,73,33,67,72,60,64,82,16,91,Weekly,Moderate,68,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1104,Carol Oliver,18-24,"Scientist, product/process development",77084.65,70,57,57,61,35,74,57,64,67,27,25,70,Daily,Low,63,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1105,Mason Page,65+,Outdoor activities/education manager,146783.07,61,55,73,51,44,62,64,71,77,21,47,96,Daily,High,75,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1106,Amber Kelly,35-44,Air broker,325484.23,90,77,65,87,39,73,73,60,55,86,20,28,Occasionally,Low,52,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1107,Cindy Pugh,35-44,Paramedic,710515.22,33,47,69,57,86,91,31,62,67,25,72,41,Weekly,Moderate,44,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1108,Sheila Johnson,35-44,Financial risk analyst,732931.57,74,50,31,52,36,42,49,46,45,38,69,64,Daily,Moderate,57,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1109,Erika Phillips,45-54,Information officer,500704.74,88,57,37,48,46,66,80,63,65,22,42,93,Weekly,Low,75,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1110,Randy Wood,35-44,"Lighting technician, broadcasting/film/video",207560.39,53,46,68,59,55,87,85,56,59,39,51,23,Monthly,Moderate,34,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1111,Robert Campbell,35-44,Chief Technology Officer,545584.02,35,90,55,87,90,63,60,71,65,58,56,77,Occasionally,Low,83,Confident Actives,Introduce stop-loss discipline and emotional coaching,2
+INV-1112,Adrian Giles,45-54,Special effects artist,633402.42,31,54,45,37,66,73,38,57,58,56,83,57,Weekly,Low,55,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1113,Meredith Martinez,55-64,Brewing technologist,448078.73,64,78,21,68,94,46,52,51,42,24,79,59,Weekly,Moderate,68,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1114,Martin Hansen,25-34,Chartered loss adjuster,238500.67,49,49,33,45,34,30,29,51,52,27,57,95,Monthly,Low,72,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1115,Manuel Rose,25-34,Research scientist (maths),41488.07,85,76,66,66,61,78,68,61,56,47,93,25,Daily,Low,50,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1116,Kevin Mcknight,25-34,"Doctor, general practice",61801.42,88,76,39,55,53,30,59,53,46,88,47,70,Daily,Low,73,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1117,Rachael Duran,65+,Exercise physiologist,965293.1,72,82,69,58,81,68,80,70,66,69,37,63,Weekly,Low,72,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1118,Heather Marquez,25-34,"Doctor, hospital",147824.65,34,89,27,79,25,37,53,59,49,66,48,84,Monthly,High,86,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1119,Mr. Edward Cantu,45-54,"Development worker, community",499688.89,30,56,45,37,71,75,57,68,73,38,45,99,Monthly,Moderate,77,Confident Actives,Maintain structured long-term allocation strategy,1
+INV-1120,Shannon Beck,45-54,"Teacher, music",351830.8,77,41,83,35,87,62,65,70,80,32,87,96,Daily,Low,68,Confident Actives,Deploy anti-herding conviction framework,1
+INV-1121,Ashley Fry,45-54,"Civil engineer, consulting",766364.91,83,43,38,35,37,52,25,57,61,34,79,95,Weekly,Moderate,69,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1122,Danielle Burke,35-44,Legal executive,550757.22,75,72,68,61,59,73,35,64,62,28,17,45,Occasionally,High,58,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1123,Andrea Hill,65+,"Therapist, horticultural",814697.46,44,64,31,34,72,66,68,62,62,62,62,89,Monthly,Moderate,76,Confident Actives,Maintain structured long-term allocation strategy,1
+INV-1124,Mario Vaughn,35-44,Contracting civil engineer,823281.45,80,82,66,82,39,54,60,60,53,34,82,40,Weekly,Low,61,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1125,Jose Anderson,25-34,Film/video editor,619265.0,64,92,71,75,51,58,52,69,61,27,30,55,Monthly,Moderate,73,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1126,Sarah Chandler,65+,Professor Emeritus,824058.15,92,69,26,60,63,42,55,54,49,75,56,80,Daily,High,74,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1127,Tanya Ortiz MD,35-44,"Surveyor, commercial/residential",806962.59,51,40,63,85,69,76,37,56,61,40,23,45,Daily,Moderate,42,Passive Followers,Recommend international diversification strategy,0
+INV-1128,Amanda Wade,35-44,"Research officer, trade union",840662.0,79,47,43,45,73,55,61,56,59,43,33,79,Monthly,High,63,Confident Actives,Maintain structured long-term allocation strategy,1
+INV-1129,Christopher Li,55-64,"Presenter, broadcasting",153955.45,77,94,66,78,57,50,46,66,56,56,29,54,Weekly,Moderate,74,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1130,Kurt Stanley,25-34,"Lecturer, higher education",393951.47,68,64,21,64,31,47,66,43,37,60,89,43,Daily,Low,53,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1131,Natalie Pacheco,45-54,Learning mentor,580494.98,70,78,55,69,60,32,32,58,51,87,27,68,Monthly,Moderate,73,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1132,Molly Collins,18-24,Operational researcher,641967.38,31,47,69,32,68,87,27,64,70,63,16,54,Monthly,Moderate,50,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1133,John Hines,18-24,Fish farm manager,564485.33,84,75,50,76,79,91,54,63,59,35,26,36,Weekly,High,55,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1134,Katherine Kaiser,35-44,Geophysicist/field seismologist,385613.65,51,62,24,49,89,59,45,45,39,51,47,35,Weekly,Low,48,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1135,William Stanley,18-24,Aid worker,122060.78,52,62,21,56,89,81,86,59,58,45,82,74,Daily,Moderate,68,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1136,Danny Carter,45-54,Risk analyst,568742.49,74,91,31,76,73,71,62,60,50,54,44,49,Monthly,Low,70,Confident Actives,Introduce stop-loss discipline and emotional coaching,0
+INV-1137,Joseph Barnes,25-34,Colour technologist,819641.33,49,54,40,64,90,31,59,52,52,29,39,85,Daily,High,69,Confident Actives,Benchmark portfolio against passive strategies,2
+INV-1138,Andrew Baker,65+,"Administrator, Civil Service",489626.61,35,85,73,75,76,32,65,54,44,44,27,27,Weekly,Moderate,56,Confident Actives,Introduce stop-loss discipline and emotional coaching,2
+INV-1139,Brittany Hunter,25-34,Broadcast presenter,84565.57,47,51,51,61,37,60,44,46,45,79,77,25,Daily,Low,38,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1140,Terry Hunt,45-54,IT technical support officer,367974.23,40,70,24,48,58,39,26,52,46,69,45,75,Daily,Moderate,72,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1141,Brianna Decker,25-34,"Education officer, museum",79256.67,33,67,81,75,31,45,28,66,65,59,31,71,Daily,Moderate,69,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1142,William Miller,55-64,"Scientist, product/process development",725695.88,34,76,82,64,31,56,38,73,73,74,16,81,Weekly,Low,78,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1143,Meghan Harris,25-34,Naval architect,761488.37,61,78,24,30,37,82,69,53,45,55,74,30,Weekly,High,54,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1144,Brittany Stewart,18-24,Plant breeder/geneticist,490799.93,71,43,53,81,76,58,62,46,47,40,56,32,Daily,Low,37,Confident Actives,Benchmark portfolio against passive strategies,2
+INV-1145,David Morse,45-54,Building services engineer,943116.99,89,41,79,77,53,39,82,63,70,40,42,94,Weekly,Moderate,67,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1146,Brian Baldwin,35-44,"Designer, graphic",230829.87,94,56,79,52,69,61,68,71,77,27,91,91,Daily,Moderate,73,Passive Followers,Deploy anti-herding conviction framework,1
+INV-1147,James Williams,18-24,"Psychologist, clinical",75900.44,60,63,36,34,44,50,82,45,40,30,66,34,Occasionally,Moderate,48,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1148,Kathleen Cuevas,35-44,Merchant navy officer,415070.28,79,44,27,39,62,37,49,40,39,86,63,55,Weekly,Moderate,49,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1149,Robert Collier,45-54,Barrister's clerk,532650.62,42,89,29,50,60,41,26,48,35,72,46,35,Monthly,Moderate,62,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1150,John Ferguson,25-34,Retail merchandiser,341576.17,59,79,37,84,49,88,46,68,65,63,46,70,Occasionally,Moderate,74,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1151,Crystal Alvarez,25-34,Emergency planning/management officer,816867.2,50,94,58,78,36,76,42,63,53,32,35,27,Monthly,Moderate,60,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1152,Catherine Daugherty,25-34,Communications engineer,58588.92,31,61,41,72,46,58,37,57,56,48,93,71,Monthly,Low,66,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1153,Tiffany Garcia,35-44,Art therapist,841499.51,32,52,41,72,61,90,80,56,57,82,33,42,Monthly,High,47,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1154,Jason Marsh,45-54,Midwife,762315.93,34,86,27,71,82,45,25,45,31,22,79,23,Daily,Moderate,54,Confident Actives,Introduce stop-loss discipline and emotional coaching,2
+INV-1155,Stephen Jones,55-64,"Loss adjuster, chartered",208015.46,38,49,40,75,51,70,37,58,61,55,72,73,Monthly,Low,61,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1156,Chloe Mathews,45-54,Product/process development scientist,759883.01,33,59,35,80,94,85,82,52,49,23,34,29,Occasionally,Moderate,44,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1157,Ryan Taylor,35-44,Oceanographer,415558.73,89,79,40,39,62,75,28,58,51,76,59,39,Weekly,High,59,Passive Followers,Introduce stop-loss discipline and emotional coaching,1
+INV-1158,Lauren Harrison,35-44,Personal assistant,724787.74,59,76,77,84,28,53,58,71,69,38,45,79,Monthly,Moderate,77,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1159,Ashley Vincent,18-24,"Civil engineer, contracting",63258.17,77,84,49,87,55,93,43,75,72,64,69,74,Daily,Moderate,79,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1160,Jose Woods,18-24,"Administrator, education",802360.08,33,86,76,89,69,62,41,64,57,39,61,34,Weekly,High,60,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1161,Brittney Huffman,35-44,Educational psychologist,574012.91,48,55,80,39,74,32,75,58,59,61,49,65,Daily,Moderate,60,Confident Actives,Deploy anti-herding conviction framework,2
+INV-1162,Robert Flores,35-44,"Scientist, research (physical sciences)",483501.47,64,60,83,34,94,33,63,63,64,20,38,76,Daily,Low,68,Confident Actives,Deploy anti-herding conviction framework,1
+INV-1163,Benjamin Fowler,25-34,Herpetologist,135692.66,59,70,43,54,60,59,48,61,58,26,49,74,Occasionally,Low,72,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1164,Brandon Johnson,25-34,Oncologist,760601.27,50,81,63,38,69,85,81,70,66,87,64,52,Monthly,Low,66,Passive Followers,Introduce stop-loss discipline and emotional coaching,1
+INV-1165,Walter Flores,25-34,Technical sales engineer,733786.49,71,50,39,53,39,77,45,60,64,45,28,76,Weekly,High,63,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1166,Pamela Proctor,25-34,Web designer,726529.95,62,76,68,48,36,90,65,81,82,69,82,90,Monthly,Moderate,83,Cautious Reactors,Introduce stop-loss discipline and emotional coaching,0
+INV-1167,Linda Smith,65+,Energy engineer,231272.45,46,67,77,72,65,68,73,74,76,89,84,84,Weekly,Low,75,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1168,Cheryl Rojas,45-54,"Nurse, children's",220010.0,67,49,35,77,75,68,64,45,44,79,73,29,Occasionally,Moderate,39,Confident Actives,Maintain structured long-term allocation strategy,1
+INV-1169,Arthur Lynch MD,35-44,"Scientist, physiological",343078.58,56,60,39,55,92,44,38,47,43,59,72,47,Monthly,Low,53,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1170,Melanie Foster,18-24,Arts administrator,466611.72,81,47,63,62,66,35,63,51,53,42,64,62,Monthly,High,54,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1171,Veronica Garza,25-34,Chartered management accountant,525712.98,44,63,60,65,79,38,71,60,59,67,56,79,Monthly,Moderate,71,Confident Actives,Benchmark portfolio against passive strategies,2
+INV-1172,Melissa Esparza,35-44,"Designer, television/film set",857893.36,37,42,46,79,64,62,25,43,43,51,62,23,Monthly,High,32,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1173,Yesenia Johnson,55-64,"Sound technician, broadcasting/film/video",122055.77,50,50,65,84,40,30,87,49,49,49,27,53,Daily,High,51,Passive Followers,Recommend international diversification strategy,2
+INV-1174,Chad Taylor,35-44,"Designer, ceramics/pottery",166422.24,63,66,44,32,92,54,44,61,59,45,19,80,Weekly,Low,73,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1175,Alejandro James,65+,Dancer,115194.7,50,83,30,31,71,32,54,49,38,47,76,52,Daily,Low,67,Confident Actives,Introduce stop-loss discipline and emotional coaching,2
+INV-1176,Patricia Hicks,35-44,Psychiatric nurse,453099.22,40,50,76,52,72,51,41,57,59,34,49,52,Daily,Moderate,51,Confident Actives,Deploy anti-herding conviction framework,2
+INV-1177,Renee Hunter,35-44,Ergonomist,687895.56,92,67,66,68,94,49,25,64,64,86,18,77,Weekly,Moderate,72,Confident Actives,Benchmark portfolio against passive strategies,2
+INV-1178,Mary Hayes,25-34,Firefighter,38023.41,38,92,72,75,38,46,63,72,65,25,37,78,Daily,Moderate,85,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1179,Cody Holland,35-44,Air broker,865240.79,69,47,81,64,43,59,49,57,60,33,40,41,Occasionally,Low,44,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1180,Kenneth Christian,65+,Film/video editor,755192.09,76,48,47,49,69,92,43,64,70,33,52,72,Weekly,Low,60,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1181,Sonya Stevens,25-34,"Surveyor, building",17342.02,37,91,33,40,77,88,65,71,65,21,55,74,Weekly,High,82,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1182,Michele Murray,25-34,Horticultural consultant,432036.68,49,50,83,75,74,50,72,58,61,86,58,52,Monthly,Moderate,51,Confident Actives,Deploy anti-herding conviction framework,2
+INV-1183,Roger Meyers,18-24,Research scientist (life sciences),869208.75,83,73,84,37,69,76,64,66,64,65,61,34,Weekly,High,53,Passive Followers,Deploy anti-herding conviction framework,1
+INV-1184,Kevin Mccarthy,35-44,"Engineer, site",609054.13,84,90,57,49,53,80,28,67,59,47,18,41,Monthly,High,65,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1185,Melanie Ochoa,25-34,Geophysicist/field seismologist,275210.92,54,66,74,70,25,67,30,59,57,36,75,31,Weekly,High,48,Passive Followers,Deploy anti-herding conviction framework,0
+INV-1186,Andrea Martin,25-34,General practice doctor,472293.57,78,68,59,43,59,77,80,68,68,32,75,68,Daily,Low,68,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1187,Karen Strong,18-24,Commercial/residential surveyor,112485.63,83,65,58,50,73,93,86,71,73,28,51,68,Weekly,Low,66,Confident Actives,Maintain structured long-term allocation strategy,1
+INV-1188,Christopher Rodriguez,35-44,Pension scheme manager,509874.88,40,80,58,42,88,40,43,49,39,65,59,20,Weekly,Moderate,50,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1189,Bryan Jefferson PhD,55-64,Media buyer,672588.29,54,84,31,77,57,74,32,63,57,65,44,66,Daily,Moderate,75,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1190,Timothy Cooper,45-54,"Conservator, furniture",118915.2,44,69,52,65,43,57,64,49,43,60,53,21,Monthly,Moderate,45,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1191,Stephanie Parks,35-44,Data scientist,595692.49,32,49,33,47,75,68,52,42,40,89,41,21,Weekly,High,35,Confident Actives,Maintain structured long-term allocation strategy,1
+INV-1192,Keith Williams,65+,Homeopath,820912.57,91,80,31,64,89,84,69,59,52,68,39,42,Monthly,Low,61,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1193,Jim Miller,35-44,"Optician, dispensing",852582.03,61,75,64,84,77,59,84,61,56,86,81,47,Weekly,Moderate,61,Confident Actives,Benchmark portfolio against passive strategies,2
+INV-1194,Jimmy Wilson,18-24,Associate Professor,890203.77,63,71,76,83,57,53,63,64,61,75,42,56,Weekly,Low,63,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1195,Brandon Williams,55-64,Ophthalmologist,946911.21,72,58,48,39,84,47,59,52,50,30,63,57,Monthly,Moderate,57,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1196,Nicole Johnson,55-64,Technical author,582320.41,88,77,84,60,28,79,54,76,75,86,89,64,Weekly,Low,70,Cautious Reactors,Introduce stop-loss discipline and emotional coaching,0
+INV-1197,Victoria Harris,18-24,Health physicist,391046.83,59,81,70,79,30,88,39,75,73,61,51,61,Weekly,Moderate,71,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1198,Timothy Hebert,35-44,Building surveyor,994883.68,51,48,48,42,83,76,41,57,60,87,83,56,Weekly,Moderate,52,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1199,Thomas Bartlett,25-34,Archaeologist,250672.89,75,62,70,32,66,61,75,55,53,40,58,30,Weekly,Moderate,46,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1200,Michael Martinez,45-54,"Conservation officer, nature",143500.72,53,74,32,76,35,80,41,53,46,38,51,27,Daily,Moderate,50,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1201,Adam Evans,35-44,Travel agency manager,231610.99,50,66,30,83,69,76,36,61,60,30,19,75,Daily,High,70,Passive Followers,Recommend international diversification strategy,0
+INV-1202,Jared Welch,65+,Psychiatrist,153051.99,91,58,45,77,76,84,57,58,58,42,29,46,Weekly,Moderate,52,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1203,Benjamin Morales,45-54,"Research officer, government",866249.26,77,53,70,76,28,36,59,49,48,64,86,38,Weekly,Low,45,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1204,Angela West,18-24,"Copywriter, advertising",971675.38,71,70,41,58,67,83,34,73,74,83,35,99,Monthly,Moderate,84,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1205,Tracy Villarreal,45-54,Youth worker,530935.22,59,69,66,64,43,37,50,64,62,26,81,84,Weekly,Moderate,76,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1206,Stephanie Davis,18-24,Dramatherapist,10637.49,92,47,24,89,25,65,59,47,47,42,23,53,Daily,Moderate,50,Passive Followers,Recommend international diversification strategy,0
+INV-1207,Kimberly Porter,35-44,"Scientist, biomedical",70679.79,74,74,22,43,84,74,58,63,60,80,30,85,Daily,Moderate,79,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1208,Katelyn Norton,55-64,"Engineer, manufacturing systems",708551.04,37,41,32,85,55,63,63,52,55,74,41,72,Monthly,Moderate,56,Passive Followers,Recommend international diversification strategy,0
+INV-1209,Ashley Thompson,25-34,Sports coach,38500.83,84,58,72,48,81,54,55,66,69,42,46,81,Weekly,High,69,Confident Actives,Deploy anti-herding conviction framework,1
+INV-1210,Wendy Jackson,45-54,Colour technologist,638905.38,51,89,33,79,52,82,48,56,46,49,77,23,Daily,Moderate,56,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1211,Robert Hopkins,25-34,Amenity horticulturist,499211.95,47,53,53,47,73,86,50,54,55,57,64,27,Daily,Low,40,Confident Actives,Maintain structured long-term allocation strategy,1
+INV-1212,Karen Clark,45-54,Hydrographic surveyor,319688.8,63,50,84,72,43,38,51,51,52,63,82,34,Occasionally,Moderate,42,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1213,Mrs. Casey Miles MD,35-44,Environmental consultant,936639.55,89,90,56,46,82,58,57,67,60,74,24,66,Daily,Moderate,78,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1214,Olivia Rodgers,45-54,Product/process development scientist,966217.27,50,83,30,46,92,76,49,62,55,31,51,61,Daily,Moderate,72,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1215,Jason Bailey,35-44,Architect,866491.06,60,74,66,77,42,42,37,52,45,21,30,28,Monthly,Moderate,51,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1216,Kathryn Manning,55-64,Homeopath,219661.98,36,84,64,74,58,38,32,52,41,55,32,22,Weekly,Moderate,53,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1217,Stacey Cannon,35-44,Ophthalmologist,714640.85,78,93,84,65,45,42,81,72,66,73,24,72,Daily,High,82,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1218,Barry Garcia,18-24,Tree surgeon,382198.58,54,63,21,51,38,39,59,38,30,22,31,31,Weekly,Low,47,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1219,Amanda Luna,35-44,Dispensing optician,963681.74,87,65,84,49,52,45,71,63,63,46,67,61,Monthly,High,63,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1220,Alexis Acosta,25-34,Hydrologist,269254.92,86,71,44,62,79,87,31,75,76,31,30,99,Daily,Moderate,85,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1221,Kenneth Kelly,65+,Chief Marketing Officer,847825.52,33,48,51,40,32,74,83,55,57,86,43,48,Daily,Moderate,48,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1222,Amber Griffin,45-54,Community pharmacist,476440.78,79,65,23,55,33,34,80,42,34,34,46,47,Monthly,Low,56,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1223,Valerie Lopez,45-54,"Optician, dispensing",621635.9,57,65,44,39,69,40,77,53,50,84,63,66,Occasionally,Low,65,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1224,Joseph Martinez,35-44,Lawyer,890690.43,83,80,65,79,50,34,76,59,52,52,64,57,Weekly,Low,68,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1225,Ernest Keith,35-44,Chartered loss adjuster,681222.23,42,44,25,67,86,91,70,46,47,22,20,27,Daily,Low,35,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1226,Marilyn Sullivan,55-64,Operations geologist,981286.57,77,52,69,40,52,70,40,67,72,75,78,78,Occasionally,Moderate,65,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1227,Holly Baxter,25-34,"Education officer, community",439810.91,58,58,74,67,50,35,28,57,57,78,31,62,Weekly,High,60,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1228,Darlene White,55-64,Sales executive,165863.08,38,47,84,72,63,88,68,68,75,56,88,55,Weekly,High,51,Passive Followers,Deploy anti-herding conviction framework,1
+INV-1229,Lindsay Hall,25-34,"Surveyor, mining",636191.87,51,63,61,89,90,84,72,60,59,46,81,32,Daily,High,47,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1230,Crystal Graves,25-34,Research scientist (life sciences),990135.94,46,73,20,61,91,49,59,53,47,37,59,72,Weekly,Moderate,72,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1231,Garrett Nicholson,25-34,Prison officer,195634.98,34,84,39,81,34,88,65,63,56,84,31,41,Occasionally,Low,62,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1232,Thomas Harris,65+,Charity officer,583714.18,89,50,75,80,45,55,43,56,58,66,85,45,Occasionally,Moderate,47,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1233,Louis Hale,55-64,"Engineer, manufacturing",478954.05,44,54,27,70,43,75,52,60,62,56,15,86,Daily,High,70,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1234,Maria Myers,18-24,"Development worker, international aid",728115.48,78,68,43,53,28,63,81,65,64,72,37,88,Weekly,Moderate,78,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1235,Erica Johnson,35-44,Charity fundraiser,592478.93,90,93,76,39,64,36,62,67,59,22,65,66,Daily,Moderate,79,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1236,David Blackburn,45-54,Race relations officer,642432.41,91,80,32,52,82,79,54,65,60,44,41,70,Daily,Moderate,75,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1237,Susan Rogers,65+,"Scientist, marine",807660.05,45,78,35,85,46,83,45,64,59,78,45,61,Monthly,Low,69,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1238,Katie Santiago,55-64,Camera operator,585853.92,54,50,29,51,41,77,76,59,62,40,79,82,Weekly,Moderate,66,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1239,Michael Sanchez,65+,Television floor manager,828368.79,68,79,34,61,63,30,47,50,41,76,48,60,Daily,Moderate,69,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1240,Nathaniel Tate,35-44,Oceanographer,978632.84,94,42,82,78,71,84,88,64,72,86,29,51,Weekly,High,46,Confident Actives,Deploy anti-herding conviction framework,1
+INV-1241,Kimberly Mccall,18-24,Land,783260.41,33,74,77,62,38,63,85,59,55,78,43,25,Weekly,High,49,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1242,James Hill,18-24,Tourist information centre manager,507271.62,48,66,25,69,37,93,86,55,52,62,88,39,Monthly,Moderate,52,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1243,Kyle Jackson,35-44,Waste management officer,817328.73,41,76,26,43,80,45,75,42,31,72,89,24,Weekly,Moderate,50,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1244,Stephanie Joseph,35-44,Primary school teacher,734035.56,76,53,78,62,86,79,43,65,69,58,82,52,Weekly,Moderate,52,Confident Actives,Deploy anti-herding conviction framework,1
+INV-1245,Anna Walker,45-54,"Investment banker, operational",202997.18,92,58,73,58,44,58,48,67,70,76,22,81,Weekly,Low,69,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1246,Raymond King,65+,Curator,117736.99,64,80,60,78,73,32,34,66,61,21,38,93,Monthly,Low,86,Confident Actives,Introduce stop-loss discipline and emotional coaching,2
+INV-1247,Christopher Hall,45-54,Maintenance engineer,176250.05,48,86,39,56,65,83,44,70,64,85,44,72,Daily,High,79,Passive Followers,Introduce stop-loss discipline and emotional coaching,1
+INV-1248,Samantha Brooks,25-34,Retail banker,677646.16,58,72,67,35,83,88,26,68,66,87,79,45,Weekly,Moderate,58,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1249,Raymond Vasquez,25-34,"Administrator, education",939361.81,94,60,41,65,54,54,52,45,40,64,82,26,Daily,Moderate,43,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1250,Rebecca Thompson,65+,Copy,402040.14,77,84,65,71,56,61,30,75,73,57,31,93,Daily,Moderate,88,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1251,Karen Lyons,18-24,Advertising account planner,749642.43,55,64,47,76,39,33,51,51,47,38,31,62,Weekly,Low,63,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1252,Brian Gutierrez,45-54,Housing manager/officer,95934.53,72,88,42,76,76,76,87,66,59,67,48,59,Weekly,Moderate,73,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1253,Katelyn Boyd,25-34,"Engineer, production",599110.29,65,55,67,84,34,67,43,71,76,78,77,96,Monthly,Moderate,75,Passive Followers,Recommend international diversification strategy,0
+INV-1254,Beth Walker,35-44,Politician's assistant,257090.38,57,66,27,80,30,68,84,47,41,73,51,28,Daily,Moderate,47,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1255,Edward Jackson,35-44,Jewellery designer,874354.31,51,77,59,65,61,47,87,64,60,30,72,76,Daily,Moderate,76,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1256,Zachary Miller,35-44,Lawyer,472177.91,67,63,20,84,27,67,25,60,60,48,19,93,Occasionally,Moderate,78,Passive Followers,Recommend international diversification strategy,0
+INV-1257,Kimberly Powers,45-54,"Engineer, maintenance (IT)",827355.65,89,58,54,33,93,30,36,46,42,46,70,42,Daily,Moderate,50,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1258,Laura Green,18-24,Field trials officer,873272.62,65,84,74,75,56,84,29,75,72,68,72,58,Daily,Moderate,71,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1259,Beverly Kelly,65+,"Geologist, wellsite",82252.57,71,84,54,68,46,70,29,71,66,86,44,76,Daily,Low,80,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1260,Margaret Alexander,35-44,"Engineer, maintenance (IT)",414038.14,35,71,65,81,47,74,41,65,63,37,36,52,Weekly,Moderate,61,Passive Followers,Recommend international diversification strategy,0
+INV-1261,Julie Olson,45-54,Education administrator,882254.17,76,49,55,63,52,40,63,47,47,38,29,47,Weekly,High,48,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1262,Michael Hutchinson,35-44,Brewing technologist,755095.75,58,72,38,32,64,76,89,51,44,69,27,20,Weekly,Moderate,46,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1263,Andrea Thompson,25-34,"Conservation officer, nature",607609.7,55,68,58,53,50,46,37,49,43,68,81,26,Monthly,High,47,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1264,Megan Patrick,55-64,Sports coach,613279.92,55,82,44,88,27,58,56,64,58,35,39,73,Monthly,Moderate,77,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1265,Mitchell Mann,55-64,Catering manager,822281.42,70,55,60,80,75,58,43,48,46,64,29,22,Daily,Moderate,38,Confident Actives,Maintain structured long-term allocation strategy,2
+INV-1266,Zachary Foley,45-54,Merchant navy officer,20430.79,86,87,27,51,30,86,60,71,66,68,59,85,Weekly,High,86,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1267,Brenda Mcdonald,25-34,Cabin crew,942833.21,84,81,22,83,88,69,83,62,56,81,18,79,Monthly,Moderate,80,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1268,Heather Smith,45-54,Leisure centre manager,13321.86,77,82,21,78,33,60,85,47,36,44,50,27,Weekly,Moderate,54,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1269,Daniel Herrera,35-44,Community pharmacist,353451.98,88,71,77,81,88,73,53,67,66,28,20,48,Daily,Low,59,Confident Actives,Deploy anti-herding conviction framework,1
+INV-1270,Mary Davis,45-54,"Pharmacist, community",435997.3,90,65,55,71,86,71,66,66,66,32,25,73,Weekly,Moderate,69,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1271,Nancy English,25-34,Chief Marketing Officer,601772.46,41,41,29,73,35,31,74,45,47,42,32,81,Monthly,Low,61,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1272,Nicolas Mills,45-54,Holiday representative,267741.67,42,77,80,30,69,57,45,63,59,46,21,41,Daily,Moderate,59,Passive Followers,Introduce stop-loss discipline and emotional coaching,1
+INV-1273,Jessica Newman,55-64,Architect,464215.31,92,94,52,57,32,30,61,54,40,41,84,40,Occasionally,High,67,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1274,Brianna Duffy,45-54,TEFL teacher,858829.79,47,87,25,54,80,88,53,73,69,21,22,94,Monthly,Moderate,90,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1275,Renee Marquez,65+,Product/process development scientist,827518.8,45,51,62,60,85,64,39,67,73,32,49,94,Weekly,Moderate,72,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1276,Michelle Bowen,45-54,Broadcast journalist,316214.1,78,87,54,51,62,60,48,74,70,51,69,98,Weekly,Low,92,Passive Followers,Introduce stop-loss discipline and emotional coaching,1
+INV-1277,Tammy Fernandez,65+,Arboriculturist,417741.04,72,49,44,33,85,58,43,57,60,85,88,80,Weekly,Low,64,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1278,David Rogers,45-54,Biomedical engineer,928541.19,34,85,74,57,93,92,83,70,65,70,35,31,Weekly,High,58,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1279,Alex Scott,35-44,Television production assistant,940232.13,84,53,51,40,85,47,51,47,46,73,89,40,Weekly,Low,46,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1280,Kelsey Lewis,45-54,"Accountant, chartered public finance",974376.42,94,93,41,48,89,93,28,67,58,34,90,41,Weekly,Moderate,67,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1281,Maureen Clark,55-64,Colour technologist,173879.79,41,59,69,77,57,88,67,68,71,59,34,57,Weekly,Moderate,58,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1282,Kimberly Owens,35-44,"Production assistant, television",157922.59,55,76,68,67,90,65,78,62,58,59,57,41,Monthly,Low,58,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1283,Emily Johnson,25-34,Chief Strategy Officer,916093.87,74,59,74,45,70,91,31,72,77,78,70,67,Weekly,High,63,Passive Followers,Deploy anti-herding conviction framework,1
+INV-1284,Gary Wallace,55-64,Haematologist,129594.46,82,90,56,71,81,37,44,54,43,31,63,36,Occasionally,High,63,Confident Actives,Introduce stop-loss discipline and emotional coaching,2
+INV-1285,Steven Chen,18-24,Conference centre manager,388669.6,61,89,77,63,44,79,34,66,59,71,29,22,Occasionally,Low,55,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1286,Elizabeth Jordan,25-34,Financial controller,13662.62,89,62,30,75,88,37,80,44,38,29,53,47,Weekly,Moderate,54,Confident Actives,Benchmark portfolio against passive strategies,2
+INV-1287,Kyle Berry,18-24,Management consultant,214454.4,31,61,23,60,88,67,46,54,51,50,25,65,Monthly,Low,63,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1288,Tiffany Estes,45-54,Hospital doctor,507981.22,46,85,43,64,68,89,86,72,68,84,71,74,Daily,Moderate,79,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1289,Corey Hall,35-44,Mudlogger,726381.05,44,87,37,80,64,46,39,50,38,82,53,32,Occasionally,High,59,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1290,Mark Marshall,35-44,Chartered loss adjuster,199190.68,77,57,82,41,68,67,84,70,74,37,30,74,Monthly,Moderate,65,Passive Followers,Deploy anti-herding conviction framework,1
+INV-1291,Lindsey Thompson,35-44,Ship broker,903781.52,33,84,25,48,84,43,78,49,37,58,86,44,Monthly,Low,64,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1292,Austin Lynn DDS,25-34,Public affairs consultant,855429.93,86,92,47,32,46,67,86,64,55,25,92,51,Monthly,Moderate,71,Passive Followers,Introduce stop-loss discipline and emotional coaching,1
+INV-1293,Sara Glover,18-24,Purchasing manager,559000.99,33,70,81,81,65,60,46,68,67,32,59,61,Monthly,Moderate,65,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1294,Sheryl Williams,55-64,Tax inspector,156288.32,52,72,20,44,41,53,82,43,33,65,86,27,Occasionally,Moderate,49,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1295,Lori Alvarez,45-54,Nutritional therapist,11403.04,42,67,80,45,26,46,54,58,55,32,57,40,Daily,Moderate,53,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1296,Karen Ball,25-34,Systems analyst,671682.38,86,91,72,52,76,59,57,73,68,71,23,73,Occasionally,Moderate,82,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1297,Hunter Bentley,55-64,Tax adviser,219423.26,91,71,34,41,81,37,51,50,44,31,79,61,Weekly,Moderate,66,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1298,Collin Parks,25-34,Air traffic controller,773907.56,66,71,59,52,80,35,74,64,61,83,68,91,Monthly,Low,81,Confident Actives,Benchmark portfolio against passive strategies,2
+INV-1299,Shelby Mccullough,35-44,"Librarian, academic",34953.35,48,90,82,69,52,46,30,75,71,75,42,85,Weekly,Moderate,87,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1300,Patricia Vasquez MD,35-44,Clinical cytogeneticist,353661.18,87,88,62,65,82,42,76,67,60,51,74,77,Daily,Low,82,Confident Actives,Introduce stop-loss discipline and emotional coaching,2
+INV-1301,Taylor Ewing,35-44,Industrial buyer,850286.54,56,81,67,69,87,33,62,64,58,28,30,75,Weekly,Low,78,Confident Actives,Introduce stop-loss discipline and emotional coaching,2
+INV-1302,Jessica Andersen,65+,Music tutor,449480.95,39,73,43,83,50,49,88,47,38,86,38,24,Daily,High,48,Passive Followers,Recommend international diversification strategy,2
+INV-1303,April Adams,55-64,Building control surveyor,465079.22,79,80,72,73,50,76,58,73,71,31,18,67,Monthly,Low,73,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1304,Jamie Clark,25-34,General practice doctor,188709.3,81,60,68,81,86,67,39,58,58,65,39,40,Weekly,Moderate,50,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1305,Jason Barr,35-44,Technical author,50022.94,52,83,66,52,92,47,45,63,57,83,81,59,Weekly,Moderate,71,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1306,Rhonda Morrison,18-24,Trading standards officer,827418.32,88,44,72,84,61,85,83,70,78,21,79,79,Weekly,High,61,Passive Followers,Deploy anti-herding conviction framework,0
+INV-1307,Alejandra Glass,25-34,Orthoptist,873743.3,60,52,82,83,82,85,58,59,62,71,90,20,Weekly,Low,36,Confident Actives,Deploy anti-herding conviction framework,1
+INV-1308,Stephen Stout,45-54,"Teacher, secondary school",256593.83,37,81,73,71,45,51,62,60,53,81,61,36,Weekly,Low,58,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1309,Deanna Parks,18-24,Quarry manager,469359.66,44,53,64,35,59,43,85,48,46,73,41,32,Weekly,Moderate,42,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1310,Erin Morris,65+,Academic librarian,123050.55,76,61,77,78,47,63,50,56,55,24,34,25,Daily,Moderate,43,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1311,Laura Hess,65+,Environmental manager,564377.87,92,53,32,36,68,44,43,41,38,54,49,38,Daily,Moderate,45,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1312,Kenneth Ray DDS,65+,Pension scheme manager,51551.92,65,63,80,46,74,94,56,78,83,32,84,77,Weekly,Low,70,Cautious Reactors,Deploy anti-herding conviction framework,1
+INV-1313,Alexa Galvan,25-34,"Engineer, maintenance",291565.32,74,79,78,45,40,91,28,74,73,47,80,50,Daily,Moderate,64,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1314,Cristina Martinez,65+,Tax inspector,266031.25,47,78,64,31,32,86,54,76,76,88,53,79,Weekly,High,78,Cautious Reactors,Introduce stop-loss discipline and emotional coaching,0
+INV-1315,Regina Hernandez,45-54,Insurance risk surveyor,13018.81,47,85,23,58,47,35,56,58,50,34,54,92,Weekly,Moderate,88,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1316,Jeffery Jenkins,35-44,"Production assistant, radio",44073.07,70,42,30,72,41,33,87,48,50,24,46,89,Weekly,Low,65,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1317,Donald Smith,35-44,Medical laboratory scientific officer,621246.74,52,52,22,38,84,43,42,45,43,66,83,66,Weekly,High,59,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1318,Scott Rivas,55-64,"Engineer, aeronautical",134848.76,77,87,44,39,82,70,49,57,48,29,89,30,Monthly,High,58,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1319,Laura Jones,35-44,Fitness centre manager,268193.22,88,41,61,47,78,45,42,55,60,35,20,76,Monthly,Moderate,58,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1320,Andrew Taylor,18-24,Health and safety adviser,590410.46,56,52,23,68,26,88,51,57,58,26,77,65,Daily,Low,58,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1321,Angela Johnson,35-44,"Education officer, environmental",167519.96,76,56,55,50,32,65,52,52,51,49,37,35,Weekly,Moderate,45,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1322,Jonathan Rose,55-64,Herpetologist,760291.5,48,68,34,65,71,75,76,58,55,40,78,56,Monthly,Low,62,Confident Actives,Maintain structured long-term allocation strategy,1
+INV-1323,Ann Chen,25-34,Electrical engineer,271833.5,59,75,21,51,40,47,78,49,40,64,33,53,Daily,Moderate,64,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1324,Dakota Navarro,25-34,Financial adviser,886655.68,49,91,55,38,43,67,81,59,48,28,46,23,Daily,Low,57,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1325,Robert Tran,45-54,Control and instrumentation engineer,537476.57,38,61,77,33,68,63,66,59,59,26,82,38,Daily,Moderate,49,Passive Followers,Deploy anti-herding conviction framework,1
+INV-1326,Elizabeth Martinez,55-64,Maintenance engineer,509547.01,31,70,72,61,90,88,34,66,65,85,74,36,Weekly,Moderate,53,Confident Actives,Deploy anti-herding conviction framework,1
+INV-1327,Michael Serrano,18-24,Audiological scientist,432474.75,41,63,20,40,28,55,74,52,49,84,61,72,Monthly,Low,67,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1328,Anne Marshall,55-64,Radiation protection practitioner,107328.38,83,65,59,79,67,41,51,50,45,85,63,35,Daily,Low,50,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1329,Mariah Parker,35-44,"Psychologist, counselling",147678.39,76,71,29,89,66,69,66,52,46,56,94,41,Daily,Moderate,56,Passive Followers,Recommend international diversification strategy,0
+INV-1330,Christine Kramer,25-34,"Radiographer, diagnostic",996924.67,68,71,31,69,34,77,44,65,64,79,80,84,Monthly,Moderate,77,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1331,Rebecca Willis,35-44,Ranger/warden,635244.68,50,53,48,44,36,57,48,48,47,29,92,37,Daily,High,45,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1332,Alexander Miller,55-64,TEFL teacher,154934.05,85,45,55,74,60,51,85,51,53,52,59,55,Weekly,Moderate,50,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1333,Sara Romero,25-34,Pensions consultant,757552.6,45,55,78,34,92,50,36,68,72,33,75,90,Daily,High,72,Confident Actives,Deploy anti-herding conviction framework,1
+INV-1334,Michael Carter,65+,Medical secretary,463366.48,46,83,24,74,51,72,55,57,49,73,76,51,Occasionally,High,67,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1335,Cindy Williams,45-54,Animal nutritionist,516889.02,73,45,44,60,46,74,25,64,70,58,68,94,Weekly,High,69,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1336,Crystal Lynch,65+,Phytotherapist,584800.88,58,40,77,82,25,58,32,49,52,70,47,22,Monthly,Moderate,31,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1337,Jordan Harris,25-34,Audiological scientist,574779.64,42,59,58,33,43,74,67,66,69,32,74,76,Daily,Moderate,67,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1338,Bradley Hill,45-54,Meteorologist,850709.53,57,58,61,55,50,52,67,61,62,28,34,75,Daily,Low,66,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1339,Kenneth Goodwin,45-54,Quality manager,546623.16,67,53,30,55,66,56,35,55,56,62,33,83,Weekly,Moderate,68,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1340,Andrew Gates,45-54,Information officer,158149.91,90,74,78,81,71,36,35,54,48,87,39,31,Monthly,Moderate,52,Confident Actives,Deploy anti-herding conviction framework,2
+INV-1341,Ethan Gonzalez,35-44,"Librarian, academic",911782.49,33,85,72,53,37,83,81,67,61,68,21,30,Weekly,Moderate,57,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1342,Diane Acosta,55-64,Dispensing optician,321392.64,65,82,76,55,49,83,53,73,71,33,92,54,Monthly,High,68,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1343,Jeremy Pollard,35-44,"Runner, broadcasting/film/video",357954.91,93,68,64,44,75,76,77,58,55,57,78,26,Weekly,High,47,Confident Actives,Maintain structured long-term allocation strategy,1
+INV-1344,Sonia Nixon,25-34,Chief of Staff,480029.11,82,46,69,67,76,62,25,50,51,79,48,23,Monthly,Low,34,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1345,Christopher Fisher,18-24,Copy,554604.31,53,69,69,38,85,64,32,66,65,55,64,62,Weekly,High,65,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1346,John Green,35-44,Food technologist,299844.17,66,55,66,88,83,60,28,62,64,36,53,67,Weekly,Moderate,61,Confident Actives,Benchmark portfolio against passive strategies,2
+INV-1347,Patrick Garcia,35-44,Counsellor,204767.12,30,61,31,59,60,47,77,57,55,77,20,89,Weekly,High,75,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1348,Jacob Williams,35-44,Clinical molecular geneticist,425542.75,56,76,49,86,66,62,36,56,50,58,23,40,Daily,Low,58,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1349,Kelly Moore,45-54,"Accountant, chartered public finance",354784.55,32,41,71,68,68,83,42,63,70,26,57,57,Daily,Moderate,49,Passive Followers,Deploy anti-herding conviction framework,1
+INV-1350,Regina Wilson,18-24,Call centre manager,821385.15,54,43,41,31,68,35,66,38,37,76,69,35,Occasionally,Low,39,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1351,Mrs. Nicole Davis,35-44,Police officer,19259.25,71,88,28,87,69,51,56,65,57,72,73,93,Weekly,Moderate,90,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1352,Allison Johnson,45-54,"Surveyor, rural practice",17279.34,41,42,29,57,53,64,30,43,43,57,91,38,Occasionally,Low,40,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1353,Daniel Miller,25-34,Clinical molecular geneticist,477062.72,44,90,64,37,40,38,84,58,48,60,36,43,Weekly,Moderate,66,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1354,Daniel Weaver,35-44,"Therapist, art",591268.54,55,47,75,78,74,41,84,51,52,60,50,42,Occasionally,Moderate,44,Confident Actives,Deploy anti-herding conviction framework,2
+INV-1355,Bradley Herman,65+,Pensions consultant,146843.77,89,52,62,43,52,47,83,57,59,82,71,70,Weekly,Moderate,61,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1356,Madison Gutierrez,35-44,Food technologist,654708.06,35,67,65,86,91,55,32,62,61,43,62,64,Daily,Low,65,Confident Actives,Benchmark portfolio against passive strategies,2
+INV-1357,James Rivera,25-34,Call centre manager,798526.48,48,41,64,79,71,92,79,60,67,54,67,45,Occasionally,High,43,Confident Actives,Maintain structured long-term allocation strategy,1
+INV-1358,Christopher Brown,25-34,Interior and spatial designer,402335.92,84,90,62,84,47,85,43,72,66,79,73,52,Monthly,High,71,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1359,Ellen Brown,55-64,Diagnostic radiographer,64319.24,45,65,59,45,62,83,46,71,73,47,49,79,Occasionally,Low,72,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1360,Debbie Bennett,45-54,Writer,573930.37,93,65,44,70,89,35,47,48,42,62,37,49,Occasionally,Moderate,57,Confident Actives,Benchmark portfolio against passive strategies,2
+INV-1361,Roger Cook,25-34,Legal executive,657623.8,69,78,42,56,69,73,71,54,47,70,56,26,Monthly,Moderate,52,Passive Followers,Introduce stop-loss discipline and emotional coaching,1
+INV-1362,Jade Anderson,25-34,Chief Operating Officer,696478.35,78,84,76,60,45,69,69,69,64,39,31,47,Weekly,Low,65,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1363,Carlos Crane,18-24,Radio producer,498758.03,53,77,25,74,38,69,27,63,59,38,32,83,Weekly,Moderate,80,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1364,Mario Roberts,35-44,"Journalist, magazine",897091.79,52,75,44,74,73,45,43,59,54,44,30,73,Occasionally,Moderate,74,Confident Actives,Maintain structured long-term allocation strategy,2
+INV-1365,Marcia Olson,25-34,Community development worker,272453.63,50,83,74,47,58,74,30,72,68,89,62,58,Monthly,Moderate,70,Passive Followers,Introduce stop-loss discipline and emotional coaching,1
+INV-1366,Jasmine Thompson,45-54,Technical author,581082.76,38,63,34,33,87,69,33,50,46,45,18,35,Weekly,Moderate,49,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1367,Alicia Love,45-54,Early years teacher,664255.08,71,54,37,76,26,42,28,54,55,80,22,86,Daily,Low,70,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1368,Amanda Livingston,55-64,Child psychotherapist,259910.56,66,74,61,42,60,42,36,49,41,71,85,21,Monthly,High,47,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1369,Michael Howard,45-54,Economist,804736.46,49,60,42,58,75,60,74,51,48,74,16,44,Monthly,Moderate,52,Confident Actives,Maintain structured long-term allocation strategy,1
+INV-1370,Nicholas Mills,25-34,Warden/ranger,506933.66,45,74,83,34,83,89,86,80,82,87,29,74,Monthly,Low,74,Cautious Reactors,Deploy anti-herding conviction framework,1
+INV-1371,Joshua Mitchell,45-54,Physiological scientist,643360.72,46,69,68,54,40,80,66,78,81,82,59,96,Occasionally,Moderate,82,Cautious Reactors,Maintain structured long-term allocation strategy,0
+INV-1372,Angela Cooper,25-34,Forensic psychologist,912259.54,53,57,25,58,49,84,70,47,43,45,42,22,Daily,Low,39,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1373,Steven Zimmerman,35-44,Academic librarian,88834.1,88,93,75,68,83,80,44,74,67,28,15,48,Monthly,Moderate,70,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1374,Nicholas White,25-34,"Therapist, horticultural",873677.93,71,93,26,56,25,73,65,68,60,52,64,82,Monthly,Moderate,87,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1375,Sherry Drake,45-54,"Scientist, biomedical",463593.85,43,44,67,61,27,76,86,59,64,82,75,50,Daily,Moderate,47,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1376,Elizabeth Woodward,25-34,English as a foreign language teacher,613948.49,32,93,46,44,74,65,32,75,69,81,61,96,Daily,Moderate,94,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1377,Laura Bird,35-44,"Psychologist, clinical",143557.8,93,69,32,30,58,91,55,56,52,44,52,33,Occasionally,Low,51,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1378,Stacy Thomas,18-24,"Designer, furniture",664830.52,79,69,80,82,46,64,40,78,81,62,31,99,Daily,Moderate,84,Cautious Reactors,Deploy anti-herding conviction framework,2
+INV-1379,Justin Cole,35-44,Broadcast presenter,324250.27,86,45,39,45,75,66,66,58,62,85,23,83,Daily,High,64,Confident Actives,Maintain structured long-term allocation strategy,1
+INV-1380,Lisa Smith,55-64,Patent attorney,734194.89,33,72,37,36,89,30,28,54,48,46,57,78,Weekly,Moderate,75,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1381,James Stark,25-34,Company secretary,40412.28,85,45,81,45,58,85,37,76,87,37,68,96,Monthly,Moderate,70,Cautious Reactors,Deploy anti-herding conviction framework,1
+INV-1382,Alexandra Farrell,55-64,Early years teacher,878064.87,36,57,42,83,54,87,42,67,71,59,84,84,Occasionally,Moderate,70,Passive Followers,Recommend international diversification strategy,0
+INV-1383,Linda Nguyen,55-64,Speech and language therapist,270739.63,85,65,28,88,71,71,75,50,46,70,84,39,Monthly,Low,52,Confident Actives,Recommend international diversification strategy,0
+INV-1384,Nathaniel Martinez,35-44,Manufacturing engineer,244959.39,89,63,66,36,87,86,79,64,64,81,44,41,Occasionally,High,52,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1385,Debra Lyons,45-54,Herpetologist,539356.11,43,40,50,59,42,46,62,55,60,75,36,86,Weekly,Low,63,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1386,Mr. Douglas Chavez MD,18-24,"Production assistant, television",909882.36,80,40,71,50,94,66,89,62,69,20,35,72,Daily,Moderate,56,Confident Actives,Deploy anti-herding conviction framework,1
+INV-1387,Andrew Hall,35-44,Television/film/video producer,216224.21,88,67,84,65,88,72,41,71,73,42,21,63,Weekly,Moderate,65,Confident Actives,Deploy anti-herding conviction framework,1
+INV-1388,Jason Walker,55-64,Occupational therapist,952754.21,79,53,35,36,43,31,34,40,35,31,84,41,Monthly,Moderate,47,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1389,Jonathan Russell,25-34,"Surveyor, building",549310.12,55,45,37,35,69,52,47,49,50,26,93,63,Occasionally,Moderate,54,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1390,Nathaniel Sexton,45-54,"Horticulturist, amenity",853661.75,67,66,76,34,85,31,79,56,53,48,40,54,Weekly,Low,60,Confident Actives,Deploy anti-herding conviction framework,2
+INV-1391,Michael Parker,25-34,Ecologist,938373.82,36,62,22,87,56,60,67,44,38,20,75,33,Monthly,High,47,Passive Followers,Recommend international diversification strategy,0
+INV-1392,Mrs. Katie Wilson,45-54,Acupuncturist,825682.91,93,69,40,89,87,71,75,60,57,75,94,60,Weekly,Moderate,64,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1393,Kayla Lee,45-54,"Journalist, magazine",197194.21,89,89,77,31,60,42,39,75,71,41,77,94,Daily,Moderate,91,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1394,Mr. James Lopez,25-34,"Designer, ceramics/pottery",389873.21,91,84,59,75,41,86,26,66,60,28,82,36,Daily,High,60,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1395,Samantha Russell,25-34,"Administrator, arts",742858.28,47,60,37,84,53,53,41,46,42,61,59,36,Weekly,Moderate,48,Passive Followers,Recommend international diversification strategy,2
+INV-1396,Ralph Knight,35-44,Applications developer,952302.13,48,59,66,72,33,56,39,56,55,71,40,45,Weekly,High,52,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1397,Michael Gates,35-44,Recruitment consultant,491603.16,85,41,61,48,41,62,73,58,63,82,17,68,Monthly,Moderate,54,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1398,Donald Irwin,55-64,Special effects artist,941287.36,83,46,65,75,40,53,85,58,62,81,15,68,Daily,Low,57,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1399,Cassidy Pham,35-44,Patent attorney,585504.41,62,78,25,45,44,72,50,64,59,45,59,82,Daily,Moderate,80,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1400,James Powell,35-44,"Journalist, magazine",615086.15,42,83,49,78,36,73,57,63,56,45,35,47,Weekly,Low,65,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1401,Adam Mitchell,18-24,Commercial horticulturist,361171.39,88,52,42,46,72,31,44,49,49,65,17,74,Monthly,Moderate,63,Confident Actives,Maintain structured long-term allocation strategy,2
+INV-1402,Benjamin Barnes,65+,Financial risk analyst,575695.46,47,73,63,75,30,93,46,74,75,31,66,70,Daily,Moderate,71,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1403,Stephanie Pittman,45-54,"Administrator, education",210958.63,93,92,67,36,83,40,39,60,49,22,83,42,Monthly,Low,67,Confident Actives,Introduce stop-loss discipline and emotional coaching,2
+INV-1404,Jacob King,25-34,"Exhibitions officer, museum/gallery",290041.37,64,65,40,37,45,40,62,43,36,33,28,29,Occasionally,Moderate,47,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1405,Hannah Mcdaniel,25-34,Visual merchandiser,57562.55,33,56,36,32,86,30,36,36,29,61,27,23,Weekly,Low,39,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1406,Lisa Taylor,25-34,Geophysical data processor,722526.7,41,45,27,80,35,92,81,48,49,21,22,30,Daily,Moderate,37,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1407,William Roberts,55-64,"Scientist, research (physical sciences)",261191.58,68,75,33,77,78,50,74,46,37,39,21,28,Weekly,Moderate,51,Confident Actives,Benchmark portfolio against passive strategies,2
+INV-1408,Lee Russell,18-24,"Teacher, primary school",477395.16,67,83,81,87,30,46,75,59,52,43,65,29,Monthly,Moderate,56,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1409,Crystal Williams,25-34,"Scientist, research (life sciences)",284943.87,77,78,52,88,42,85,81,77,76,61,41,93,Weekly,Moderate,85,Cautious Reactors,Introduce stop-loss discipline and emotional coaching,0
+INV-1410,Kenneth Chavez,18-24,Applications developer,578923.88,93,50,42,63,81,81,55,52,53,52,16,37,Daily,Moderate,43,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1411,Tony Lin,45-54,"Engineer, agricultural",861494.94,39,93,37,75,54,73,77,58,46,71,63,30,Occasionally,Moderate,61,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1412,Kurt Martin,35-44,Horticultural consultant,288177.38,83,64,61,48,43,87,47,63,63,84,26,43,Weekly,Low,53,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1413,John White,25-34,"Psychologist, forensic",549588.06,87,65,49,83,37,58,27,54,51,21,89,47,Weekly,High,56,Passive Followers,Recommend international diversification strategy,0
+INV-1414,Caitlin Hoover,45-54,"Teacher, special educational needs",15498.37,89,46,45,55,40,52,64,43,43,51,29,32,Weekly,High,39,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1415,Jennifer Torres,45-54,"Therapist, speech and language",135631.53,61,89,34,71,31,69,52,69,62,34,84,84,Daily,Moderate,86,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1416,Richard Peterson,65+,Environmental education officer,995533.41,60,60,59,42,47,45,85,56,55,72,39,63,Weekly,High,61,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1417,Karen Schroeder,55-64,"Designer, blown glass/stained glass",91273.03,87,51,73,81,78,57,80,67,72,61,52,87,Weekly,Low,69,Confident Actives,Deploy anti-herding conviction framework,2
+INV-1418,Mr. David Reese DDS,45-54,Physiotherapist,924046.51,34,90,62,86,39,67,39,62,52,73,65,29,Weekly,High,59,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1419,Robert Frank,45-54,Games developer,719087.78,82,64,55,66,91,38,85,52,49,37,57,54,Weekly,Moderate,59,Confident Actives,Benchmark portfolio against passive strategies,2
+INV-1420,Corey Burke,25-34,Osteopath,595090.91,30,68,60,74,74,57,66,59,57,58,31,54,Weekly,Moderate,61,Confident Actives,Maintain structured long-term allocation strategy,2
+INV-1421,William Huff,18-24,Manufacturing engineer,342250.05,78,62,41,33,73,88,26,64,65,50,54,67,Weekly,Moderate,64,Confident Actives,Maintain structured long-term allocation strategy,1
+INV-1422,Daniel Ochoa,65+,Multimedia specialist,718675.57,59,55,76,76,39,56,88,63,66,55,81,68,Daily,Low,61,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1423,Carla Johnson,45-54,Brewing technologist,874643.6,66,62,72,49,47,57,40,56,55,40,93,36,Weekly,High,49,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1424,Denise Benjamin,35-44,"Pharmacist, hospital",196713.01,63,75,71,48,68,36,68,64,60,85,83,74,Occasionally,Moderate,74,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1425,Elizabeth Collins,25-34,Bonds trader,891684.39,37,49,29,67,84,80,45,51,52,84,92,49,Daily,Low,49,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1426,Justin Silva,55-64,Chief of Staff,138761.26,48,70,71,69,62,72,87,61,58,69,47,32,Monthly,High,51,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1427,Jon Adams,35-44,Dentist,537864.76,87,83,29,60,30,86,25,68,63,40,94,75,Occasionally,Low,79,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1428,Timothy Leach,35-44,Call centre manager,890988.74,94,44,40,47,71,86,43,52,55,22,56,40,Weekly,Moderate,42,Confident Actives,Maintain structured long-term allocation strategy,1
+INV-1429,Briana Medina,45-54,Accounting technician,360965.99,84,84,74,49,76,73,80,80,79,89,91,92,Daily,High,88,Cautious Reactors,Introduce stop-loss discipline and emotional coaching,1
+INV-1430,Robin Hernandez,65+,"Engineer, production",95869.11,76,81,61,88,44,46,51,67,62,21,77,81,Monthly,Moderate,81,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1431,Michelle Johnston,65+,Financial adviser,291073.64,54,46,58,65,64,74,28,68,75,88,44,95,Monthly,Low,70,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1432,Curtis Nelson,25-34,Professor Emeritus,108237.56,59,44,37,71,81,41,41,55,58,42,15,98,Daily,Low,71,Confident Actives,Benchmark portfolio against passive strategies,2
+INV-1433,Miguel Drake,18-24,Trade mark attorney,339164.27,30,74,46,48,44,94,73,73,72,29,61,78,Daily,Low,76,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1434,Cynthia Griffin PhD,35-44,Data processing manager,845573.59,73,71,46,57,42,68,73,68,68,73,48,90,Weekly,Low,80,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1435,Nicholas Harris,25-34,Secondary school teacher,583309.4,33,48,70,64,29,43,54,51,52,58,78,44,Occasionally,Low,46,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1436,Kathleen Escobar,25-34,Aid worker,270438.2,86,87,39,67,79,30,31,56,46,31,19,69,Daily,Moderate,78,Confident Actives,Introduce stop-loss discipline and emotional coaching,2
+INV-1437,Chad Rangel,35-44,Barista,780468.34,74,54,36,33,86,70,58,53,53,77,65,53,Monthly,Low,53,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1438,Michelle Gordon,55-64,Newspaper journalist,463027.41,36,42,22,51,75,77,41,41,40,32,80,23,Daily,Moderate,32,Confident Actives,Maintain structured long-term allocation strategy,1
+INV-1439,Laurie Smith,25-34,Public relations account executive,761526.58,53,71,28,56,45,53,28,59,56,78,17,87,Daily,Low,79,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1440,Janet Lane,35-44,"Scientist, marine",270460.58,56,83,59,42,92,75,37,68,63,25,31,55,Weekly,Low,69,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1441,Monica Simon,45-54,Firefighter,14778.41,89,91,71,57,67,51,79,75,70,77,26,88,Monthly,High,89,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1442,Traci Diaz,25-34,Chief Executive Officer,664006.32,64,51,32,85,81,69,69,45,43,22,19,30,Monthly,Low,40,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1443,Jeffrey Combs,35-44,Claims inspector/assessor,715887.39,61,42,50,40,90,70,87,57,63,39,71,69,Weekly,Moderate,55,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1444,Shawn Jones,25-34,Merchant navy officer,457800.26,66,45,42,56,94,67,26,51,53,68,66,52,Weekly,Moderate,48,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1445,Michelle Mcdonald,18-24,Community arts worker,640768.21,77,92,56,59,88,39,66,65,56,63,30,73,Weekly,Moderate,82,Confident Actives,Introduce stop-loss discipline and emotional coaching,2
+INV-1446,Juan Mcintosh,35-44,Estate agent,668600.74,53,55,78,34,77,74,44,63,66,80,72,46,Daily,Moderate,50,Confident Actives,Deploy anti-herding conviction framework,1
+INV-1447,Abigail Smith,55-64,Medical physicist,137866.56,38,44,72,44,50,77,43,65,73,83,68,70,Weekly,Moderate,57,Passive Followers,Deploy anti-herding conviction framework,1
+INV-1448,Ruben Pope,55-64,Scientific laboratory technician,604878.42,75,50,77,40,51,50,63,67,73,85,50,94,Monthly,High,72,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1449,Megan Cruz,35-44,"Engineer, technical sales",541495.12,31,67,20,54,67,92,75,66,66,83,88,88,Occasionally,Moderate,77,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1450,Destiny Bush,55-64,Food technologist,947145.8,34,89,55,83,73,78,27,78,74,80,40,91,Weekly,Moderate,90,Cautious Reactors,Introduce stop-loss discipline and emotional coaching,0
+INV-1451,Kathryn Adams,25-34,Advice worker,16858.39,83,42,71,76,37,84,45,68,77,46,52,77,Weekly,Low,59,Passive Followers,Deploy anti-herding conviction framework,0
+INV-1452,Michelle Sullivan,65+,Freight forwarder,355170.12,49,72,83,67,45,92,88,78,80,27,72,65,Weekly,Moderate,68,Cautious Reactors,Deploy anti-herding conviction framework,0
+INV-1453,Amy Perry,35-44,Call centre manager,95896.48,70,65,29,58,60,66,47,54,50,47,62,57,Daily,High,61,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1454,Frederick Shepherd,35-44,Psychiatric nurse,287638.1,71,66,48,80,73,72,29,60,58,26,56,55,Daily,Moderate,60,Confident Actives,Maintain structured long-term allocation strategy,1
+INV-1455,Leslie Bauer,35-44,"Social research officer, government",760442.78,83,66,20,52,66,81,49,61,59,86,20,77,Weekly,Moderate,71,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1456,Brittany Schultz,45-54,Travel agency manager,835285.96,94,51,41,66,44,53,89,52,53,20,17,65,Monthly,Low,58,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1457,Janet Knight,45-54,Patent attorney,52838.57,45,52,84,53,59,53,52,71,78,78,68,98,Daily,Moderate,75,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1458,Sheila Pratt,45-54,"Engineer, land",756053.32,79,90,62,34,37,39,65,53,41,78,53,22,Daily,High,56,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1459,Joel Hayden,25-34,Maintenance engineer,947563.5,57,41,51,33,44,65,56,58,63,20,74,75,Daily,High,58,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1460,Theresa Pugh,35-44,"Administrator, charities/voluntary organisations",576709.29,82,55,77,48,89,80,46,66,70,55,82,55,Daily,Low,55,Confident Actives,Deploy anti-herding conviction framework,1
+INV-1461,Terri Williams,25-34,"Designer, graphic",369069.8,58,41,40,65,68,76,63,64,71,73,31,99,Weekly,Low,70,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1462,Adam Hatfield,35-44,"Clinical scientist, histocompatibility and immunogenetics",345040.1,87,41,67,75,38,88,82,64,71,70,16,60,Monthly,High,50,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1463,Samuel Williams,35-44,"Restaurant manager, fast food",632482.12,72,46,33,84,36,34,56,35,31,88,59,28,Weekly,Moderate,37,Passive Followers,Recommend international diversification strategy,2
+INV-1464,Spencer Baker,55-64,Information systems manager,275073.71,33,68,44,44,30,71,53,61,59,76,63,63,Occasionally,High,65,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1465,John Clark,65+,Film/video editor,869210.07,87,81,83,67,69,87,44,84,85,76,91,87,Weekly,Moderate,84,Cautious Reactors,Introduce stop-loss discipline and emotional coaching,1
+INV-1466,Debra Galvan MD,25-34,Research scientist (medical),88542.75,38,73,24,83,93,60,69,60,56,51,47,86,Daily,Low,79,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1467,Eric Richardson,55-64,"Producer, radio",381424.03,75,69,28,55,26,91,27,64,63,87,39,70,Daily,High,69,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1468,Brian Miller,55-64,"Education officer, museum",285069.92,31,93,60,73,88,60,71,69,61,88,72,63,Weekly,High,78,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1469,Joanna Phillips,35-44,Personnel officer,754083.24,86,69,74,32,37,32,50,66,65,43,67,89,Monthly,Moderate,79,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1470,Todd Powell,55-64,Comptroller,413887.84,73,41,30,68,42,81,70,57,63,41,67,78,Weekly,Moderate,59,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1471,Theresa Irwin,25-34,"Sound technician, broadcasting/film/video",623870.89,34,73,76,76,44,54,43,62,58,46,54,45,Weekly,Moderate,59,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1472,Jonathan Lewis,25-34,Pension scheme manager,751791.44,55,80,52,48,40,52,31,52,42,31,86,24,Weekly,Low,52,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1473,Keith Jones,45-54,Operational investment banker,599644.28,59,54,32,57,57,52,42,58,60,45,30,96,Occasionally,Moderate,75,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1474,Jessica Krueger,35-44,Chief Strategy Officer,568022.53,56,88,25,75,74,67,42,68,61,60,86,93,Daily,Low,90,Confident Actives,Introduce stop-loss discipline and emotional coaching,0
+INV-1475,Amanda Dickerson,25-34,Accounting technician,832566.01,51,93,25,55,63,41,38,56,44,70,37,67,Weekly,Low,80,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1476,Emma Hill,45-54,Marine scientist,449639.82,54,92,74,88,33,81,26,81,77,32,65,77,Weekly,Moderate,84,Cautious Reactors,Introduce stop-loss discipline and emotional coaching,0
+INV-1477,Lynn Donaldson,18-24,"Psychologist, educational",984653.02,30,45,67,78,43,34,35,44,44,82,43,31,Daily,Moderate,38,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1478,Molly Mullins,25-34,"Therapist, art",988073.89,58,74,41,65,35,87,70,70,69,54,29,79,Daily,High,76,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1479,Derek Sparks,35-44,Music tutor,108118.54,60,71,83,80,26,53,62,73,74,45,43,86,Monthly,Moderate,78,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1480,Donna Robertson,18-24,"Embryologist, clinical",125997.23,50,93,37,38,62,50,89,60,50,46,84,63,Weekly,High,78,Passive Followers,Introduce stop-loss discipline and emotional coaching,1
+INV-1481,Amber Sanchez,65+,Charity officer,91979.72,38,91,22,41,90,75,54,68,60,30,83,85,Weekly,Moderate,88,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1482,Robert Peck,45-54,"Editor, film/video",21884.28,31,67,79,60,35,31,51,50,44,40,72,24,Occasionally,High,45,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1483,Holly Bowman,45-54,Town planner,819054.85,30,59,44,31,56,55,65,47,43,70,19,32,Daily,Moderate,45,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1484,Tony Gonzalez,18-24,Historic buildings inspector/conservation officer,644845.69,83,69,24,63,46,86,71,57,53,22,67,50,Daily,Moderate,59,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1485,Samantha Underwood,55-64,Medical sales representative,523277.77,73,59,35,79,63,75,71,66,68,28,64,96,Occasionally,High,77,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1486,Linda Rose,45-54,Occupational hygienist,101157.38,36,44,60,39,48,78,42,65,72,23,83,79,Daily,Moderate,61,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1487,Christopher Gardner,25-34,Commercial/residential surveyor,456001.12,50,92,33,44,73,62,49,65,57,36,37,76,Weekly,Moderate,84,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1488,Michaela Thomas,35-44,Actor,586473.94,47,92,75,42,47,91,57,84,82,52,46,80,Monthly,High,86,Cautious Reactors,Introduce stop-loss discipline and emotional coaching,0
+INV-1489,Erin Vazquez,65+,Private music teacher,606551.24,36,73,44,33,35,45,85,55,49,35,30,59,Daily,Low,66,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1490,Leah Wade,45-54,"Surveyor, quantity",332116.33,49,87,36,61,65,35,51,46,33,44,80,28,Monthly,Low,57,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1491,Jeremy Roth,35-44,"Conservator, furniture",776985.74,55,72,74,30,94,74,71,77,79,33,68,90,Weekly,Moderate,81,Cautious Reactors,Deploy anti-herding conviction framework,1
+INV-1492,Alyssa Campbell,35-44,"Merchandiser, retail",906382.11,92,81,36,43,60,87,48,63,58,44,73,51,Daily,Low,66,Passive Followers,Introduce stop-loss discipline and emotional coaching,1
+INV-1493,Robert Kennedy,65+,Planning and development surveyor,496075.94,82,74,83,37,44,83,54,72,72,82,25,50,Occasionally,Moderate,62,Passive Followers,Deploy anti-herding conviction framework,1
+INV-1494,Cory Miller,45-54,"Geneticist, molecular",119580.01,31,54,50,72,61,58,50,57,59,34,18,69,Daily,High,61,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1495,Gerald Jensen,35-44,Clinical psychologist,473965.19,79,41,27,58,35,47,79,35,34,33,88,28,Occasionally,Moderate,34,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1496,Theresa Evans,35-44,Veterinary surgeon,55071.32,39,53,75,57,63,54,45,62,65,62,29,67,Monthly,Low,60,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1497,Cynthia Rogers,35-44,Chief Financial Officer,252732.01,87,52,23,57,33,64,45,50,49,37,86,62,Daily,High,57,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1498,Latasha Cline,18-24,"Surveyor, planning and development",882997.14,57,51,21,44,47,58,31,44,42,33,58,49,Monthly,Moderate,50,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1499,Alicia Collins,25-34,Medical laboratory scientific officer,139948.48,53,57,43,67,58,69,71,58,58,84,32,63,Daily,High,60,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1500,Lisa Baker,45-54,Press photographer,6261.74,53,60,53,40,59,71,52,68,71,27,67,91,Daily,High,75,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1501,Deborah Brown,25-34,Sport and exercise psychologist,271603.04,36,47,82,76,50,86,61,74,83,59,53,81,Weekly,Low,64,Passive Followers,Deploy anti-herding conviction framework,0
+INV-1502,Nathaniel Chapman,25-34,Chartered legal executive (England and Wales),956123.66,36,81,44,36,52,49,35,66,61,42,75,90,Daily,Moderate,85,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1503,Michael Armstrong,45-54,"Engineer, structural",758142.21,48,57,60,77,69,54,49,67,71,58,93,99,Weekly,Low,78,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1504,Bryan Roberts,35-44,Early years teacher,42035.6,32,67,52,77,34,59,46,68,68,67,16,95,Occasionally,Low,81,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1505,Emily Smith,35-44,"Teacher, primary school",640033.29,35,69,21,38,26,84,84,48,41,38,41,20,Monthly,Low,44,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1506,Craig Collins,45-54,Translator,868384.54,83,47,76,71,33,64,77,67,73,44,81,81,Daily,Moderate,64,Passive Followers,Deploy anti-herding conviction framework,0
+INV-1507,Amy Stevens,35-44,"Education officer, community",784009.0,67,47,58,72,59,78,70,59,64,27,68,56,Weekly,Moderate,51,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1508,Whitney Hinton,35-44,Public house manager,809755.45,89,56,52,76,76,38,57,58,59,40,72,88,Daily,Moderate,72,Confident Actives,Benchmark portfolio against passive strategies,2
+INV-1509,Nicole Johnson,35-44,"Programmer, multimedia",548020.93,39,86,65,37,34,40,36,64,57,44,63,68,Occasionally,Moderate,77,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1510,Brittany Gonzalez,25-34,"Psychologist, counselling",424403.63,59,53,75,69,25,85,28,77,85,31,49,96,Monthly,Moderate,74,Cautious Reactors,Deploy anti-herding conviction framework,0
+INV-1511,Evelyn Carson,55-64,Phytotherapist,826122.42,41,46,41,58,80,87,88,63,69,26,69,81,Occasionally,Moderate,63,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1512,Brittany Spencer,35-44,Merchant navy officer,945292.01,31,94,55,54,48,73,41,67,58,32,45,47,Monthly,Moderate,70,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1513,Katherine Armstrong,35-44,Tour manager,64808.01,60,81,31,66,47,43,49,46,35,73,19,32,Weekly,Low,56,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1514,James Mitchell,25-34,Operational researcher,462316.68,81,77,81,74,63,66,32,79,80,52,56,95,Daily,Moderate,86,Cautious Reactors,Introduce stop-loss discipline and emotional coaching,2
+INV-1515,Deborah Nelson,35-44,"Lecturer, higher education",443400.1,48,81,83,88,44,45,41,66,61,27,52,57,Weekly,High,69,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1516,William Anderson,18-24,"Engineer, land",355469.82,41,51,36,44,63,71,72,45,44,37,93,25,Occasionally,Moderate,38,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1517,Andrew Barnes,18-24,Electrical engineer,265962.95,39,93,81,34,40,37,55,75,69,75,90,89,Weekly,Moderate,91,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1518,Danielle Russell,25-34,Applications developer,130506.97,49,55,73,75,46,93,32,69,74,70,92,58,Daily,High,56,Passive Followers,Deploy anti-herding conviction framework,0
+INV-1519,Jennifer Baldwin,45-54,Chartered accountant,433832.93,85,93,63,63,86,52,70,57,45,26,75,22,Daily,Moderate,57,Confident Actives,Introduce stop-loss discipline and emotional coaching,2
+INV-1520,Matthew Hampton,65+,Water quality scientist,692650.34,88,69,36,88,34,47,69,55,50,81,73,68,Monthly,Moderate,68,Passive Followers,Recommend international diversification strategy,0
+INV-1521,Sharon Brown,55-64,Public librarian,649282.2,69,80,81,76,58,46,78,69,66,38,81,72,Weekly,Low,76,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1522,Peter Briggs,25-34,Chief Executive Officer,493873.78,41,57,71,77,67,68,73,67,71,29,85,74,Daily,High,65,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1523,Kelly Cowan,25-34,Radio broadcast assistant,374977.6,64,64,26,71,48,40,36,51,47,82,82,76,Daily,Moderate,70,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1524,Mary Carey,65+,"Engineer, drilling",210609.97,60,72,31,63,55,91,37,67,66,21,29,76,Daily,Low,74,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1525,Patricia Miller,25-34,English as a foreign language teacher,793577.07,48,55,58,42,61,50,68,62,64,27,91,85,Daily,Low,70,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1526,Megan Mckinney,35-44,Dance movement psychotherapist,224335.7,86,78,48,72,90,48,82,55,48,56,75,49,Weekly,Low,63,Confident Actives,Introduce stop-loss discipline and emotional coaching,2
+INV-1527,Anna Thornton,45-54,"Engineer, petroleum",505269.52,81,57,29,57,35,94,89,57,57,86,92,50,Weekly,Low,53,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1528,Sara Keith,55-64,"Teacher, early years/pre",955399.28,33,92,36,51,49,31,29,49,35,55,20,40,Weekly,Moderate,66,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1529,Krystal Johnson,35-44,Aid worker,564300.33,45,59,52,43,80,50,70,47,43,35,43,27,Weekly,High,43,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1530,Kelly Yang,65+,"Scientist, product/process development",740865.43,56,49,41,75,37,62,29,58,61,43,81,82,Weekly,Moderate,65,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1531,Jennifer Smith,65+,Arboriculturist,33978.17,93,83,62,46,64,78,81,79,77,76,88,93,Daily,Moderate,88,Cautious Reactors,Introduce stop-loss discipline and emotional coaching,1
+INV-1532,Jonathan Fuentes,65+,Secondary school teacher,311810.36,35,62,46,87,61,35,89,46,41,69,36,44,Weekly,Moderate,53,Passive Followers,Recommend international diversification strategy,2
+INV-1533,Stephanie Casey,45-54,Petroleum engineer,117665.07,67,45,84,89,70,65,82,63,70,30,26,61,Monthly,Moderate,53,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1534,Steven Kelly,55-64,International aid/development worker,551579.73,60,52,37,70,82,85,48,63,67,74,24,79,Monthly,Low,65,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1535,Erin Lowe,45-54,"Engineer, structural",698960.59,86,50,34,74,34,67,71,46,45,69,85,34,Occasionally,Moderate,42,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1536,Kaitlyn Moody,25-34,Landscape architect,243172.99,40,73,62,55,62,71,29,56,51,84,48,20,Monthly,Moderate,46,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1537,Jamie Peck,55-64,Interpreter,309227.35,53,43,31,51,44,30,54,48,49,33,50,88,Daily,High,65,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1538,Shelly Marks,45-54,Personnel officer,609434.4,80,52,43,83,50,67,89,52,52,54,57,48,Monthly,Low,50,Passive Followers,Recommend international diversification strategy,0
+INV-1539,John Harris,35-44,Waste management officer,354951.27,76,82,22,81,34,88,38,60,53,61,46,51,Weekly,Moderate,66,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1540,Teresa Fowler,35-44,"Scientist, physiological",611993.13,51,81,21,46,54,81,33,50,40,53,63,20,Occasionally,Moderate,50,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1541,Janice Barrett,45-54,Arboriculturist,903757.25,68,43,28,70,46,47,67,36,33,25,62,26,Weekly,Moderate,34,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1542,Kyle Marshall,55-64,Clinical embryologist,889410.82,62,93,56,46,88,91,85,69,62,85,44,39,Daily,Low,66,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1543,Laura Johnson,35-44,Health physicist,159233.62,87,76,23,42,42,77,57,51,43,47,49,29,Occasionally,Moderate,52,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1544,Terri Carpenter,18-24,"Loss adjuster, chartered",992867.97,35,44,41,70,80,52,49,41,40,53,77,28,Daily,Low,36,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1545,Kathleen Ferguson,25-34,"Biochemist, clinical",168243.27,65,70,60,58,82,43,60,57,52,27,40,55,Daily,High,62,Confident Actives,Benchmark portfolio against passive strategies,2
+INV-1546,Leslie Chang,45-54,"Sales professional, IT",168907.24,68,55,70,69,66,58,34,55,56,20,53,40,Weekly,Moderate,47,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1547,David Moran,45-54,Wellsite geologist,875373.34,39,80,53,89,72,62,85,72,70,73,79,96,Weekly,Moderate,88,Confident Actives,Introduce stop-loss discipline and emotional coaching,2
+INV-1548,Ms. Elizabeth Roberts,25-34,Bookseller,961803.39,57,87,36,78,37,43,35,62,54,61,75,83,Monthly,Moderate,85,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1549,Andrew Brandt,35-44,Race relations officer,337035.69,31,89,49,60,41,49,72,52,40,56,15,23,Weekly,High,56,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1550,Marilyn Kelley,45-54,Air traffic controller,810380.35,45,51,53,72,46,31,56,50,50,20,86,67,Occasionally,Moderate,59,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1551,Brian Ibarra,35-44,Mechanical engineer,935482.78,49,44,38,76,62,40,67,49,51,39,35,76,Monthly,Moderate,60,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1552,Jennifer Ross,35-44,"Education officer, community",334336.99,46,70,61,84,92,90,85,77,80,38,65,89,Weekly,Moderate,79,Cautious Reactors,Benchmark portfolio against passive strategies,1
+INV-1553,Douglas Park,25-34,Manufacturing engineer,910038.76,55,46,45,85,46,48,55,45,45,61,55,42,Monthly,Moderate,44,Passive Followers,Recommend international diversification strategy,2
+INV-1554,Brian Johnson,35-44,Museum/gallery conservator,156528.8,88,52,54,70,55,61,78,60,62,60,80,73,Monthly,Low,62,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1555,Alejandro Haney,55-64,IT consultant,209857.87,67,94,23,64,34,76,38,57,45,31,59,36,Daily,Moderate,65,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1556,Judith Collins,35-44,"Nurse, children's",901256.36,83,57,39,76,38,63,73,55,54,50,72,61,Monthly,Moderate,59,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1557,Noah Wise,35-44,Ergonomist,682164.01,38,47,27,60,27,46,38,53,56,81,35,95,Occasionally,Low,71,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1558,Donna Ramsey MD,25-34,Acupuncturist,295407.84,69,50,71,37,28,56,68,61,64,66,58,67,Daily,Low,58,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1559,Logan Williams,45-54,"Research officer, government",617474.86,87,52,23,41,72,55,63,56,58,38,91,96,Weekly,Moderate,74,Confident Actives,Maintain structured long-term allocation strategy,1
+INV-1560,Jared Downs,35-44,Banker,313483.85,53,48,33,77,39,62,41,43,42,49,76,32,Monthly,High,40,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1561,Maxwell Robinson,55-64,"Administrator, education",246730.63,88,82,27,81,27,41,40,57,49,68,77,81,Occasionally,Moderate,81,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1562,Joshua Jensen,35-44,Water quality scientist,953935.11,75,54,42,43,69,91,39,65,69,83,60,75,Monthly,Low,64,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1563,Lauren Davis,25-34,"Teacher, music",382110.8,62,91,73,53,81,51,44,76,72,44,60,92,Monthly,Moderate,91,Cautious Reactors,Introduce stop-loss discipline and emotional coaching,2
+INV-1564,Leah Lopez,35-44,Warehouse manager,473352.42,51,55,67,74,85,44,89,49,48,22,68,33,Occasionally,Moderate,44,Confident Actives,Benchmark portfolio against passive strategies,2
+INV-1565,David Bishop,35-44,Chiropodist,707230.26,86,78,84,56,81,56,29,66,63,34,90,49,Daily,Low,63,Confident Actives,Introduce stop-loss discipline and emotional coaching,2
+INV-1566,Jason Robertson,55-64,Animal nutritionist,283275.49,57,41,42,52,40,38,37,51,54,46,65,83,Monthly,Moderate,62,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1567,Antonio Dodson,55-64,Art therapist,959794.19,62,48,32,69,79,72,68,45,44,43,50,29,Daily,Moderate,38,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1568,Michelle Watson,35-44,Insurance underwriter,864112.86,54,57,82,49,49,41,45,68,71,30,78,92,Daily,High,74,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1569,Ruben Lopez,35-44,"Geologist, wellsite",730873.81,48,88,33,30,49,88,29,69,63,42,23,69,Occasionally,Moderate,78,Passive Followers,Introduce stop-loss discipline and emotional coaching,1
+INV-1570,Travis Berry,45-54,Sales executive,406956.4,53,64,35,44,71,73,38,65,66,74,29,91,Weekly,Low,77,Confident Actives,Maintain structured long-term allocation strategy,1
+INV-1571,Pamela Brown,25-34,Chartered management accountant,368222.33,92,67,42,33,38,92,89,74,77,83,46,98,Weekly,Low,82,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1572,Tamara Butler,18-24,Film/video editor,592176.77,56,50,78,51,39,39,65,59,62,79,87,71,Monthly,Moderate,60,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1573,Matthew Allen,18-24,Call centre manager,313052.74,83,76,66,67,94,82,68,68,66,39,93,50,Weekly,Moderate,63,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1574,Alejandra Gay,35-44,"Optician, dispensing",969594.26,85,67,49,66,91,72,76,57,54,87,23,42,Occasionally,Low,54,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1575,Melissa White,35-44,Museum/gallery conservator,880065.38,59,65,52,45,46,86,86,69,71,42,46,76,Daily,High,70,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1576,James Bernard,45-54,Newspaper journalist,775379.89,44,74,40,60,76,63,59,62,58,25,46,71,Monthly,Low,72,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1577,Linda Peters,25-34,Accommodation manager,821366.67,55,54,38,72,39,35,62,49,48,70,87,72,Occasionally,Moderate,63,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1578,Matthew Rich,25-34,"Engineer, civil (consulting)",245555.68,53,52,62,41,75,48,45,52,52,45,59,47,Monthly,Moderate,49,Confident Actives,Maintain structured long-term allocation strategy,1
+INV-1579,George Newman,35-44,Financial trader,328081.81,78,43,63,74,85,54,26,62,69,89,40,91,Weekly,Moderate,67,Confident Actives,Benchmark portfolio against passive strategies,2
+INV-1580,Mr. Timothy Ford MD,35-44,Broadcast presenter,180529.85,80,78,22,84,92,70,61,56,49,34,22,57,Occasionally,Moderate,67,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1581,Patricia Lindsey,25-34,Jewellery designer,520807.63,81,53,68,70,54,34,55,53,53,42,62,59,Occasionally,Moderate,56,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1582,James Thompson,25-34,"Engineer, communications",111877.25,33,56,66,86,37,40,48,56,56,65,32,62,Daily,Moderate,59,Passive Followers,Recommend international diversification strategy,2
+INV-1583,Gregory Sherman,18-24,Toxicologist,546158.53,87,70,47,89,27,84,38,61,58,34,16,43,Monthly,Low,56,Passive Followers,Recommend international diversification strategy,0
+INV-1584,Charles Wolfe,45-54,"Designer, multimedia",696933.62,58,76,58,44,50,94,28,64,60,20,64,30,Weekly,Moderate,53,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1585,Brittany Walker,18-24,Osteopath,48661.68,85,87,40,42,33,40,25,58,48,50,51,66,Daily,Moderate,76,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1586,Ronald Huff,35-44,Transport planner,896165.93,59,75,51,63,88,71,72,57,51,40,74,32,Monthly,Moderate,53,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1587,Megan Dougherty,45-54,"Physicist, medical",58308.68,78,67,52,66,65,59,81,61,59,67,86,68,Occasionally,High,67,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1588,Matthew Rios,45-54,Government social research officer,82603.9,78,64,84,54,25,61,27,64,64,38,74,48,Occasionally,High,56,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1589,Julie Pineda,45-54,Physiological scientist,296460.58,32,56,68,41,84,49,74,60,62,62,71,69,Monthly,Low,62,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1590,Barry Haley,65+,Rural practice surveyor,528961.97,94,55,30,84,44,53,88,43,39,36,75,34,Daily,Low,44,Passive Followers,Recommend international diversification strategy,0
+INV-1591,Juan Ellis,25-34,Biomedical engineer,739460.0,82,66,31,75,55,61,56,62,61,80,60,93,Monthly,High,79,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1592,Connie Hicks,25-34,"Scientist, forensic",960765.69,51,50,55,83,78,46,54,51,52,62,41,56,Weekly,Low,53,Confident Actives,Benchmark portfolio against passive strategies,2
+INV-1593,Briana Snyder,25-34,Chief Strategy Officer,984990.19,87,75,38,87,69,55,46,63,59,82,42,84,Monthly,Moderate,79,Passive Followers,Recommend international diversification strategy,2
+INV-1594,Debra Hogan,25-34,"Loss adjuster, chartered",733021.2,72,60,80,38,85,45,26,65,67,61,91,76,Daily,Low,68,Confident Actives,Deploy anti-herding conviction framework,1
+INV-1595,Cynthia Watson,35-44,Forensic psychologist,254732.27,79,46,28,48,78,90,26,65,71,50,47,97,Occasionally,Low,71,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1596,Elizabeth White,35-44,Midwife,651614.6,78,87,66,43,77,48,30,60,52,69,26,42,Weekly,Moderate,64,Confident Actives,Introduce stop-loss discipline and emotional coaching,2
+INV-1597,Keith Velez,45-54,Theatre stage manager,515604.17,68,42,77,53,79,86,41,67,75,87,69,64,Daily,High,53,Confident Actives,Deploy anti-herding conviction framework,1
+INV-1598,Brian Wright,35-44,Air cabin crew,545688.82,82,91,63,61,34,93,52,67,59,70,67,23,Weekly,Moderate,57,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1599,Matthew Yates,18-24,Financial controller,888433.57,88,62,37,30,59,93,82,69,72,20,17,86,Daily,Low,74,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1600,Melissa Rocha,25-34,"Scientist, research (life sciences)",131771.03,77,65,23,78,38,62,46,59,57,22,37,87,Monthly,Low,76,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1601,Kevin Blair,35-44,"Conservation officer, nature",439962.36,94,74,57,53,35,58,84,63,60,80,33,65,Weekly,Moderate,69,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1602,Jamie Thompson,65+,Ranger/warden,371453.99,62,55,31,84,75,68,57,60,62,48,83,89,Weekly,Low,72,Confident Actives,Recommend international diversification strategy,0
+INV-1603,Deanna Lewis,45-54,"Surveyor, building control",700339.5,81,91,29,53,65,32,83,49,36,53,63,47,Daily,Moderate,69,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1604,Valerie Morales,25-34,Financial trader,878324.4,52,44,80,89,48,92,85,63,69,49,74,37,Daily,Moderate,40,Passive Followers,Deploy anti-herding conviction framework,0
+INV-1605,Mason Perez,35-44,Video editor,867744.6,55,47,71,33,58,62,62,59,63,20,18,58,Weekly,Moderate,52,Passive Followers,Deploy anti-herding conviction framework,1
+INV-1606,Mrs. Jessica Thomas,65+,Air cabin crew,837743.19,41,60,64,84,86,60,66,51,48,84,87,22,Weekly,Moderate,41,Confident Actives,Benchmark portfolio against passive strategies,2
+INV-1607,Christopher Morgan,45-54,Field trials officer,959316.73,50,89,22,63,48,42,26,48,35,38,61,41,Weekly,High,65,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1608,Carla Hunt,45-54,Furniture designer,790095.4,48,59,61,66,33,54,26,52,50,39,84,36,Monthly,Low,47,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1609,Stephanie Acosta,55-64,Trading standards officer,705416.98,56,90,45,85,88,37,61,57,46,64,18,56,Daily,Moderate,73,Confident Actives,Introduce stop-loss discipline and emotional coaching,2
+INV-1610,Alexandra Grant,35-44,Theatre stage manager,894629.04,85,63,51,86,62,89,43,58,56,33,47,29,Daily,Moderate,46,Passive Followers,Recommend international diversification strategy,0
+INV-1611,David Brown,25-34,Secondary school teacher,932873.41,38,82,78,81,43,50,46,64,58,28,87,46,Weekly,Moderate,64,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1612,Dylan Weber,35-44,"Engineer, electrical",732025.62,34,72,20,41,30,70,79,49,42,78,94,37,Occasionally,High,54,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1613,Michael Marshall,55-64,"Scientist, marine",377434.46,86,64,74,69,74,62,42,64,64,35,94,57,Monthly,Moderate,60,Confident Actives,Deploy anti-herding conviction framework,2
+INV-1614,Elijah Chen,25-34,Fine artist,888768.15,45,71,57,51,40,81,53,60,56,36,78,32,Occasionally,Moderate,51,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1615,James Lewis,25-34,"Therapist, nutritional",692169.63,68,61,69,85,33,79,53,71,74,64,31,75,Weekly,High,68,Passive Followers,Recommend international diversification strategy,0
+INV-1616,Jason Barker,45-54,Environmental consultant,48627.62,45,69,80,52,51,83,34,78,81,60,69,80,Monthly,Moderate,74,Cautious Reactors,Deploy anti-herding conviction framework,0
+INV-1617,Madeline Friedman,25-34,"Teacher, music",486104.46,88,91,21,61,74,72,32,51,38,84,26,23,Daily,Moderate,57,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1618,Tyler Rodriguez,25-34,"Engineer, civil (consulting)",850687.8,45,62,49,38,30,48,34,63,64,56,93,96,Monthly,Moderate,79,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1619,Jesus Torres,55-64,Housing manager/officer,530173.05,30,75,45,39,55,58,29,67,64,22,81,90,Weekly,Moderate,82,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1620,David Patel,45-54,Ship broker,501746.69,58,57,62,78,84,69,89,60,62,38,17,55,Weekly,Low,56,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1621,Sherri Hernandez,35-44,Hospital pharmacist,845567.78,76,55,55,62,57,34,38,43,39,73,18,28,Daily,Moderate,41,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1622,Robin Mendez,25-34,Ecologist,450036.6,79,87,56,52,51,90,75,73,68,38,15,59,Daily,Moderate,73,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1623,Jennifer Gonzalez,65+,Jewellery designer,59513.11,31,94,74,80,84,37,33,60,49,89,73,38,Monthly,Low,66,Confident Actives,Introduce stop-loss discipline and emotional coaching,2
+INV-1624,Robert Thompson,45-54,"Development worker, community",168112.06,90,65,70,61,74,70,49,72,74,85,56,84,Daily,Moderate,74,Confident Actives,Maintain structured long-term allocation strategy,1
+INV-1625,Jessica Mack,55-64,Health visitor,889872.17,47,77,52,71,85,75,85,59,53,89,94,34,Daily,Moderate,55,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1626,Ryan Harper,65+,"Scientist, research (maths)",867357.89,86,46,36,79,56,51,79,53,56,32,61,81,Weekly,High,63,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1627,Hannah Schwartz,25-34,Interpreter,924124.42,54,74,65,64,69,42,34,61,57,63,74,66,Occasionally,Moderate,70,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1628,Jesse Taylor,35-44,Telecommunications researcher,924597.34,33,60,20,88,43,89,57,54,52,22,66,47,Occasionally,Low,53,Passive Followers,Recommend international diversification strategy,0
+INV-1629,Jeffrey Kelley,25-34,Retail buyer,267156.08,59,55,43,34,65,76,55,55,55,37,58,46,Daily,Low,50,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1630,Michael Vincent,18-24,Forest/woodland manager,107877.96,90,72,75,60,83,31,63,53,47,82,32,36,Weekly,Moderate,54,Confident Actives,Deploy anti-herding conviction framework,2
+INV-1631,Vanessa Johnson,45-54,Passenger transport manager,855466.92,77,51,54,40,85,73,49,58,61,51,18,57,Weekly,Moderate,54,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1632,David Gray,25-34,Ecologist,906320.94,31,56,81,64,37,64,67,67,71,75,91,70,Occasionally,Low,63,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1633,Danielle Johnson,65+,Hospital doctor,122770.42,84,81,26,44,84,69,61,63,57,75,58,76,Weekly,High,78,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1634,Troy Oconnor,25-34,Applications developer,349099.43,70,48,26,79,32,93,31,50,51,59,17,36,Weekly,Moderate,42,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1635,James Perkins,45-54,"Exhibitions officer, museum/gallery",390114.76,60,43,25,67,50,40,41,51,54,54,30,98,Weekly,Moderate,70,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1636,Jeffrey Vazquez,35-44,"Scientist, forensic",154743.02,57,80,46,84,59,74,59,58,51,28,90,34,Weekly,Moderate,57,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1637,Jamie Franco,35-44,Special educational needs teacher,782778.66,67,62,63,30,49,76,80,58,57,30,81,34,Daily,Low,48,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1638,James Garza,25-34,Advertising account planner,682180.18,80,62,64,72,36,61,44,51,48,55,81,20,Daily,Moderate,41,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1639,Michael Ramsey,18-24,Multimedia programmer,99478.88,90,75,25,62,79,48,53,61,57,89,93,99,Daily,Moderate,87,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1640,Rhonda Rojas,45-54,Pathologist,213486.95,84,56,75,73,69,59,68,52,51,38,43,21,Occasionally,Low,38,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1641,Melissa Reyes,45-54,Arts administrator,61847.06,73,42,62,87,86,53,63,51,54,24,69,49,Weekly,High,45,Confident Actives,Benchmark portfolio against passive strategies,2
+INV-1642,Brittany Johnson,25-34,Market researcher,88966.01,70,92,49,32,67,36,73,55,43,73,83,46,Daily,Moderate,69,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1643,Amy Green,55-64,"Research officer, government",785032.76,59,74,80,83,32,58,65,60,56,40,90,30,Weekly,Low,52,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1644,Jessica Reid,25-34,Equities trader,213471.63,52,43,44,59,35,46,50,50,52,75,66,67,Monthly,Low,55,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1645,Tim Smith,45-54,Recycling officer,61201.01,60,53,23,78,37,64,30,58,60,29,35,93,Daily,Moderate,73,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1646,Brian Shaw,45-54,Translator,457150.21,50,90,65,63,85,40,87,60,50,22,24,46,Occasionally,High,68,Confident Actives,Introduce stop-loss discipline and emotional coaching,2
+INV-1647,Eduardo Gomez PhD,25-34,Broadcast presenter,45773.33,54,54,52,66,71,64,89,63,66,76,46,82,Monthly,High,68,Confident Actives,Maintain structured long-term allocation strategy,1
+INV-1648,Jeffrey Mahoney,35-44,Legal executive,339631.16,33,43,24,54,63,52,76,48,50,66,35,75,Daily,Moderate,59,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1649,Mark Callahan,35-44,Theatre manager,451877.8,87,62,53,62,50,92,65,67,68,29,29,61,Weekly,Moderate,61,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1650,Sabrina Jones,25-34,"Sales professional, IT",217732.2,55,75,55,77,75,51,30,68,66,22,66,93,Daily,Moderate,84,Confident Actives,Maintain structured long-term allocation strategy,2
+INV-1651,Brandon Fuentes,45-54,Speech and language therapist,817146.71,86,51,33,54,92,57,34,43,41,85,64,33,Daily,Moderate,42,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1652,Belinda Malone,18-24,Technical sales engineer,485314.75,83,43,38,31,63,48,40,42,42,44,32,42,Weekly,Low,42,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1653,Jeffrey Coleman,45-54,"Sales professional, IT",286880.05,31,71,49,74,85,80,33,72,72,24,76,88,Monthly,Low,79,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1654,Stephanie Morris,35-44,Building surveyor,617647.42,39,68,41,56,34,90,75,55,51,25,76,24,Daily,Moderate,46,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1655,Sarah Diaz,65+,Database administrator,324330.76,61,64,78,80,74,33,72,67,68,70,66,93,Occasionally,Low,78,Confident Actives,Deploy anti-herding conviction framework,2
+INV-1656,Leslie Campbell,45-54,Technical sales engineer,574194.37,48,58,60,46,71,83,79,71,75,81,73,84,Monthly,High,71,Confident Actives,Maintain structured long-term allocation strategy,1
+INV-1657,Leah Chen,35-44,International aid/development worker,301958.41,84,45,20,37,75,54,71,48,49,83,24,75,Occasionally,Moderate,60,Confident Actives,Maintain structured long-term allocation strategy,1
+INV-1658,Jodi Kent,25-34,Podiatrist,338144.25,66,49,50,89,94,46,74,59,62,81,94,91,Monthly,Low,70,Confident Actives,Benchmark portfolio against passive strategies,2
+INV-1659,Kimberly Luna,45-54,"Designer, television/film set",70562.7,93,45,54,62,42,66,37,54,57,20,77,53,Occasionally,High,49,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1660,Amanda Ray,65+,Training and development officer,926915.04,50,68,31,46,72,55,36,57,54,61,75,77,Monthly,Low,72,Confident Actives,Maintain structured long-term allocation strategy,1
+INV-1661,Michael Norton,25-34,"Engineer, civil (contracting)",345156.27,50,65,44,71,83,35,76,55,52,51,67,78,Occasionally,Low,71,Confident Actives,Benchmark portfolio against passive strategies,2
+INV-1662,David Davis,18-24,Risk analyst,10287.6,83,89,75,53,90,42,86,57,46,34,83,22,Daily,Moderate,55,Confident Actives,Introduce stop-loss discipline and emotional coaching,2
+INV-1663,Cheryl Smith,65+,Accommodation manager,798813.36,55,67,37,87,60,62,88,50,45,67,54,36,Occasionally,Moderate,51,Passive Followers,Recommend international diversification strategy,0
+INV-1664,Pamela Butler,55-64,Medical laboratory scientific officer,90171.56,92,70,78,87,36,77,55,66,64,58,90,39,Weekly,High,54,Passive Followers,Deploy anti-herding conviction framework,0
+INV-1665,Hayley Allen,18-24,Systems analyst,816410.33,38,50,48,39,72,85,41,52,53,53,59,28,Daily,Moderate,39,Confident Actives,Maintain structured long-term allocation strategy,1
+INV-1666,Frank Pollard,55-64,Exhibition designer,797863.94,49,51,80,87,66,42,36,65,70,69,50,88,Weekly,High,69,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1667,Benjamin Hanson,55-64,Data processing manager,956352.19,91,93,21,79,65,74,33,70,63,66,19,95,Weekly,Moderate,94,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1668,Patricia Moss,65+,"Administrator, education",759511.1,47,90,61,88,50,42,82,66,59,86,17,74,Daily,Low,82,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1669,Donald Byrd,18-24,Retail banker,109869.95,53,64,43,37,33,66,77,63,63,40,54,81,Daily,Moderate,72,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1670,Nicholas Rhodes,25-34,Television floor manager,568464.66,74,43,36,79,81,77,68,55,59,52,45,66,Monthly,High,54,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1671,Donna Torres,18-24,Geophysicist/field seismologist,439119.92,82,55,62,81,36,48,65,60,62,48,84,78,Daily,High,66,Passive Followers,Recommend international diversification strategy,2
+INV-1672,Monica Nelson,25-34,Counsellor,237229.29,43,45,56,50,28,67,65,59,64,70,79,71,Monthly,Moderate,58,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1673,Nathaniel Silva,35-44,Research scientist (life sciences),471474.86,47,73,61,40,51,53,63,63,60,64,26,68,Daily,Moderate,70,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1674,Timothy Haney,65+,"Optician, dispensing",336575.53,48,64,70,75,31,35,48,57,54,28,50,59,Weekly,High,61,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1675,Luke Hudson,65+,Building control surveyor,501540.99,36,81,64,55,38,58,30,60,53,56,67,37,Weekly,Moderate,59,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1676,Dillon Hampton,35-44,"Therapist, nutritional",980744.98,70,86,54,52,84,81,32,63,56,22,83,33,Weekly,High,59,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1677,Edward Waller,35-44,Chief Executive Officer,784400.31,83,79,70,88,29,61,25,59,52,30,67,27,Daily,Moderate,53,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1678,James Johnson,35-44,Company secretary,195876.93,73,75,81,56,69,54,85,59,54,65,28,27,Weekly,Low,51,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1679,Dr. Devin Mann Jr.,25-34,Child psychotherapist,896990.49,86,88,74,42,80,85,39,70,64,77,49,35,Weekly,High,61,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1680,Joel Martin,65+,Cabin crew,274031.32,35,94,33,88,77,56,71,55,42,74,58,37,Daily,Low,65,Confident Actives,Introduce stop-loss discipline and emotional coaching,2
+INV-1681,Bethany Shaw,65+,"Psychotherapist, child",722651.62,38,69,41,62,71,58,69,55,51,43,29,55,Monthly,Moderate,62,Confident Actives,Maintain structured long-term allocation strategy,1
+INV-1682,Vanessa Hancock,18-24,"Lecturer, further education",516306.46,30,53,55,81,85,69,51,54,54,53,82,40,Daily,Low,46,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1683,Caitlin Dixon,55-64,"Designer, fashion/clothing",556358.07,46,70,73,45,83,35,53,55,50,79,36,43,Daily,Low,56,Confident Actives,Deploy anti-herding conviction framework,2
+INV-1684,Emily Holt,45-54,Warden/ranger,714038.4,49,81,58,34,72,86,45,80,80,34,83,96,Weekly,Moderate,88,Cautious Reactors,Introduce stop-loss discipline and emotional coaching,1
+INV-1685,Mark White,25-34,Associate Professor,429274.03,50,65,27,38,28,50,55,49,43,44,29,54,Weekly,Moderate,59,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1686,Derek Cooper,35-44,Systems developer,327276.07,59,53,72,49,58,53,44,58,60,26,50,57,Monthly,High,55,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1687,Lori Cook,55-64,Public relations officer,119940.31,43,87,34,58,73,50,39,51,39,61,94,34,Weekly,Low,60,Confident Actives,Introduce stop-loss discipline and emotional coaching,2
+INV-1688,Bryan White,25-34,Animal nutritionist,665832.0,72,91,82,38,77,86,76,70,63,26,56,23,Occasionally,Moderate,57,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1689,Daniel Smith,25-34,Radio broadcast assistant,396204.58,38,93,23,31,91,50,67,47,31,47,40,22,Occasionally,Low,57,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1690,Benjamin Andrews,35-44,Hydrologist,472972.43,32,62,53,70,93,44,71,45,40,47,17,23,Weekly,Moderate,42,Confident Actives,Benchmark portfolio against passive strategies,2
+INV-1691,Jeffrey Gilmore,18-24,"Producer, television/film/video",927879.43,82,40,28,46,89,32,50,35,34,50,40,42,Monthly,High,41,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1692,Shane Arnold,35-44,Counsellor,632483.01,82,80,75,86,44,76,77,77,76,20,16,77,Occasionally,Moderate,78,Cautious Reactors,Introduce stop-loss discipline and emotional coaching,0
+INV-1693,Benjamin Reynolds,65+,Archaeologist,760232.91,32,68,34,75,25,89,81,67,67,37,66,79,Weekly,Low,73,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1694,Kristie Riley,55-64,"Investment banker, corporate",287043.84,39,58,41,58,57,67,59,52,50,34,25,43,Weekly,Low,50,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1695,Elizabeth Perez,25-34,"Engineer, land",538511.32,50,73,56,77,25,89,36,73,74,30,58,77,Daily,Moderate,75,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1696,Robert Huffman,35-44,Prison officer,451667.16,48,91,35,39,90,64,30,54,42,78,67,27,Occasionally,Low,59,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1697,Benjamin Nguyen,25-34,Chartered legal executive (England and Wales),655495.68,76,57,65,48,52,55,34,65,68,23,69,85,Daily,Low,71,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1698,Christopher Wilson,35-44,Data scientist,595970.92,40,56,47,48,44,42,67,45,41,67,29,36,Weekly,Moderate,46,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1699,Harry Mayo,35-44,"Scientist, research (life sciences)",91504.86,41,76,58,63,68,71,64,74,74,21,42,93,Daily,Moderate,84,Passive Followers,Introduce stop-loss discipline and emotional coaching,1
+INV-1700,Emily Jordan,18-24,Bookseller,913943.41,69,51,29,51,81,66,88,46,44,79,62,38,Monthly,Moderate,44,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1701,Robert Thomas,45-54,Armed forces training and education officer,883932.95,59,64,55,46,45,31,55,55,52,63,26,70,Weekly,Low,67,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1702,Andrea Torres,35-44,Psychiatric nurse,287683.63,37,52,83,49,52,31,67,52,52,32,49,42,Daily,Low,47,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1703,Valerie Woodward,45-54,"Investment banker, operational",35621.3,73,91,55,32,93,76,26,67,59,83,92,47,Occasionally,High,69,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1704,John Maddox,25-34,Bonds trader,330928.46,60,64,67,68,71,50,54,55,52,45,36,40,Monthly,Low,52,Confident Actives,Maintain structured long-term allocation strategy,2
+INV-1705,John Dean,35-44,"Therapist, art",174301.88,82,60,78,83,36,93,30,80,87,35,19,92,Daily,Moderate,76,Cautious Reactors,Deploy anti-herding conviction framework,0
+INV-1706,Karen Powell,35-44,Research scientist (maths),812921.58,37,91,45,82,53,48,71,64,55,42,49,72,Daily,Moderate,81,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1707,Julian Harvey,65+,Chartered management accountant,511676.43,73,71,71,49,90,30,82,65,64,25,64,91,Monthly,Moderate,81,Confident Actives,Deploy anti-herding conviction framework,2
+INV-1708,Gina Ball,55-64,Toxicologist,45306.63,62,55,64,36,51,73,57,61,64,63,34,55,Weekly,Moderate,55,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1709,Mrs. Amanda Torres,25-34,Paramedic,629180.49,82,45,73,67,56,74,85,66,74,70,90,75,Monthly,Moderate,60,Passive Followers,Deploy anti-herding conviction framework,0
+INV-1710,Susan Marquez,65+,"Embryologist, clinical",46670.99,63,94,49,82,73,70,37,62,52,44,80,37,Daily,Moderate,65,Confident Actives,Introduce stop-loss discipline and emotional coaching,0
+INV-1711,Rebecca Daniel,65+,Corporate treasurer,654350.33,38,49,56,78,37,84,41,63,68,63,92,65,Occasionally,Moderate,57,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1712,Danielle Beck,45-54,"Engineer, manufacturing",109238.72,92,69,45,69,70,75,38,59,56,22,42,48,Weekly,High,58,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1713,Katherine Fisher,25-34,IT consultant,673154.25,62,44,78,40,83,76,37,58,63,81,93,35,Weekly,Low,39,Confident Actives,Deploy anti-herding conviction framework,1
+INV-1714,Andre Cox,18-24,Health promotion specialist,431694.82,38,43,75,33,58,85,56,75,85,82,86,97,Occasionally,Moderate,70,Passive Followers,Deploy anti-herding conviction framework,1
+INV-1715,Randy Sullivan,35-44,"Therapist, speech and language",162335.94,37,43,69,80,72,59,53,54,57,31,55,45,Weekly,Low,44,Confident Actives,Maintain structured long-term allocation strategy,2
+INV-1716,Nicholas Smith,18-24,Industrial/product designer,805989.81,73,79,80,61,36,42,43,61,55,78,51,44,Monthly,Low,61,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1717,Tonya Lewis,45-54,"Administrator, local government",595642.49,92,45,42,89,36,42,30,50,51,57,64,71,Daily,High,58,Passive Followers,Recommend international diversification strategy,2
+INV-1718,Joshua Russell,35-44,Conference centre manager,316802.56,74,54,79,86,70,51,64,52,51,74,65,24,Occasionally,Low,39,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1719,Amber Vazquez,45-54,"Surveyor, minerals",278171.86,71,68,43,63,31,67,61,61,59,24,78,69,Weekly,Moderate,68,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1720,Leonard Long,25-34,"Therapist, horticultural",640150.04,78,82,72,54,33,67,46,76,74,87,29,84,Weekly,Low,83,Cautious Reactors,Introduce stop-loss discipline and emotional coaching,0
+INV-1721,Haley Mcfarland,25-34,Insurance underwriter,695376.16,60,61,26,37,52,74,35,57,56,31,92,70,Occasionally,High,65,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1722,Mark Taylor,45-54,"Accountant, chartered",255921.07,82,90,83,33,52,45,87,62,53,36,54,32,Weekly,Low,61,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1723,Amber Cohen,18-24,Pension scheme manager,254544.34,62,88,53,35,41,49,83,52,40,36,71,20,Daily,Low,54,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1724,Jared Thomas,25-34,Civil Service fast streamer,813863.76,71,85,42,39,75,48,75,58,49,76,82,57,Weekly,Low,71,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1725,Michael Davidson,18-24,Market researcher,285102.07,51,65,38,38,85,49,74,45,38,32,26,29,Occasionally,Low,47,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1726,Jonathan Carson,35-44,Brewing technologist,427706.58,55,87,63,38,91,83,50,65,58,53,22,29,Weekly,Low,58,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1727,Morgan Macdonald,55-64,Hydrogeologist,997184.4,68,54,37,61,47,91,70,66,70,34,67,83,Monthly,Moderate,68,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1728,Julie Mack,25-34,"Engineer, manufacturing systems",825557.83,63,93,32,73,71,38,87,56,44,48,51,62,Weekly,Moderate,77,Confident Actives,Introduce stop-loss discipline and emotional coaching,2
+INV-1729,Keith Alvarez,45-54,"Engineer, site",785266.24,87,62,32,52,69,94,71,53,50,24,91,24,Monthly,Low,43,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1730,Karen Bradley,35-44,Counsellor,39542.57,52,60,73,39,48,89,81,68,71,41,82,53,Weekly,Moderate,56,Passive Followers,Deploy anti-herding conviction framework,1
+INV-1731,Cody Buck,35-44,Sports coach,717583.72,79,45,21,53,41,94,84,61,67,31,61,86,Daily,Moderate,65,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1732,Katie Johnson,45-54,Horticultural therapist,405120.5,74,47,74,73,71,31,63,52,54,51,79,57,Occasionally,Moderate,52,Confident Actives,Deploy anti-herding conviction framework,2
+INV-1733,Scott Munoz,45-54,Broadcast journalist,711255.69,75,59,36,33,29,89,47,62,63,71,24,65,Weekly,Moderate,62,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1734,Mikayla Cruz,35-44,Prison officer,794331.59,32,66,37,69,84,50,48,59,57,81,16,85,Monthly,Low,75,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1735,Lori Wagner,45-54,Insurance account manager,819223.64,78,43,64,73,66,76,29,68,77,56,48,92,Daily,High,67,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1736,Billy Hanson,35-44,Fine artist,222875.28,34,74,61,46,89,82,31,74,74,43,42,81,Daily,Low,77,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1737,Daniel Wilson,25-34,"Scientist, clinical (histocompatibility and immunogenetics)",235700.32,94,90,67,37,37,77,27,77,73,50,40,75,Monthly,Moderate,82,Cautious Reactors,Introduce stop-loss discipline and emotional coaching,0
+INV-1738,Alisha Hicks,45-54,"Nurse, adult",5052.56,81,52,20,54,71,33,87,32,26,29,42,25,Daily,Moderate,38,Confident Actives,Maintain structured long-term allocation strategy,2
+INV-1739,Christopher Bridges,65+,Barrister,680154.6,48,72,34,36,60,43,27,44,35,73,83,29,Occasionally,Low,50,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1740,Elizabeth Hanson,35-44,Chemical engineer,28341.73,73,87,43,64,94,69,78,62,54,81,82,52,Daily,High,69,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1741,Marissa Mills,35-44,Press photographer,503940.18,32,50,31,56,65,54,27,50,50,47,37,67,Daily,Moderate,58,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1742,Matthew Roberts,25-34,Illustrator,627020.36,57,71,46,50,37,64,71,57,53,40,32,50,Weekly,Moderate,60,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1743,Heather Mays,25-34,Information systems manager,311116.81,59,79,79,89,47,58,71,62,57,57,41,34,Weekly,Moderate,56,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1744,Clifford Jimenez,25-34,Secretary/administrator,766505.77,79,58,30,77,29,93,38,67,70,45,86,88,Monthly,Low,73,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1745,Jerry Taylor,18-24,Toxicologist,811463.9,91,43,67,85,41,65,62,57,62,67,24,55,Weekly,Moderate,49,Passive Followers,Recommend international diversification strategy,0
+INV-1746,Nathan Mitchell,35-44,Clinical psychologist,628353.21,77,89,32,75,57,50,81,55,44,52,50,52,Weekly,High,70,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1747,Lindsey Alvarado,35-44,Product designer,749294.57,36,71,45,31,36,51,41,56,51,87,51,57,Monthly,Moderate,64,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1748,Jeffery Ortiz,65+,Claims inspector/assessor,604157.93,56,82,75,46,32,88,69,70,66,71,32,35,Weekly,Moderate,58,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1749,Molly Little,25-34,Phytotherapist,942589.43,62,45,26,79,38,67,71,53,56,62,43,76,Weekly,Moderate,60,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1750,Ronald Sanchez,25-34,Fisheries officer,592280.04,32,45,62,33,80,88,33,53,56,67,57,20,Weekly,Moderate,32,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1751,Elaine Terrell,35-44,Sports administrator,563008.28,89,79,74,30,52,82,82,65,61,78,36,27,Monthly,Low,53,Passive Followers,Introduce stop-loss discipline and emotional coaching,1
+INV-1752,Sierra Hughes,25-34,Land/geomatics surveyor,548946.1,82,60,43,53,84,79,38,60,60,51,62,58,Daily,Low,59,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1753,Andrea Hurst,55-64,Educational psychologist,80176.72,56,65,31,72,75,92,73,68,69,28,53,84,Weekly,Low,74,Confident Actives,Maintain structured long-term allocation strategy,1
+INV-1754,Ryan Watts,55-64,Petroleum engineer,813693.07,83,84,29,79,77,86,51,66,60,23,37,67,Weekly,Low,75,Confident Actives,Introduce stop-loss discipline and emotional coaching,0
+INV-1755,Melissa Norris,55-64,Museum/gallery conservator,15973.31,86,70,29,78,45,82,78,51,45,39,63,26,Weekly,Low,48,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1756,Patricia Lee,45-54,Metallurgist,268082.28,78,77,25,74,29,85,56,57,51,32,44,44,Monthly,Low,60,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1757,Alexander Gentry,55-64,Probation officer,435234.38,86,73,24,47,84,72,81,56,50,73,59,56,Monthly,Low,64,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1758,Larry Williams,25-34,"Scientist, biomedical",459026.37,76,45,53,43,72,52,37,48,50,63,46,45,Daily,Low,45,Confident Actives,Maintain structured long-term allocation strategy,1
+INV-1759,Benjamin Pham,55-64,Database administrator,888124.65,54,61,41,45,84,89,34,60,60,50,35,52,Weekly,Moderate,56,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1760,Jim Jones,18-24,Chartered public finance accountant,736964.45,33,43,23,78,33,59,69,40,39,88,37,35,Weekly,Moderate,39,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1761,Steven Silva,55-64,"Surveyor, quantity",210951.37,38,77,24,45,31,80,89,66,63,64,61,86,Daily,Moderate,81,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1762,Larry Webb,55-64,"Programmer, applications",899754.06,35,62,35,82,64,49,69,51,47,88,63,58,Daily,Low,60,Passive Followers,Recommend international diversification strategy,2
+INV-1763,Jessica Hill,35-44,"Engineer, agricultural",617533.89,44,57,73,77,36,66,62,66,69,26,92,69,Daily,Moderate,63,Passive Followers,Deploy anti-herding conviction framework,0
+INV-1764,David Flores,18-24,"Civil engineer, contracting",958752.88,91,87,80,40,34,58,72,72,68,32,58,66,Occasionally,Moderate,76,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1765,Jeremy Stevens,18-24,Recycling officer,463381.55,63,51,63,57,26,86,81,62,65,77,66,48,Monthly,Moderate,49,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1766,Christopher Chang,35-44,Insurance account manager,636071.88,92,48,67,32,60,73,84,61,66,24,90,59,Daily,Moderate,53,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1767,Peter Robinson,35-44,Clinical psychologist,313430.24,87,41,24,58,66,34,74,32,29,27,45,31,Weekly,Moderate,36,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1768,Sonya Stevens,35-44,Call centre manager,622728.47,40,65,59,30,83,44,25,63,62,74,16,84,Daily,Moderate,74,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1769,Heidi Fisher,35-44,"Designer, multimedia",719347.34,70,56,49,39,82,91,30,58,59,62,91,37,Weekly,Low,46,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1770,Mrs. Meghan Williams PhD,35-44,Advertising account planner,457740.36,47,63,59,74,90,69,30,68,69,49,35,81,Daily,Low,72,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1771,Charles Moreno,65+,Geophysicist/field seismologist,522398.13,79,63,53,68,85,70,29,64,64,23,65,71,Daily,Moderate,67,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1772,Nathaniel Reilly,45-54,Insurance claims handler,250039.38,67,67,46,30,58,91,86,65,65,45,38,58,Weekly,Low,62,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1773,Richard Barker,35-44,Oceanographer,918258.19,77,76,22,61,59,48,38,46,36,87,59,38,Monthly,Moderate,57,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1774,Anthony Cunningham,25-34,Proofreader,913845.87,64,49,22,67,66,69,74,49,50,43,31,59,Weekly,Low,54,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1775,Rebecca May,35-44,Office manager,673901.63,37,74,48,36,77,66,47,71,70,67,24,98,Weekly,Moderate,86,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1776,Carolyn Powell,65+,"Therapist, speech and language",199592.79,74,42,25,50,60,32,66,44,45,63,47,79,Weekly,Moderate,60,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1777,Meghan Jenkins,35-44,Educational psychologist,687278.69,56,65,40,65,26,76,54,55,52,39,64,42,Monthly,Low,53,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1778,Sarah Rose,65+,Sales executive,25540.22,43,42,66,32,25,53,59,56,61,86,27,66,Monthly,Moderate,54,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1779,Edward Russell,45-54,Geophysical data processor,234786.96,81,75,70,72,25,62,31,60,55,30,41,33,Daily,Low,54,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1780,Nicole Molina,35-44,Broadcast journalist,355670.57,42,85,37,51,33,46,82,59,51,69,20,70,Daily,Low,77,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1781,Sean Brown,45-54,Television camera operator,771238.59,35,68,69,77,29,86,50,63,62,35,74,31,Daily,High,49,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1782,Patricia Riggs,35-44,Firefighter,839511.0,73,58,37,45,67,32,62,52,50,82,56,83,Monthly,Moderate,70,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1783,Allison Thompson,18-24,Financial planner,933115.23,46,76,23,31,68,91,25,65,62,35,23,72,Occasionally,Low,74,Passive Followers,Introduce stop-loss discipline and emotional coaching,1
+INV-1784,Lawrence Hampton,65+,Operations geologist,947739.85,49,41,30,37,79,35,77,39,39,58,86,53,Daily,Moderate,47,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1785,Ronnie Thomas,55-64,Heritage manager,467525.55,87,79,33,68,61,73,33,56,48,39,64,39,Monthly,Moderate,59,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1786,Lisa Stokes,18-24,Airline pilot,6125.82,38,48,64,61,90,61,69,63,68,49,52,79,Occasionally,Moderate,63,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1787,Trevor Mckenzie,35-44,Theatre director,930699.42,42,53,43,33,92,54,31,56,57,87,57,76,Daily,High,64,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1788,Christine Gonzalez,25-34,Medical physicist,778415.64,48,81,56,52,49,33,40,51,42,48,65,37,Weekly,Moderate,59,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1789,Joseph Watson,35-44,"Engineer, chemical",17064.13,94,54,47,30,29,51,37,50,49,35,78,51,Occasionally,Moderate,52,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1790,Regina Hamilton,35-44,Press sub,824230.74,41,51,79,30,79,86,50,78,87,65,61,98,Weekly,Low,74,Cautious Reactors,Deploy anti-herding conviction framework,1
+INV-1791,Ryan Cook,45-54,Fish farm manager,335413.52,66,45,52,70,30,66,38,48,50,27,91,32,Daily,Low,38,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1792,Lisa Clark,35-44,"Journalist, broadcasting",267046.8,63,71,44,57,82,62,54,59,55,88,62,59,Monthly,Moderate,65,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1793,Lindsay Nguyen,25-34,Actor,184485.54,57,87,67,41,80,47,51,74,70,71,30,96,Monthly,Moderate,91,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1794,William Jones,55-64,Water engineer,46387.98,86,75,28,76,75,86,56,67,65,73,30,81,Daily,Moderate,78,Confident Actives,Maintain structured long-term allocation strategy,0
+INV-1795,Shannon Fernandez,65+,Medical physicist,101467.36,44,58,49,86,82,51,41,63,65,67,46,96,Occasionally,Moderate,77,Confident Actives,Benchmark portfolio against passive strategies,2
+INV-1796,Curtis Edwards,45-54,Telecommunications researcher,534251.14,60,74,35,57,25,70,72,57,52,55,47,52,Occasionally,High,63,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1797,Emily Solis,65+,Merchant navy officer,389205.72,41,65,49,54,69,68,69,56,53,51,70,43,Monthly,Low,54,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1798,James Richardson,25-34,"Therapist, sports",334232.65,80,93,53,57,74,31,50,67,59,66,40,94,Monthly,Moderate,93,Confident Actives,Introduce stop-loss discipline and emotional coaching,2
+INV-1799,Julie Smith,45-54,Call centre manager,237858.03,57,84,68,56,30,53,62,71,67,47,80,80,Weekly,Moderate,82,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1800,Tonya Bell,45-54,"Engineer, land",832440.3,60,54,56,36,44,64,58,54,54,38,82,43,Weekly,Moderate,48,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1801,Alice Irwin,65+,"Accountant, chartered certified",871048.46,75,87,54,61,71,76,88,69,63,54,31,61,Weekly,High,74,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1802,Corey Dodson,55-64,"Designer, ceramics/pottery",151675.72,65,89,76,66,85,68,79,69,63,56,28,46,Weekly,High,67,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1803,Lance Salazar,18-24,"Pharmacist, community",645648.59,88,83,67,86,46,33,70,58,50,53,25,50,Daily,Low,66,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1804,Renee Castillo,25-34,"Surveyor, building control",105303.16,63,69,29,55,32,37,84,57,53,35,27,95,Monthly,Moderate,82,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1805,Selena Lopez,18-24,"Pharmacist, hospital",984947.21,67,41,45,57,93,59,32,57,63,80,79,86,Daily,Moderate,63,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1806,Kim Patel,35-44,"Scientist, marine",121019.95,34,74,58,57,75,33,75,52,44,74,34,43,Daily,Moderate,58,Confident Actives,Maintain structured long-term allocation strategy,2
+INV-1807,Andrea Payne,25-34,"Teacher, secondary school",822094.2,79,58,36,34,42,84,77,53,51,64,27,35,Monthly,Moderate,46,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1808,Gregory Mitchell,35-44,Commercial/residential surveyor,894584.33,33,58,64,66,78,35,38,50,48,74,48,46,Weekly,Low,52,Confident Actives,Benchmark portfolio against passive strategies,2
+INV-1809,Brandon Reese,65+,Sport and exercise psychologist,26066.5,47,54,43,44,38,83,30,69,75,39,76,99,Daily,Low,76,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1810,Jessica Marks DDS,35-44,Physiological scientist,847776.98,78,85,71,62,87,92,41,70,65,42,86,32,Weekly,Low,58,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1811,Matthew Reyes,35-44,"Engineer, manufacturing",344397.2,74,62,54,32,58,62,70,68,71,38,29,97,Daily,Moderate,79,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1812,Emily Gonzalez,45-54,Ergonomist,916348.11,85,60,59,57,51,31,63,58,58,32,70,85,Monthly,Moderate,72,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1813,Peter White,45-54,Music tutor,993534.05,75,80,60,65,28,86,54,63,57,75,45,26,Daily,Moderate,53,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1814,Elizabeth Brooks,65+,Field seismologist,400603.91,56,68,39,43,56,89,74,70,71,44,66,87,Weekly,Low,77,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1815,Kaitlyn Ellis,35-44,"Radiographer, diagnostic",497124.78,46,63,47,50,40,45,59,55,53,71,26,67,Weekly,Low,65,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1816,Sherry Huynh,45-54,Newspaper journalist,407582.85,44,41,83,37,49,80,77,74,85,69,85,94,Weekly,Moderate,67,Passive Followers,Deploy anti-herding conviction framework,1
+INV-1817,Nancy Ramos,45-54,"Therapist, nutritional",473148.22,76,83,36,36,63,64,75,53,44,55,78,32,Weekly,Moderate,57,Passive Followers,Introduce stop-loss discipline and emotional coaching,1
+INV-1818,Amy Joseph,18-24,Trade mark attorney,889199.46,52,87,62,81,77,56,43,66,60,69,65,62,Daily,Moderate,74,Confident Actives,Introduce stop-loss discipline and emotional coaching,2
+INV-1819,Eileen Maxwell,35-44,Psychotherapist,163831.78,67,80,30,45,76,52,73,47,36,66,86,26,Weekly,High,53,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1820,Gary Gould,55-64,Chief Strategy Officer,624403.29,37,76,52,58,47,32,69,57,51,48,16,69,Daily,Low,72,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1821,Dylan Garrett,35-44,"Production designer, theatre/television/film",333947.81,73,66,66,88,30,89,69,66,66,37,79,44,Daily,Moderate,55,Passive Followers,Recommend international diversification strategy,0
+INV-1822,Angel Bailey,25-34,"Therapist, drama",478148.89,66,75,38,35,49,60,33,58,52,46,27,60,Daily,Moderate,67,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1823,Derrick Mason,25-34,Public affairs consultant,45285.39,51,81,79,38,26,85,54,70,66,32,85,35,Monthly,High,58,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1824,Jessica Warner,55-64,Barrister's clerk,46762.86,56,76,31,59,66,87,29,65,62,47,40,68,Monthly,Moderate,72,Passive Followers,Introduce stop-loss discipline and emotional coaching,1
+INV-1825,Susan Lewis,35-44,"Biochemist, clinical",412470.89,35,54,74,46,50,54,57,69,75,42,44,97,Daily,Moderate,75,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1826,Christopher Barnes,18-24,Armed forces logistics/support/administrative officer,320013.37,51,51,72,64,60,46,52,49,49,26,29,30,Monthly,Low,40,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1827,James Levy,65+,"Investment banker, corporate",262291.3,41,53,60,47,75,73,37,63,67,28,62,68,Weekly,High,60,Confident Actives,Maintain structured long-term allocation strategy,1
+INV-1828,Craig Mccarty,35-44,"Engineer, civil (consulting)",556920.22,78,92,52,52,78,82,73,69,61,79,79,51,Weekly,Moderate,71,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1829,Alexander Jones,25-34,Glass blower/designer,615378.25,43,52,43,59,26,54,74,49,48,25,90,49,Weekly,Moderate,50,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1830,Shane James,65+,"Scientist, product/process development",458193.81,94,75,83,78,40,43,55,65,61,74,92,59,Weekly,Moderate,67,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1831,Sarah Kennedy,45-54,"Lighting technician, broadcasting/film/video",654495.96,48,79,57,67,92,36,54,56,48,54,47,52,Weekly,Moderate,65,Confident Actives,Introduce stop-loss discipline and emotional coaching,2
+INV-1832,Pamela Alvarado DVM,35-44,Energy engineer,341594.16,32,55,40,57,30,70,39,49,47,62,61,33,Daily,Low,44,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1833,Belinda Smith,55-64,Charity fundraiser,54376.5,64,74,29,77,67,50,39,44,34,79,58,24,Weekly,High,49,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1834,Tom Delacruz,35-44,"Teacher, English as a foreign language",949232.46,73,73,70,70,48,53,62,62,58,76,73,53,Weekly,High,63,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1835,Tyler Jones,45-54,"Surveyor, commercial/residential",46760.65,53,79,66,70,71,49,89,53,45,55,59,21,Weekly,Low,50,Confident Actives,Introduce stop-loss discipline and emotional coaching,2
+INV-1836,Lauren Mullen,45-54,Investment analyst,538616.87,72,78,57,64,77,67,83,72,70,23,19,87,Daily,Low,82,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1837,Adrian Scott,45-54,"Administrator, charities/voluntary organisations",474577.68,55,73,33,85,48,88,63,63,59,62,50,58,Monthly,High,65,Passive Followers,Recommend international diversification strategy,0
+INV-1838,John Wilson,45-54,"Therapist, drama",346929.07,54,47,46,36,51,75,65,59,63,37,26,70,Monthly,High,58,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1839,Richard Kramer,55-64,"Production designer, theatre/television/film",461863.33,66,52,73,58,65,38,87,63,67,33,87,91,Occasionally,Low,71,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1840,Larry Gordon,35-44,"Surveyor, rural practice",426836.4,85,72,38,63,74,76,70,64,62,76,65,73,Weekly,Low,72,Confident Actives,Maintain structured long-term allocation strategy,1
+INV-1841,Patrick Horn,18-24,Travel agency manager,489813.31,72,91,38,62,75,36,53,48,33,88,72,27,Occasionally,Moderate,59,Confident Actives,Introduce stop-loss discipline and emotional coaching,2
+INV-1842,Roberta Greer,35-44,Telecommunications researcher,250245.52,52,91,35,66,27,74,46,71,65,78,76,87,Daily,Moderate,89,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1843,Deborah Sellers,35-44,Environmental manager,797318.69,54,63,74,82,87,85,79,76,80,45,63,82,Monthly,Moderate,72,Cautious Reactors,Deploy anti-herding conviction framework,1
+INV-1844,James Jones Jr.,35-44,Merchant navy officer,325685.99,44,48,47,74,50,57,64,52,53,25,41,57,Daily,Low,52,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1845,Megan Martinez,55-64,Arboriculturist,865432.12,44,51,49,50,62,89,62,59,62,37,66,48,Weekly,Moderate,49,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1846,Ronald Jarvis,35-44,"Geologist, engineering",94866.97,87,94,56,89,62,41,25,57,45,22,77,40,Occasionally,Low,67,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1847,Dr. Tara Avery DVM,25-34,Printmaker,438212.45,63,91,38,52,63,56,70,56,44,52,64,39,Daily,Low,65,Passive Followers,Introduce stop-loss discipline and emotional coaching,1
+INV-1848,Catherine Knight,65+,Haematologist,523543.16,45,80,28,81,33,92,46,58,51,51,80,33,Weekly,Low,56,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1849,Michael Le,25-34,"Scientist, clinical (histocompatibility and immunogenetics)",275187.04,73,82,65,73,72,60,57,57,48,27,87,21,Weekly,Moderate,51,Confident Actives,Introduce stop-loss discipline and emotional coaching,2
+INV-1850,Katherine Baker,35-44,Minerals surveyor,79646.98,86,77,25,33,75,64,82,61,55,25,27,78,Weekly,Low,77,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1851,Bradley Barnes,45-54,Surgeon,61421.13,61,47,64,71,33,94,74,69,77,62,92,73,Monthly,High,60,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1852,William Jackson,35-44,"Sales professional, IT",753116.86,57,66,28,66,61,81,81,53,48,55,78,37,Daily,Moderate,51,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1853,Calvin Finley,25-34,"Administrator, Civil Service",616697.1,85,55,34,36,41,93,36,70,75,65,61,98,Daily,Moderate,76,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1854,Larry Carter,35-44,Medical physicist,959642.4,76,80,73,56,55,70,60,73,70,62,79,69,Occasionally,Moderate,74,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1855,Robert Farmer,65+,Structural engineer,218385.94,63,57,41,70,43,79,83,50,48,58,88,26,Weekly,Moderate,41,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1856,Jeanette Parks,25-34,Armed forces training and education officer,543237.65,56,63,45,55,34,46,26,45,39,67,88,28,Weekly,Moderate,45,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1857,Joshua Edwards,25-34,Lawyer,729070.97,68,56,62,69,31,92,68,74,81,59,21,89,Weekly,High,72,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1858,Claudia Moran,25-34,Insurance broker,732987.67,89,56,81,37,69,47,84,54,53,21,80,33,Monthly,High,44,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1859,Joanna Fuller,18-24,Magazine features editor,37297.84,32,94,47,75,28,65,74,74,67,20,31,90,Daily,Moderate,92,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1860,Matthew Beck,55-64,Careers information officer,329688.66,85,74,68,45,71,79,50,66,63,33,92,44,Daily,Low,59,Confident Actives,Maintain structured long-term allocation strategy,1
+INV-1861,Julie Johnson,25-34,Press photographer,680382.1,56,40,80,49,34,63,85,58,65,59,79,52,Weekly,Moderate,46,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1862,John Hayes,55-64,"Conservation officer, nature",757769.9,81,82,76,80,37,53,35,60,53,36,51,32,Daily,Moderate,57,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1863,Jeffrey Cline,25-34,Fast food restaurant manager,529009.05,58,68,63,89,65,50,66,57,54,84,31,49,Daily,Low,58,Passive Followers,Recommend international diversification strategy,2
+INV-1864,Jonathan Phillips,35-44,Mining engineer,49834.28,48,85,72,70,88,74,73,80,78,84,51,89,Weekly,Moderate,87,Cautious Reactors,Introduce stop-loss discipline and emotional coaching,1
+INV-1865,Beth White,35-44,"Engineer, building services",699821.76,44,76,50,41,72,35,39,50,41,80,30,39,Monthly,Low,57,Confident Actives,Introduce stop-loss discipline and emotional coaching,2
+INV-1866,Laurie Morris,65+,Geophysical data processor,504890.78,88,42,28,40,49,71,70,45,46,40,88,41,Weekly,Moderate,41,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1867,Joel Jimenez,35-44,Agricultural consultant,708731.58,75,40,84,87,86,83,84,69,79,24,36,72,Monthly,Low,56,Confident Actives,Deploy anti-herding conviction framework,1
+INV-1868,Christian Crawford,65+,"Copywriter, advertising",986385.26,40,73,50,41,62,81,29,64,61,44,49,54,Monthly,Moderate,63,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1869,Martin Moyer,45-54,"Nurse, learning disability",890286.66,49,84,83,49,28,47,75,64,58,28,94,45,Weekly,Low,64,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1870,Emily Haas,65+,"Pharmacist, community",852577.62,66,92,38,43,45,44,27,51,38,65,30,33,Daily,Moderate,62,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1871,Dennis Flores,35-44,"Therapist, horticultural",773104.61,36,47,53,69,25,49,31,53,56,69,16,66,Daily,Moderate,56,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1872,Randall Bailey,35-44,Hotel manager,627729.11,93,79,24,58,29,65,43,60,54,41,48,75,Weekly,Low,77,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1873,Nicholas Solis,35-44,Intelligence analyst,90381.72,47,57,37,74,80,79,82,50,48,26,90,29,Monthly,Low,43,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1874,Marcia Mcdonald,55-64,"Scientist, clinical (histocompatibility and immunogenetics)",408076.62,49,53,23,74,42,81,62,48,47,63,65,38,Weekly,Low,45,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1875,Deanna Long,45-54,Financial adviser,260613.32,62,84,49,63,54,80,72,72,68,38,85,76,Monthly,Moderate,80,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1876,Eric Wilson,35-44,Housing manager/officer,793208.29,42,43,23,34,65,90,79,61,68,33,74,91,Daily,Low,67,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1877,Gabriel Henderson,45-54,Social worker,537936.71,31,49,69,73,38,44,40,53,54,49,44,50,Daily,Moderate,49,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1878,Kimberly Norris,25-34,Interpreter,835301.37,88,81,80,49,79,37,64,54,46,51,21,21,Occasionally,Low,51,Confident Actives,Introduce stop-loss discipline and emotional coaching,2
+INV-1879,Samantha Thompson,18-24,Advertising account executive,25178.57,40,81,72,75,33,78,26,66,61,69,49,34,Occasionally,Moderate,57,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1880,Brandy Johnson,25-34,Water engineer,549181.71,63,59,44,40,25,88,66,71,76,85,32,96,Weekly,Moderate,77,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1881,Dr. John Coleman,35-44,Textile designer,891997.79,57,71,51,87,74,67,79,61,57,41,57,55,Monthly,Moderate,63,Confident Actives,Recommend international diversification strategy,2
+INV-1882,Mary Thompson,65+,Geoscientist,737973.45,93,67,77,65,94,38,45,64,63,80,54,75,Daily,Low,71,Confident Actives,Deploy anti-herding conviction framework,2
+INV-1883,Laura Adams,55-64,"Producer, television/film/video",680001.18,66,44,27,38,39,36,39,45,46,58,20,76,Daily,Moderate,60,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1884,Katherine Benson,35-44,"Chemist, analytical",57087.02,47,54,29,72,91,91,27,62,65,44,34,77,Monthly,High,65,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1885,Jeffrey Clark,25-34,Health and safety inspector,875602.17,52,94,48,61,34,42,71,67,58,69,18,86,Weekly,Moderate,90,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1886,Tyler Medina,25-34,Consulting civil engineer,471820.22,68,45,26,48,68,92,89,48,49,45,58,31,Monthly,High,38,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1887,Jennifer Adams,45-54,Probation officer,258353.73,90,59,57,88,66,81,87,64,66,53,53,60,Weekly,Moderate,59,Passive Followers,Recommend international diversification strategy,0
+INV-1888,Shirley Lee,55-64,Sales executive,172543.37,52,72,37,74,57,34,60,49,41,59,19,53,Monthly,Moderate,62,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1889,Scott Norris,18-24,"Engineer, biomedical",861943.14,50,61,34,66,39,54,77,47,42,85,46,40,Occasionally,Moderate,50,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1890,Elizabeth Miranda,18-24,Information systems manager,303725.98,64,59,53,65,33,59,87,59,59,32,93,65,Weekly,Moderate,62,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1891,Arthur Ramirez,35-44,"Production assistant, television",472883.78,75,42,38,57,47,36,38,37,36,34,81,34,Weekly,Moderate,38,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1892,Carol Goodwin,55-64,Glass blower/designer,732688.37,60,43,35,49,48,35,81,40,39,25,93,48,Monthly,Moderate,45,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1893,Kevin Young,25-34,Exercise physiologist,657498.42,73,55,29,62,91,41,81,47,44,32,38,63,Weekly,High,59,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1894,Amy Berry,65+,"Conservator, museum/gallery",119254.89,35,60,70,50,84,80,45,71,75,84,90,77,Weekly,Moderate,68,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1895,Ann Williams,55-64,Public relations account executive,743708.41,50,81,81,35,30,92,44,70,67,21,70,29,Monthly,Low,55,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1896,Kristina Richardson,25-34,Land/geomatics surveyor,208433.1,51,53,56,84,73,63,68,53,53,50,21,40,Daily,Moderate,46,Confident Actives,Recommend international diversification strategy,2
+INV-1897,Robert Williams,35-44,"Producer, radio",243396.91,77,71,30,44,53,74,60,65,63,34,58,86,Monthly,Moderate,78,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1898,Jennifer Barry,35-44,Race relations officer,66371.89,84,60,70,77,82,44,89,51,48,29,56,30,Occasionally,Moderate,45,Confident Actives,Benchmark portfolio against passive strategies,2
+INV-1899,Bradley Castillo,18-24,Marketing executive,725183.76,77,48,72,68,32,53,32,61,66,49,72,74,Weekly,Moderate,61,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1900,Jeffrey Smith,25-34,Solicitor,210712.91,79,76,27,30,94,76,29,54,46,43,61,37,Daily,Moderate,56,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1901,Steven Knight,45-54,Freight forwarder,756562.23,83,85,50,35,80,57,40,57,48,72,26,39,Daily,Low,62,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1902,Joe Scott,55-64,"Designer, textile",297420.63,32,88,36,77,45,79,64,68,61,36,75,69,Daily,Moderate,78,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1903,Rebecca Henry,45-54,Chiropractor,274794.61,39,84,38,67,53,52,56,55,46,68,79,48,Weekly,Low,66,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1904,Gregory Best,35-44,Curator,531457.75,57,50,25,32,86,34,33,37,33,57,57,40,Weekly,Moderate,45,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1905,Kathleen Cox,45-54,Quantity surveyor,971120.45,61,80,58,36,54,50,25,59,52,27,83,49,Daily,Moderate,64,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1906,Joshua Mullen,45-54,Barrister's clerk,441141.11,77,54,55,84,68,56,78,49,47,49,53,32,Daily,Moderate,43,Passive Followers,Recommend international diversification strategy,2
+INV-1907,Jeremy Fletcher,25-34,Exercise physiologist,143082.0,80,84,54,44,52,36,86,57,49,65,34,57,Weekly,Low,70,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1908,Stephanie Garza,18-24,Field trials officer,617050.95,52,89,71,51,46,82,67,67,59,83,23,26,Monthly,Low,57,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1909,Olivia Underwood,35-44,"Psychologist, occupational",201682.58,92,41,83,43,44,78,32,63,70,65,35,51,Monthly,Low,46,Passive Followers,Deploy anti-herding conviction framework,1
+INV-1910,Nicholas Wallace,18-24,Production engineer,146843.48,82,80,37,64,76,44,87,60,53,85,45,80,Monthly,Low,80,Confident Actives,Introduce stop-loss discipline and emotional coaching,2
+INV-1911,Lisa Mosley,45-54,Actuary,637443.26,30,42,36,43,70,67,59,56,61,48,18,80,Weekly,Moderate,61,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1912,Susan Buchanan,35-44,Counselling psychologist,161823.29,45,57,78,56,40,39,46,61,62,31,89,70,Occasionally,High,63,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1913,Denise Austin,25-34,Retail manager,181424.7,93,93,56,30,66,78,28,76,71,70,86,79,Daily,Moderate,86,Cautious Reactors,Introduce stop-loss discipline and emotional coaching,1
+INV-1914,Reginald Bailey,65+,"Therapist, music",323455.08,67,94,23,76,46,32,71,54,40,52,92,67,Daily,Low,80,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1915,Amy Reid,25-34,Interpreter,579874.25,43,49,61,66,50,41,73,49,50,65,49,48,Monthly,High,48,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1916,John Villarreal,35-44,"Engineer, land",316846.3,90,49,37,51,82,82,25,63,68,50,45,85,Daily,Low,67,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1917,Melissa Burns,45-54,"Geneticist, molecular",614018.92,49,61,42,81,39,55,27,62,62,59,53,91,Occasionally,Moderate,76,Passive Followers,Recommend international diversification strategy,0
+INV-1918,Marcus Sanders,55-64,Database administrator,592302.1,53,44,26,70,34,91,50,49,51,60,79,36,Daily,Moderate,40,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1919,Lisa Estrada,45-54,Market researcher,596577.35,88,51,22,44,34,62,70,39,35,71,20,21,Daily,Moderate,36,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1920,Marie Austin,45-54,"Conservation officer, historic buildings",685807.57,92,68,81,89,65,94,88,74,77,67,34,56,Daily,Low,62,Passive Followers,Deploy anti-herding conviction framework,0
+INV-1921,Destiny Russell,25-34,Cabin crew,959976.11,58,56,81,53,48,32,74,49,47,51,53,28,Weekly,High,42,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1922,Gregory Castro,25-34,"Geologist, engineering",426574.69,61,53,63,63,63,57,88,52,52,28,42,36,Monthly,Low,44,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1923,Jessica Garcia,45-54,Technical brewer,849329.55,42,50,60,44,84,71,52,53,55,34,50,34,Weekly,Moderate,42,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1924,Devin Gallagher,25-34,Building surveyor,405718.71,58,91,29,59,69,58,77,61,52,42,71,69,Monthly,Low,80,Passive Followers,Introduce stop-loss discipline and emotional coaching,1
+INV-1925,William Gomez,35-44,Data scientist,965315.0,30,90,52,47,46,93,45,75,70,34,50,66,Weekly,High,78,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1926,Ian Patterson,55-64,Toxicologist,164591.91,67,80,58,52,67,84,26,78,77,48,81,90,Daily,Moderate,85,Cautious Reactors,Introduce stop-loss discipline and emotional coaching,1
+INV-1927,Wanda Arnold,55-64,Lexicographer,687425.22,94,84,35,77,55,63,74,64,57,81,57,75,Weekly,High,79,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1928,Daniel Gill,25-34,Land/geomatics surveyor,99776.19,68,45,27,74,58,80,28,49,50,43,69,45,Weekly,Low,45,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1929,Tina Andrade,18-24,Quantity surveyor,464943.97,84,91,69,54,29,35,50,64,56,58,23,64,Weekly,Moderate,77,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1930,Bruce Chung,35-44,Homeopath,226635.03,33,92,40,86,43,87,30,60,49,62,56,22,Weekly,Low,57,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1931,John Thomas,55-64,Dietitian,809340.52,86,70,58,89,27,59,59,67,66,48,64,81,Monthly,High,75,Passive Followers,Recommend international diversification strategy,0
+INV-1932,Anthony Johnson,25-34,"Engineer, drilling",254478.17,43,46,58,60,93,64,76,52,55,82,50,43,Weekly,High,44,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1933,Christopher Montoya,35-44,Meteorologist,482143.42,44,44,83,33,42,71,54,67,75,89,69,72,Weekly,High,58,Passive Followers,Deploy anti-herding conviction framework,1
+INV-1934,Latoya Parks,65+,"Producer, television/film/video",806608.74,59,52,46,38,93,60,27,52,52,40,20,51,Monthly,Moderate,51,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1935,Ashley Richardson,35-44,"Exhibitions officer, museum/gallery",221374.77,69,78,83,83,54,92,55,74,73,52,77,44,Daily,Low,61,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1936,Ernest Drake,25-34,Professor Emeritus,76010.18,45,62,51,62,60,57,40,67,69,37,22,99,Monthly,High,80,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1937,Adam White,35-44,Environmental health practitioner,384203.78,61,51,57,57,69,87,25,67,73,27,54,75,Occasionally,High,63,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1938,Brenda Brown,18-24,Ship broker,385950.89,79,49,55,54,81,74,26,56,58,48,24,46,Weekly,Low,47,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1939,Paul Harris,55-64,Materials engineer,998618.37,81,80,65,74,50,80,60,64,59,70,17,33,Weekly,Low,56,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1940,Ryan Quinn,25-34,Architectural technologist,905962.03,63,89,33,83,83,32,64,49,36,28,35,44,Daily,Moderate,66,Confident Actives,Introduce stop-loss discipline and emotional coaching,2
+INV-1941,Heather Sweeney,18-24,"Journalist, magazine",449681.21,55,65,76,66,40,66,48,63,63,39,23,48,Weekly,High,56,Passive Followers,Deploy anti-herding conviction framework,0
+INV-1942,Jennifer Nolan,65+,Systems developer,94428.89,33,83,54,78,46,44,37,58,50,75,37,53,Occasionally,Low,68,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1943,Manuel Kelly,45-54,"Librarian, public",411799.44,81,52,74,31,61,55,85,65,70,37,67,82,Daily,High,67,Passive Followers,Deploy anti-herding conviction framework,1
+INV-1944,Andrew Morgan,45-54,Control and instrumentation engineer,268149.8,50,50,53,68,87,82,42,70,77,38,18,96,Weekly,Moderate,73,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1945,Jon Lee,45-54,Set designer,296149.66,81,66,79,48,73,94,62,69,71,20,54,40,Daily,Low,53,Confident Actives,Deploy anti-herding conviction framework,1
+INV-1946,Mark Gomez,25-34,"Editor, commissioning",118719.83,47,43,64,61,28,94,89,56,61,73,61,25,Occasionally,Moderate,34,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1947,Ethan Gonzalez,18-24,"Merchandiser, retail",817492.74,47,82,70,37,49,64,41,76,74,46,29,88,Monthly,High,85,Cautious Reactors,Introduce stop-loss discipline and emotional coaching,1
+INV-1948,Yolanda Lucas,25-34,"Teacher, secondary school",23176.64,91,86,29,34,72,55,47,52,41,32,23,39,Monthly,Moderate,62,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1949,Michele Morrow,18-24,Financial trader,733437.88,43,59,79,77,88,59,41,68,72,38,85,78,Weekly,High,68,Confident Actives,Deploy anti-herding conviction framework,2
+INV-1950,Theresa Stewart,25-34,"Restaurant manager, fast food",479411.25,67,65,36,46,64,75,28,53,49,82,43,38,Daily,Moderate,51,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1951,Julie Ortiz,45-54,"Surveyor, minerals",967116.64,84,62,65,73,72,81,32,66,68,85,91,59,Weekly,Moderate,60,Confident Actives,Maintain structured long-term allocation strategy,1
+INV-1952,Katherine Simon,45-54,"Teacher, early years/pre",96960.8,66,91,57,56,60,84,37,68,60,66,85,41,Daily,Moderate,66,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1953,Nina Brooks,55-64,"Engineer, electronics",772809.77,75,85,58,59,50,36,89,55,46,37,27,44,Daily,Moderate,64,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1954,Debra Molina,35-44,Solicitor,429308.59,37,87,82,69,39,35,87,68,62,51,59,71,Weekly,Low,79,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1955,Leah Salinas,35-44,Systems analyst,360012.27,42,45,81,85,85,30,56,57,62,52,46,75,Daily,Low,60,Confident Actives,Deploy anti-herding conviction framework,2
+INV-1956,Lisa Odom,18-24,Early years teacher,630601.5,73,69,39,45,91,78,82,66,65,44,37,78,Monthly,Moderate,73,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1957,Joshua Rose,45-54,Museum education officer,857017.83,38,80,63,33,92,36,70,50,40,52,47,23,Weekly,Moderate,51,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1958,Kevin Phillips,45-54,"Scientist, product/process development",353288.71,50,74,83,54,79,38,41,54,47,79,27,22,Weekly,Moderate,48,Confident Actives,Deploy anti-herding conviction framework,2
+INV-1959,Morgan Young,55-64,Hydrographic surveyor,693421.64,48,82,29,66,37,73,63,69,65,70,33,95,Monthly,Low,88,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1960,Michelle Hall,25-34,Brewing technologist,417690.54,47,68,40,40,72,91,82,70,71,78,62,82,Daily,High,75,Confident Actives,Maintain structured long-term allocation strategy,1
+INV-1961,Marissa Whitaker,55-64,Nutritional therapist,234785.66,85,64,81,33,37,71,73,72,75,66,22,74,Daily,Moderate,69,Passive Followers,Deploy anti-herding conviction framework,1
+INV-1962,Patrick Robinson,45-54,Industrial buyer,82098.37,55,46,32,56,93,71,55,47,47,51,66,39,Monthly,Moderate,42,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1963,Nicole Meyers,25-34,Restaurant manager,551409.91,82,92,67,58,67,45,59,72,66,53,17,87,Weekly,Low,89,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1964,Erica Haynes,45-54,Immigration officer,363331.03,73,51,56,56,57,88,88,72,79,68,67,93,Daily,Moderate,72,Passive Followers,Maintain structured long-term allocation strategy,1
+INV-1965,Cody Williams,55-64,Lobbyist,376005.98,56,90,30,46,90,58,44,56,45,27,75,47,Occasionally,Moderate,68,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1966,Deborah Williams,35-44,Systems analyst,24003.78,36,78,24,40,39,93,37,69,66,25,70,83,Weekly,High,80,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1967,Joe Donovan,35-44,"Merchandiser, retail",656034.79,30,78,24,30,39,69,67,67,63,41,76,98,Daily,High,88,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1968,Holly Jacobs,25-34,Building surveyor,209313.18,69,62,64,87,26,43,62,65,67,82,30,94,Weekly,Moderate,78,Passive Followers,Recommend international diversification strategy,2
+INV-1969,Joseph Cardenas,18-24,Archaeologist,379855.05,66,61,50,62,25,73,39,57,56,46,62,46,Daily,High,53,Passive Followers,Maintain structured long-term allocation strategy,0
+INV-1970,Patricia Oneal,45-54,Art gallery manager,210806.83,32,73,51,82,63,72,67,64,61,65,46,62,Weekly,High,67,Passive Followers,Recommend international diversification strategy,0
+INV-1971,Matthew Flowers,55-64,Purchasing manager,164141.1,81,86,59,47,91,91,34,75,71,65,69,65,Monthly,Moderate,75,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1972,Ashley Thompson,25-34,Museum/gallery conservator,566619.63,41,65,54,31,75,47,67,47,42,22,21,25,Weekly,Moderate,45,Confident Actives,Maintain structured long-term allocation strategy,1
+INV-1973,Diana Miller,25-34,"Nurse, children's",958030.23,36,74,42,41,86,69,78,57,51,36,64,43,Daily,Low,58,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1974,Chad Santos,45-54,"Horticulturist, commercial",568355.05,80,49,72,75,69,38,30,49,49,54,67,38,Weekly,Moderate,43,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1975,Brandon Cruz,55-64,Accounting technician,54541.3,43,71,40,47,84,47,25,57,52,27,80,70,Monthly,Low,70,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1976,Jonathan Leonard,55-64,Occupational psychologist,440427.55,59,81,20,61,78,76,63,61,55,26,36,69,Daily,Moderate,75,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1977,Erica Hicks,55-64,Technical author,790006.14,82,91,25,50,86,48,86,61,51,43,70,81,Weekly,Low,86,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1978,Nancy Lopez,25-34,Chartered management accountant,117986.77,38,77,81,57,34,74,89,65,62,24,24,31,Monthly,Low,54,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1979,Michael Boyd,35-44,Training and development officer,650255.11,36,88,36,38,56,50,31,66,59,46,22,92,Weekly,Moderate,90,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1980,Matthew Olson,55-64,Psychotherapist,839342.23,75,49,52,36,27,43,68,44,42,80,50,32,Weekly,Low,40,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1981,Shawn Nguyen,35-44,Financial controller,280336.4,88,89,57,68,80,92,72,78,74,63,69,74,Monthly,Moderate,81,Cautious Reactors,Introduce stop-loss discipline and emotional coaching,1
+INV-1982,Tiffany Ortega,55-64,Best boy,520959.0,58,92,77,66,73,48,25,69,61,52,66,60,Weekly,Moderate,76,Confident Actives,Introduce stop-loss discipline and emotional coaching,2
+INV-1983,Bruce Johnson,25-34,Trading standards officer,941552.77,66,88,23,37,88,66,55,59,49,64,22,59,Monthly,Low,73,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1984,John Browning,55-64,Midwife,73009.96,36,94,28,31,87,80,55,56,43,49,72,22,Weekly,High,58,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1985,Garrett Barker,35-44,"Lecturer, further education",132104.05,94,86,20,59,81,67,86,64,57,81,70,86,Weekly,Moderate,86,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1986,Veronica Jennings,35-44,Musician,260720.62,89,64,81,70,36,83,35,73,76,87,92,65,Occasionally,Moderate,64,Passive Followers,Deploy anti-herding conviction framework,0
+INV-1987,Thomas Holland,65+,"Optician, dispensing",107318.65,85,75,35,43,49,33,53,50,42,25,15,58,Daily,High,66,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1988,Rachael Charles,45-54,Armed forces training and education officer,779660.26,51,78,40,74,54,62,72,63,58,73,18,74,Monthly,High,76,Passive Followers,Introduce stop-loss discipline and emotional coaching,0
+INV-1989,Madison Brown,35-44,Make,764573.73,47,94,71,58,89,94,34,81,77,66,80,68,Daily,High,81,Cautious Reactors,Introduce stop-loss discipline and emotional coaching,1
+INV-1990,Mark Schwartz,18-24,Catering manager,930356.69,53,91,82,72,30,43,57,62,53,70,16,34,Monthly,Moderate,62,Passive Followers,Introduce stop-loss discipline and emotional coaching,2
+INV-1991,Diane Thompson,65+,Estate manager/land agent,217826.26,47,49,25,86,54,44,41,51,52,38,90,88,Occasionally,Moderate,68,Passive Followers,Recommend international diversification strategy,2
+INV-1992,Marilyn Heath,35-44,Theatre stage manager,627538.84,82,83,46,49,88,70,29,56,47,27,36,26,Weekly,Moderate,54,Confident Actives,Introduce stop-loss discipline and emotional coaching,1
+INV-1993,Melissa Hernandez,45-54,"Designer, blown glass/stained glass",219465.57,37,42,42,39,29,52,49,44,45,40,16,41,Weekly,Low,41,Passive Followers,Maintain structured long-term allocation strategy,2
+INV-1994,Samantha Villa,55-64,Research scientist (physical sciences),784784.47,73,62,72,58,76,76,78,73,76,26,15,82,Weekly,Moderate,72,Confident Actives,Deploy anti-herding conviction framework,1
+INV-1995,Stacy Santiago,25-34,Town planner,973413.75,88,63,84,62,83,62,56,75,79,60,26,92,Occasionally,High,77,Confident Actives,Deploy anti-herding conviction framework,1
+INV-1996,Crystal Ruiz,25-34,Further education lecturer,549325.91,39,73,50,81,26,67,56,57,52,27,89,39,Weekly,Low,56,Passive Followers,Recommend international diversification strategy,0
+INV-1997,Alexandra Livingston,45-54,Quality manager,156889.72,77,63,82,69,45,34,59,67,68,81,49,89,Weekly,High,76,Passive Followers,Deploy anti-herding conviction framework,2
+INV-1998,John Rodriguez,35-44,"Production designer, theatre/television/film",576291.19,94,54,25,31,80,78,25,56,56,47,34,67,Daily,Moderate,60,Confident Actives,Benchmark portfolio against passive strategies,1
+INV-1999,Anna Lester,65+,"Conservator, furniture",665141.03,43,51,60,36,88,90,36,70,76,53,62,80,Weekly,Moderate,65,Confident Actives,Benchmark portfolio against passive strategies,1
