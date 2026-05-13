@@ -26,7 +26,7 @@ html, body, [class*="css"] {
     font-family: 'Poppins', sans-serif;
 }
 
-/* BACKGROUND */
+/* MAIN BACKGROUND */
 
 .stApp {
     background: linear-gradient(
@@ -104,13 +104,23 @@ section[data-testid="stSidebar"] {
     color: white !important;
 }
 
-/* CUSTOM BOX */
+/* BOX */
 
 .tech-box {
     background: rgba(255,255,255,0.85);
     padding: 24px;
     border-radius: 20px;
     box-shadow: 0px 8px 20px rgba(0,0,0,0.08);
+}
+
+/* CHAT BOX */
+
+.chat-box {
+    background: white;
+    padding: 18px;
+    border-radius: 16px;
+    margin-top: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.08);
 }
 
 </style>
@@ -149,6 +159,58 @@ data = {
 df = pd.DataFrame(data)
 
 # =========================================================
+# SIDEBAR
+# =========================================================
+
+st.sidebar.title("⚡ Investor Profiling")
+
+age_input = st.sidebar.slider(
+    "Age",
+    18,
+    60,
+    28
+)
+
+income_input = st.sidebar.slider(
+    "Annual Income (LPA)",
+    1,
+    100,
+    15
+)
+
+goal_input = st.sidebar.selectbox(
+    "Financial Goal",
+    [
+        "Retirement",
+        "Wealth Creation",
+        "Passive Income",
+        "Buying Property",
+        "Financial Freedom",
+        "Children Education",
+        "Luxury Lifestyle"
+    ]
+)
+
+investment_reason = st.sidebar.selectbox(
+    "Why Are You Investing?",
+    [
+        "Long-Term Wealth",
+        "Financial Security",
+        "Passive Income",
+        "Family Future",
+        "Early Retirement",
+        "Lifestyle Upgrade"
+    ]
+)
+
+risk_input = st.sidebar.slider(
+    "Risk Appetite",
+    1,
+    10,
+    5
+)
+
+# =========================================================
 # HEADER
 # =========================================================
 
@@ -157,7 +219,7 @@ st.title("Behavioral Alpha Engine")
 st.markdown("""
 <div class="tech-box">
 
-<h3>AI-Powered Behavioral Wealth Intelligence Dashboard</h3>
+<h3>AI-Powered Behavioral Wealth Intelligence Platform</h3>
 
 This platform helps RuDo Wealth analyze behavioral finance patterns,
 investor psychology, portfolio suitability,
@@ -196,15 +258,16 @@ with c4:
     )
 
 # =========================================================
-# MAIN TABS
+# TABS
 # =========================================================
 
-tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
+tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs([
     "📊 Demographics",
     "🧠 Behavioral Scorecard",
-    "⚖ Bias Detection Engine",
+    "⚖ Bias Detection",
     "💼 Portfolio Intelligence",
-    "🤖 AI Advisory",
+    "🎯 Financial Goals",
+    "🤖 AI Chatbot",
     "📈 Survey Insights"
 ])
 
@@ -232,10 +295,6 @@ with tab2:
 
     st.subheader("Behavioral Bias Scorecard")
 
-    # =====================================================
-    # INTERACTIVE QUESTIONS
-    # =====================================================
-
     q1 = st.slider(
         "I panic when markets fall significantly",
         1,
@@ -244,14 +303,14 @@ with tab2:
     )
 
     q2 = st.slider(
-        "I prefer investing in familiar markets/assets",
+        "I prefer investing in familiar assets",
         1,
         10,
         5
     )
 
     q3 = st.slider(
-        "I believe I can outperform the market consistently",
+        "I believe I can beat the market consistently",
         1,
         10,
         5
@@ -265,15 +324,13 @@ with tab2:
     )
 
     q5 = st.slider(
-        "I check my investments very frequently",
+        "I check my portfolio frequently",
         1,
         10,
         5
     )
 
-    # =====================================================
-    # CALCULATED SCORES
-    # =====================================================
+    # SCORES
 
     loss_aversion = q1 * 10
     home_bias = q2 * 10
@@ -281,7 +338,7 @@ with tab2:
     fomo_bias = q4 * 10
     frequency_bias = q5 * 10
 
-    total_behavior_score = round(
+    overall_score = round(
         (
             loss_aversion +
             home_bias +
@@ -292,22 +349,12 @@ with tab2:
         1
     )
 
-    # =====================================================
-    # DISPLAY SCORE
-    # =====================================================
-
-    st.markdown("---")
-
     st.metric(
         "Overall Behavioral Score",
-        f"{total_behavior_score}/100"
+        f"{overall_score}/100"
     )
 
-    # =====================================================
-    # SCORE TABLE
-    # =====================================================
-
-    score_df = pd.DataFrame({
+    bias_df = pd.DataFrame({
         "Bias": [
             "Loss Aversion",
             "Home Bias",
@@ -325,45 +372,21 @@ with tab2:
     })
 
     fig2 = px.bar(
-        score_df,
+        bias_df,
         x="Bias",
         y="Score",
         color="Score",
-        title="Behavioral Bias Breakdown",
-        template="plotly_white"
+        template="plotly_white",
+        title="Behavioral Bias Breakdown"
     )
 
     st.plotly_chart(fig2, use_container_width=True)
-
-    # =====================================================
-    # INTERPRETATION
-    # =====================================================
-
-    st.markdown("""
-<div class="tech-box">
-
-<h3>Behavioral Interpretation</h3>
-
-High loss aversion suggests emotional panic-selling tendencies during volatility.
-
-High home bias indicates preference toward familiar or geographically concentrated assets.
-
-High overconfidence reflects excessive trading confidence and market timing belief.
-
-Elevated FOMO scores indicate trend-chasing and social investing behavior.
-
-High frequency bias indicates excessive portfolio monitoring behavior.
-
-</div>
-""", unsafe_allow_html=True)
 
 # =========================================================
 # TAB 3
 # =========================================================
 
 with tab3:
-
-    st.subheader("Bias Detection Engine")
 
     radar_fig = go.Figure()
 
@@ -416,67 +439,95 @@ with tab4:
 
     st.plotly_chart(fig3, use_container_width=True)
 
-    st.markdown("""
-<div class="tech-box">
-
-<h3>Portfolio Intelligence</h3>
-
-This section helps RuDo Wealth identify
-which investor categories are emotionally driven,
-overexposed to risk,
-or under-diversified.
-
-</div>
-""", unsafe_allow_html=True)
-
 # =========================================================
 # TAB 5
 # =========================================================
 
 with tab5:
 
-    st.subheader("AI Recommendation Engine")
+    st.subheader("Financial Goal Intelligence")
 
-    risk_input = st.slider(
-        "Select Risk Appetite",
-        1,
-        10,
-        5
+    st.markdown(f"""
+<div class="tech-box">
+
+<h3>Investor Summary</h3>
+
+<b>Age:</b> {age_input} years <br>
+<b>Annual Income:</b> ₹{income_input} LPA <br>
+<b>Primary Goal:</b> {goal_input} <br>
+<b>Investment Motivation:</b> {investment_reason} <br>
+<b>Risk Appetite:</b> {risk_input}/10
+
+</div>
+""", unsafe_allow_html=True)
+
+    goal_chart = px.pie(
+        values=[40,30,20,10],
+        names=[
+            "Equity",
+            "Debt",
+            "Gold",
+            "Cash"
+        ],
+        title="Suggested Asset Allocation",
+        template="plotly_white"
     )
 
-    if risk_input <= 3:
-
-        st.success("""
-Recommended Strategy:
-
-Conservative debt allocation,
-gold exposure,
-and capital preservation investing.
-        """)
-
-    elif risk_input <= 7:
-
-        st.info("""
-Recommended Strategy:
-
-Balanced long-term investing strategy
-with diversified SIP allocation.
-        """)
-
-    else:
-
-        st.warning("""
-Recommended Strategy:
-
-Aggressive growth investing involving
-high-growth equities and global diversification.
-        """)
+    st.plotly_chart(goal_chart, use_container_width=True)
 
 # =========================================================
 # TAB 6
 # =========================================================
 
 with tab6:
+
+    st.subheader("AI Financial Chatbot")
+
+    user_question = st.text_input(
+        "Ask the AI anything about your investment behavior"
+    )
+
+    if user_question:
+
+        if overall_score > 75:
+
+            response = """
+You show high behavioral influence in your investing decisions.
+You may benefit from structured long-term investing
+and reduced emotional trading activity.
+            """
+
+        elif overall_score > 50:
+
+            response = """
+Your investing behavior appears moderately balanced.
+You should focus on improving diversification
+and maintaining disciplined investing habits.
+            """
+
+        else:
+
+            response = """
+Your investing behavior appears relatively stable.
+You demonstrate disciplined investing tendencies
+with lower emotional influence.
+            """
+
+        st.markdown(f"""
+<div class="chat-box">
+
+<h4>AI Advisor Response</h4>
+
+{response}
+
+</div>
+""", unsafe_allow_html=True)
+
+# =========================================================
+# TAB 7
+# =========================================================
+
+with tab7:
 
     survey_chart = go.Figure(data=[
         go.Bar(
