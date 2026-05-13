@@ -14,7 +14,7 @@ st.set_page_config(
 )
 
 # =========================================================
-# CUSTOM DARK AI CSS
+# DARK AI CSS
 # =========================================================
 
 st.markdown("""
@@ -34,14 +34,14 @@ html, body, [class*="css"] {
     color: white !important;
 }
 
-/* REMOVE EXTRA SPACING */
+/* REMOVE EXTRA SPACE */
 
 .block-container {
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
 
-/* TEXT */
+/* ALL TEXT */
 
 p, span, div, label, li {
     color: white !important;
@@ -60,7 +60,7 @@ h2, h3, h4 {
     color: white !important;
 }
 
-/* METRICS */
+/* METRIC CARDS */
 
 [data-testid="metric-container"] {
     background: linear-gradient(145deg, #111827, #1E293B);
@@ -122,15 +122,15 @@ section[data-testid="stSidebar"] * {
 /* INPUTS */
 
 input, textarea {
-    background-color: #111827 !important;
+    background-color: #1E293B !important;
     color: white !important;
 }
 
-/* SELECT BOX */
+/* DROPDOWNS */
 
 .stSelectbox div[data-baseweb="select"] {
-    background-color: #111827 !important;
-    color: white !important;
+    background-color: #334155 !important;
+    border: 1px solid rgba(255,255,255,0.08);
     border-radius: 12px;
 }
 
@@ -143,7 +143,7 @@ input, textarea {
 /* NUMBER INPUT */
 
 .stNumberInput input {
-    background-color: #111827 !important;
+    background-color: #1E293B !important;
     color: white !important;
 }
 
@@ -472,8 +472,7 @@ with tab3:
 
 This section analyzes investor wealth objectives,
 income levels, portfolio alignment,
-and behavioral decision-making patterns
-across different financial goals.
+and behavioral decision-making patterns.
 
 </div>
 """, unsafe_allow_html=True)
