@@ -9,29 +9,34 @@ import plotly.graph_objects as go
 
 st.set_page_config(
     page_title="Behavioral Alpha Engine",
-    page_icon="⚡",
+    page_icon="📊",
     layout="wide"
 )
 
 # =========================================================
-# DARK AI CSS
+# COLORFUL PROFESSIONAL CSS
 # =========================================================
 
 st.markdown("""
 <style>
 
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 html, body, [class*="css"] {
-    font-family: 'Inter', sans-serif;
-    color: white !important;
+    font-family: 'Poppins', sans-serif;
+    color: black !important;
 }
 
-/* MAIN APP */
+/* MAIN BACKGROUND */
 
 .stApp {
-    background: linear-gradient(135deg, #050816, #0B1023, #10182F);
-    color: white !important;
+    background: linear-gradient(
+        135deg,
+        #E0F2FE,
+        #DBEAFE,
+        #EDE9FE,
+        #FCE7F3
+    );
 }
 
 /* REMOVE EXTRA SPACE */
@@ -44,34 +49,36 @@ html, body, [class*="css"] {
 /* ALL TEXT */
 
 p, span, div, label, li {
-    color: white !important;
+    color: black !important;
 }
 
 /* HEADINGS */
 
 h1 {
-    font-family: 'Orbitron', sans-serif;
-    color: white !important;
+    color: #0F172A !important;
     font-size: 4rem !important;
-    letter-spacing: 2px;
+    font-weight: 700 !important;
 }
 
 h2, h3, h4 {
-    color: white !important;
+    color: #111827 !important;
 }
 
 /* METRIC CARDS */
 
 [data-testid="metric-container"] {
-    background: linear-gradient(145deg, #111827, #1E293B);
-    border: 1px solid rgba(0,229,255,0.25);
-    border-radius: 18px;
-    padding: 20px;
-    box-shadow: 0px 0px 18px rgba(0,229,255,0.15);
+    background: linear-gradient(
+        135deg,
+        #2563EB,
+        #7C3AED
+    );
+    border-radius: 20px;
+    padding: 22px;
+    box-shadow: 0px 8px 25px rgba(0,0,0,0.15);
 }
 
 [data-testid="metric-container"] label {
-    color: #CBD5E1 !important;
+    color: white !important;
 }
 
 [data-testid="metric-container"] div {
@@ -81,12 +88,15 @@ h2, h3, h4 {
 /* SIDEBAR */
 
 section[data-testid="stSidebar"] {
-    background: linear-gradient(180deg, #050816, #0F172A);
-    border-right: 1px solid rgba(255,255,255,0.08);
+    background: linear-gradient(
+        180deg,
+        #BFDBFE,
+        #DDD6FE
+    );
 }
 
 section[data-testid="stSidebar"] * {
-    color: white !important;
+    color: black !important;
 }
 
 /* TABS */
@@ -96,22 +106,31 @@ section[data-testid="stSidebar"] * {
 }
 
 .stTabs [data-baseweb="tab"] {
-    background: #111827;
-    border-radius: 12px;
-    color: white !important;
-    padding: 14px 24px;
+    background: white;
+    border-radius: 14px;
+    color: black !important;
+    padding: 14px 22px;
     font-weight: 600;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.08);
 }
 
 .stTabs [aria-selected="true"] {
-    background: linear-gradient(90deg, #00E5FF, #2563EB) !important;
+    background: linear-gradient(
+        90deg,
+        #2563EB,
+        #7C3AED
+    ) !important;
     color: white !important;
 }
 
 /* BUTTONS */
 
 .stButton button {
-    background: linear-gradient(90deg, #00E5FF, #2563EB);
+    background: linear-gradient(
+        90deg,
+        #2563EB,
+        #7C3AED
+    );
     color: white !important;
     border: none;
     border-radius: 12px;
@@ -122,35 +141,35 @@ section[data-testid="stSidebar"] * {
 /* INPUTS */
 
 input, textarea {
-    background-color: #1E293B !important;
-    color: white !important;
+    background-color: white !important;
+    color: black !important;
+    border-radius: 10px !important;
 }
 
-/* DROPDOWNS */
+/* DROPDOWN */
 
 .stSelectbox div[data-baseweb="select"] {
-    background-color: #334155 !important;
-    border: 1px solid rgba(255,255,255,0.08);
+    background-color: #E2E8F0 !important;
     border-radius: 12px;
 }
 
 /* DROPDOWN TEXT */
 
 .stSelectbox * {
-    color: white !important;
+    color: black !important;
 }
 
 /* NUMBER INPUT */
 
 .stNumberInput input {
-    background-color: #1E293B !important;
-    color: white !important;
+    background-color: white !important;
+    color: black !important;
 }
 
 /* SLIDER */
 
 .stSlider {
-    color: #00E5FF;
+    color: #2563EB;
 }
 
 /* DATAFRAME */
@@ -163,27 +182,27 @@ input, textarea {
 /* CUSTOM BOX */
 
 .tech-box {
-    background: rgba(255,255,255,0.04);
-    padding: 22px;
-    border-radius: 18px;
-    border: 1px solid rgba(0,229,255,0.15);
+    background: rgba(255,255,255,0.8);
+    padding: 24px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.08);
 }
 
 /* SUCCESS / INFO / WARNING */
 
 .stSuccess {
-    background-color: rgba(16,185,129,0.15) !important;
-    color: white !important;
+    background-color: rgba(34,197,94,0.12) !important;
+    color: black !important;
 }
 
 .stInfo {
-    background-color: rgba(59,130,246,0.15) !important;
-    color: white !important;
+    background-color: rgba(59,130,246,0.12) !important;
+    color: black !important;
 }
 
 .stWarning {
-    background-color: rgba(245,158,11,0.15) !important;
-    color: white !important;
+    background-color: rgba(245,158,11,0.12) !important;
+    color: black !important;
 }
 
 </style>
@@ -198,7 +217,7 @@ df = pd.read_csv("investor_behavior_data.csv")
 df.columns = df.columns.str.strip()
 
 # =========================================================
-# CREATE SYNTHETIC DATA
+# SYNTHETIC COLUMNS
 # =========================================================
 
 if "Age" not in df.columns:
@@ -252,7 +271,7 @@ df["Goal"] = [goals[i % len(goals)] for i in range(len(df))]
 # SIDEBAR
 # =========================================================
 
-st.sidebar.title("⚡ Control Panel")
+st.sidebar.title("⚡ Dashboard Controls")
 
 goal_filter = st.sidebar.selectbox(
     "Financial Goal",
@@ -299,11 +318,17 @@ st.title("Behavioral Alpha Engine")
 st.markdown("""
 <div class="tech-box">
 
-### AI-Powered Behavioral Wealth Intelligence Platform
+<h3>AI-Powered Behavioral Wealth Intelligence Platform</h3>
 
-Advanced behavioral finance dashboard analyzing investor psychology,
-risk appetite, wealth goals, portfolio intelligence,
-and emotional investing patterns.
+Advanced behavioral finance dashboard analyzing:
+<br><br>
+
+• Investor psychology  
+• Risk appetite  
+• Portfolio intelligence  
+• Wealth creation goals  
+• Emotional investing patterns  
+• Financial behavior analytics  
 
 </div>
 """, unsafe_allow_html=True)
@@ -364,14 +389,8 @@ with tab1:
             filtered_df,
             x="Age",
             color="Investor_Type",
-            template="plotly_dark",
-            title="Investor Age Distribution"
-        )
-
-        fig1.update_layout(
-            paper_bgcolor="#0B1023",
-            plot_bgcolor="#0B1023",
-            font_color="white"
+            title="Investor Age Distribution",
+            template="plotly_white"
         )
 
         st.plotly_chart(fig1, use_container_width=True)
@@ -382,13 +401,8 @@ with tab1:
             filtered_df,
             names="Investor_Type",
             hole=0.55,
-            template="plotly_dark",
-            title="Investor Type Distribution"
-        )
-
-        fig2.update_layout(
-            paper_bgcolor="#0B1023",
-            font_color="white"
+            title="Investor Type Distribution",
+            template="plotly_white"
         )
 
         st.plotly_chart(fig2, use_container_width=True)
@@ -399,47 +413,18 @@ with tab1:
 
 with tab2:
 
-    col1, col2 = st.columns(2)
+    fig3 = px.scatter(
+        filtered_df,
+        x="Risk_Score",
+        y="Behavioral_Score",
+        size="Portfolio_Value",
+        color="Investor_Type",
+        hover_data=["Goal"],
+        title="Behavioral Intelligence Mapping",
+        template="plotly_white"
+    )
 
-    with col1:
-
-        fig3 = px.scatter(
-            filtered_df,
-            x="Risk_Score",
-            y="Behavioral_Score",
-            size="Portfolio_Value",
-            color="Investor_Type",
-            hover_data=["Goal"],
-            template="plotly_dark",
-            title="Behavioral Intelligence Mapping"
-        )
-
-        fig3.update_layout(
-            paper_bgcolor="#0B1023",
-            plot_bgcolor="#0B1023",
-            font_color="white"
-        )
-
-        st.plotly_chart(fig3, use_container_width=True)
-
-    with col2:
-
-        fig4 = px.bar(
-            filtered_df,
-            x="Investor_Type",
-            y="Behavioral_Score",
-            color="Investor_Type",
-            template="plotly_dark",
-            title="Behavioral Scorecard"
-        )
-
-        fig4.update_layout(
-            paper_bgcolor="#0B1023",
-            plot_bgcolor="#0B1023",
-            font_color="white"
-        )
-
-        st.plotly_chart(fig4, use_container_width=True)
+    st.plotly_chart(fig3, use_container_width=True)
 
 # =========================================================
 # TAB 3
@@ -447,35 +432,16 @@ with tab2:
 
 with tab3:
 
-    st.subheader("Goal-Based Wealth Intelligence")
-
-    fig5 = px.sunburst(
+    fig4 = px.sunburst(
         filtered_df,
         path=["Goal", "Investor_Type"],
         values="Portfolio_Value",
         color="Risk_Score",
-        template="plotly_dark",
-        title="Goal-Oriented Wealth Structure"
+        title="Goal-Based Wealth Structure",
+        template="plotly_white"
     )
 
-    fig5.update_layout(
-        paper_bgcolor="#0B1023",
-        font_color="white"
-    )
-
-    st.plotly_chart(fig5, use_container_width=True)
-
-    st.markdown("""
-<div class="tech-box">
-
-### Financial Goal Intelligence
-
-This section analyzes investor wealth objectives,
-income levels, portfolio alignment,
-and behavioral decision-making patterns.
-
-</div>
-""", unsafe_allow_html=True)
+    st.plotly_chart(fig4, use_container_width=True)
 
     st.dataframe(filtered_df)
 
@@ -485,45 +451,16 @@ and behavioral decision-making patterns.
 
 with tab4:
 
-    col1, col2 = st.columns(2)
+    fig5 = px.treemap(
+        filtered_df,
+        path=["Investor_Type"],
+        values="Portfolio_Value",
+        color="Behavioral_Score",
+        title="Portfolio Allocation Intelligence",
+        template="plotly_white"
+    )
 
-    with col1:
-
-        fig6 = px.treemap(
-            filtered_df,
-            path=["Investor_Type"],
-            values="Portfolio_Value",
-            color="Behavioral_Score",
-            template="plotly_dark",
-            title="Portfolio Allocation Intelligence"
-        )
-
-        fig6.update_layout(
-            paper_bgcolor="#0B1023",
-            font_color="white"
-        )
-
-        st.plotly_chart(fig6, use_container_width=True)
-
-    with col2:
-
-        fig7 = px.line(
-            filtered_df.sort_values("Age"),
-            x="Age",
-            y="Portfolio_Value",
-            color="Investor_Type",
-            markers=True,
-            template="plotly_dark",
-            title="Portfolio Growth Curve"
-        )
-
-        fig7.update_layout(
-            paper_bgcolor="#0B1023",
-            plot_bgcolor="#0B1023",
-            font_color="white"
-        )
-
-        st.plotly_chart(fig7, use_container_width=True)
+    st.plotly_chart(fig5, use_container_width=True)
 
 # =========================================================
 # TAB 5
@@ -545,39 +482,31 @@ with tab5:
         5
     )
 
-    wealth_target = st.number_input(
-        "Target Wealth Goal (₹ Lakhs)",
-        value=100
-    )
-
     if user_risk <= 3:
 
         st.success("""
-### Recommended Strategy
+Recommended Strategy:
 
-Capital preservation focused strategy with debt allocation,
-gold ETFs, conservative SIP investing,
-and emergency reserve optimization.
+Capital preservation focused investing strategy
+with debt allocation and conservative SIPs.
         """)
 
     elif user_risk <= 7:
 
         st.info("""
-### Recommended Strategy
+Recommended Strategy:
 
-Balanced wealth creation strategy involving
-hybrid mutual funds, SIP diversification,
-and long-term portfolio compounding.
+Balanced long-term wealth creation strategy
+with diversified asset allocation.
         """)
 
     else:
 
         st.warning("""
-### Recommended Strategy
+Recommended Strategy:
 
-Aggressive growth strategy including
-high-growth equities, thematic investing,
-global diversification, and startup exposure.
+Aggressive growth strategy with high equity exposure,
+global diversification, and thematic investing.
         """)
 
 # =========================================================
@@ -600,10 +529,7 @@ with tab6:
 
     survey_chart.update_layout(
         title="Behavioral Survey Insights",
-        template="plotly_dark",
-        paper_bgcolor="#0B1023",
-        plot_bgcolor="#0B1023",
-        font_color="white"
+        template="plotly_white"
     )
 
     st.plotly_chart(survey_chart, use_container_width=True)
@@ -611,11 +537,11 @@ with tab6:
     st.markdown("""
 <div class="tech-box">
 
-### Key Research Findings
+<h3>Key Research Findings</h3>
 
 Most investors belong to the 22–35 demographic and display moderate-to-high behavioral influence in financial decision-making.
 
-Long-term wealth creation remains the dominant financial objective while emotional investing patterns significantly impact portfolio actions.
+Long-term wealth creation remains the dominant financial objective while emotional investing patterns significantly influence portfolio actions.
 
 </div>
 """, unsafe_allow_html=True)
