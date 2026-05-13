@@ -14,7 +14,7 @@ st.set_page_config(
 )
 
 # =========================================================
-# DARK AI STYLE CSS
+# CUSTOM DARK AI CSS
 # =========================================================
 
 st.markdown("""
@@ -34,14 +34,14 @@ html, body, [class*="css"] {
     color: white !important;
 }
 
-/* REMOVE WHITE SPACE */
+/* REMOVE EXTRA SPACING */
 
 .block-container {
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
 
-/* ALL TEXT */
+/* TEXT */
 
 p, span, div, label, li {
     color: white !important;
@@ -60,14 +60,14 @@ h2, h3, h4 {
     color: white !important;
 }
 
-/* METRIC CARDS */
+/* METRICS */
 
 [data-testid="metric-container"] {
     background: linear-gradient(145deg, #111827, #1E293B);
-    border: 1px solid rgba(0,229,255,0.2);
+    border: 1px solid rgba(0,229,255,0.25);
     border-radius: 18px;
     padding: 20px;
-    box-shadow: 0px 0px 18px rgba(0,229,255,0.12);
+    box-shadow: 0px 0px 18px rgba(0,229,255,0.15);
 }
 
 [data-testid="metric-container"] label {
@@ -119,11 +119,6 @@ section[data-testid="stSidebar"] * {
     font-weight: 600;
 }
 
-.stButton button:hover {
-    transform: scale(1.02);
-    box-shadow: 0px 0px 20px rgba(0,229,255,0.4);
-}
-
 /* INPUTS */
 
 input, textarea {
@@ -134,14 +129,35 @@ input, textarea {
 /* SELECT BOX */
 
 .stSelectbox div[data-baseweb="select"] {
-    background-color: #111827;
+    background-color: #111827 !important;
+    color: white !important;
     border-radius: 12px;
+}
+
+/* DROPDOWN TEXT */
+
+.stSelectbox * {
+    color: white !important;
+}
+
+/* NUMBER INPUT */
+
+.stNumberInput input {
+    background-color: #111827 !important;
+    color: white !important;
 }
 
 /* SLIDER */
 
 .stSlider {
     color: #00E5FF;
+}
+
+/* DATAFRAME */
+
+[data-testid="stDataFrame"] {
+    border-radius: 14px;
+    overflow: hidden;
 }
 
 /* CUSTOM BOX */
@@ -153,11 +169,21 @@ input, textarea {
     border: 1px solid rgba(0,229,255,0.15);
 }
 
-/* DATAFRAME */
+/* SUCCESS / INFO / WARNING */
 
-[data-testid="stDataFrame"] {
-    border-radius: 14px;
-    overflow: hidden;
+.stSuccess {
+    background-color: rgba(16,185,129,0.15) !important;
+    color: white !important;
+}
+
+.stInfo {
+    background-color: rgba(59,130,246,0.15) !important;
+    color: white !important;
+}
+
+.stWarning {
+    background-color: rgba(245,158,11,0.15) !important;
+    color: white !important;
 }
 
 </style>
@@ -172,7 +198,7 @@ df = pd.read_csv("investor_behavior_data.csv")
 df.columns = df.columns.str.strip()
 
 # =========================================================
-# SYNTHETIC COLUMNS
+# CREATE SYNTHETIC DATA
 # =========================================================
 
 if "Age" not in df.columns:
@@ -275,9 +301,9 @@ st.markdown("""
 
 ### AI-Powered Behavioral Wealth Intelligence Platform
 
-This platform analyzes investor psychology, emotional finance behavior,
-risk appetite, portfolio intelligence, wealth goals,
-and behavioral finance decision-making patterns.
+Advanced behavioral finance dashboard analyzing investor psychology,
+risk appetite, wealth goals, portfolio intelligence,
+and emotional investing patterns.
 
 </div>
 """, unsafe_allow_html=True)
@@ -285,16 +311,13 @@ and behavioral finance decision-making patterns.
 st.markdown("---")
 
 # =========================================================
-# KPI CARDS
+# KPI SECTION
 # =========================================================
 
 c1, c2, c3, c4 = st.columns(4)
 
 with c1:
-    st.metric(
-        "Total Investors",
-        len(filtered_df)
-    )
+    st.metric("Total Investors", len(filtered_df))
 
 with c2:
     st.metric(
@@ -315,7 +338,7 @@ with c4:
     )
 
 # =========================================================
-# MAIN TABS
+# TABS
 # =========================================================
 
 tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
@@ -341,13 +364,14 @@ with tab1:
             filtered_df,
             x="Age",
             color="Investor_Type",
-            title="Investor Age Distribution",
-            template="plotly_dark"
+            template="plotly_dark",
+            title="Investor Age Distribution"
         )
 
         fig1.update_layout(
             paper_bgcolor="#0B1023",
-            plot_bgcolor="#0B1023"
+            plot_bgcolor="#0B1023",
+            font_color="white"
         )
 
         st.plotly_chart(fig1, use_container_width=True)
@@ -357,13 +381,14 @@ with tab1:
         fig2 = px.pie(
             filtered_df,
             names="Investor_Type",
-            title="Investor Type Distribution",
             hole=0.55,
-            template="plotly_dark"
+            template="plotly_dark",
+            title="Investor Type Distribution"
         )
 
         fig2.update_layout(
-            paper_bgcolor="#0B1023"
+            paper_bgcolor="#0B1023",
+            font_color="white"
         )
 
         st.plotly_chart(fig2, use_container_width=True)
@@ -385,13 +410,14 @@ with tab2:
             size="Portfolio_Value",
             color="Investor_Type",
             hover_data=["Goal"],
-            title="Behavioral Intelligence Mapping",
-            template="plotly_dark"
+            template="plotly_dark",
+            title="Behavioral Intelligence Mapping"
         )
 
         fig3.update_layout(
             paper_bgcolor="#0B1023",
-            plot_bgcolor="#0B1023"
+            plot_bgcolor="#0B1023",
+            font_color="white"
         )
 
         st.plotly_chart(fig3, use_container_width=True)
@@ -403,13 +429,14 @@ with tab2:
             x="Investor_Type",
             y="Behavioral_Score",
             color="Investor_Type",
-            title="Behavioral Scorecard",
-            template="plotly_dark"
+            template="plotly_dark",
+            title="Behavioral Scorecard"
         )
 
         fig4.update_layout(
             paper_bgcolor="#0B1023",
-            plot_bgcolor="#0B1023"
+            plot_bgcolor="#0B1023",
+            font_color="white"
         )
 
         st.plotly_chart(fig4, use_container_width=True)
@@ -420,20 +447,36 @@ with tab2:
 
 with tab3:
 
+    st.subheader("Goal-Based Wealth Intelligence")
+
     fig5 = px.sunburst(
         filtered_df,
         path=["Goal", "Investor_Type"],
         values="Portfolio_Value",
         color="Risk_Score",
-        title="Goal-Based Wealth Structure",
-        template="plotly_dark"
+        template="plotly_dark",
+        title="Goal-Oriented Wealth Structure"
     )
 
     fig5.update_layout(
-        paper_bgcolor="#0B1023"
+        paper_bgcolor="#0B1023",
+        font_color="white"
     )
 
     st.plotly_chart(fig5, use_container_width=True)
+
+    st.markdown("""
+<div class="tech-box">
+
+### Financial Goal Intelligence
+
+This section analyzes investor wealth objectives,
+income levels, portfolio alignment,
+and behavioral decision-making patterns
+across different financial goals.
+
+</div>
+""", unsafe_allow_html=True)
 
     st.dataframe(filtered_df)
 
@@ -452,12 +495,13 @@ with tab4:
             path=["Investor_Type"],
             values="Portfolio_Value",
             color="Behavioral_Score",
-            title="Portfolio Allocation Intelligence",
-            template="plotly_dark"
+            template="plotly_dark",
+            title="Portfolio Allocation Intelligence"
         )
 
         fig6.update_layout(
-            paper_bgcolor="#0B1023"
+            paper_bgcolor="#0B1023",
+            font_color="white"
         )
 
         st.plotly_chart(fig6, use_container_width=True)
@@ -470,13 +514,14 @@ with tab4:
             y="Portfolio_Value",
             color="Investor_Type",
             markers=True,
-            title="Portfolio Growth Curve",
-            template="plotly_dark"
+            template="plotly_dark",
+            title="Portfolio Growth Curve"
         )
 
         fig7.update_layout(
             paper_bgcolor="#0B1023",
-            plot_bgcolor="#0B1023"
+            plot_bgcolor="#0B1023",
+            font_color="white"
         )
 
         st.plotly_chart(fig7, use_container_width=True)
@@ -511,11 +556,9 @@ with tab5:
         st.success("""
 ### Recommended Strategy
 
-- Capital Preservation
-- Debt Allocation
-- Emergency Fund Optimization
-- Conservative SIP Investing
-- Gold ETFs
+Capital preservation focused strategy with debt allocation,
+gold ETFs, conservative SIP investing,
+and emergency reserve optimization.
         """)
 
     elif user_risk <= 7:
@@ -523,11 +566,9 @@ with tab5:
         st.info("""
 ### Recommended Strategy
 
-- Balanced Mutual Funds
-- Hybrid Investing
-- Long-Term Wealth Creation
-- SIP Diversification
-- Goal-Based Planning
+Balanced wealth creation strategy involving
+hybrid mutual funds, SIP diversification,
+and long-term portfolio compounding.
         """)
 
     else:
@@ -535,11 +576,9 @@ with tab5:
         st.warning("""
 ### Recommended Strategy
 
-- High-Growth Equity Investing
-- Global Diversification
-- Aggressive Wealth Strategy
-- Startup Exposure
-- Thematic Investing
+Aggressive growth strategy including
+high-growth equities, thematic investing,
+global diversification, and startup exposure.
         """)
 
 # =========================================================
@@ -564,7 +603,8 @@ with tab6:
         title="Behavioral Survey Insights",
         template="plotly_dark",
         paper_bgcolor="#0B1023",
-        plot_bgcolor="#0B1023"
+        plot_bgcolor="#0B1023",
+        font_color="white"
     )
 
     st.plotly_chart(survey_chart, use_container_width=True)
@@ -574,13 +614,9 @@ with tab6:
 
 ### Key Research Findings
 
-Most investors belong to the 22–35 demographic and exhibit moderate-to-high
-behavioral influence in financial decision-making.
+Most investors belong to the 22–35 demographic and display moderate-to-high behavioral influence in financial decision-making.
 
-Investors display strong dependency on emotional triggers,
-social influence, and structured guidance during market volatility.
-
-Long-term wealth creation remains the dominant financial objective.
+Long-term wealth creation remains the dominant financial objective while emotional investing patterns significantly impact portfolio actions.
 
 </div>
 """, unsafe_allow_html=True)
