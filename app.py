@@ -13,7 +13,7 @@ st.set_page_config(
 )
 
 # =========================================================
-# PROFESSIONAL DARK TECH CSS
+# CLEAN PROFESSIONAL CSS
 # =========================================================
 
 st.markdown("""
@@ -23,7 +23,7 @@ st.markdown("""
 
 html, body, [class*="css"] {
     font-family: 'Inter', sans-serif;
-    color: #E2E8F0 !important;
+    color: #111827 !important;
 }
 
 /* MAIN BACKGROUND */
@@ -31,36 +31,35 @@ html, body, [class*="css"] {
 .stApp {
     background: linear-gradient(
         135deg,
-        #020617,
-        #0F172A,
-        #111827
+        #EEF2FF,
+        #E0E7FF,
+        #F5F3FF
     );
 }
 
-/* REMOVE WHITE SPACE */
+/* REMOVE EXTRA SPACING */
 
 .block-container {
-    padding-top: 1.8rem;
+    padding-top: 1.5rem;
     padding-bottom: 2rem;
 }
 
-/* ALL TEXT */
+/* TEXT COLORS */
 
 p, span, div, label {
-    color: #E2E8F0 !important;
+    color: #111827 !important;
 }
 
 /* HEADINGS */
 
 h1 {
-    color: #F8FAFC !important;
-    font-size: 3.8rem !important;
+    color: #111827 !important;
+    font-size: 3.6rem !important;
     font-weight: 700 !important;
-    letter-spacing: -1px;
 }
 
 h2, h3, h4 {
-    color: #F8FAFC !important;
+    color: #1E293B !important;
 }
 
 /* SIDEBAR */
@@ -68,16 +67,16 @@ h2, h3, h4 {
 section[data-testid="stSidebar"] {
     background: linear-gradient(
         180deg,
-        #020617,
-        #0F172A
+        #E0E7FF,
+        #F5F3FF
     );
-    border-right: 1px solid rgba(255,255,255,0.05);
+    border-right: 1px solid rgba(0,0,0,0.05);
 }
 
 /* SIDEBAR TEXT */
 
 section[data-testid="stSidebar"] * {
-    color: #E2E8F0 !important;
+    color: #111827 !important;
 }
 
 /* METRIC CARDS */
@@ -85,25 +84,20 @@ section[data-testid="stSidebar"] * {
 [data-testid="metric-container"] {
     background: linear-gradient(
         135deg,
-        #111827,
-        #1E293B
+        #4F46E5,
+        #7C3AED
     );
-    border: 1px solid rgba(59,130,246,0.25);
     border-radius: 18px;
-    padding: 22px;
-    box-shadow: 0px 8px 24px rgba(0,0,0,0.35);
+    padding: 20px;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.12);
 }
-
-/* METRIC LABELS */
 
 [data-testid="metric-container"] label {
-    color: #94A3B8 !important;
+    color: white !important;
 }
 
-/* METRIC VALUES */
-
 [data-testid="metric-container"] div {
-    color: #F8FAFC !important;
+    color: white !important;
 }
 
 /* TABS */
@@ -113,19 +107,18 @@ section[data-testid="stSidebar"] * {
 }
 
 .stTabs [data-baseweb="tab"] {
-    background: #111827;
-    border-radius: 14px;
-    color: #CBD5E1 !important;
-    padding: 12px 22px;
+    background: rgba(255,255,255,0.7);
+    border-radius: 12px;
+    color: #111827 !important;
+    padding: 12px 20px;
     font-weight: 600;
-    border: 1px solid rgba(255,255,255,0.04);
 }
 
 .stTabs [aria-selected="true"] {
     background: linear-gradient(
         90deg,
-        #2563EB,
-        #06B6D4
+        #4F46E5,
+        #7C3AED
     ) !important;
     color: white !important;
 }
@@ -133,71 +126,55 @@ section[data-testid="stSidebar"] * {
 /* INPUTS */
 
 input, textarea {
-    background-color: #111827 !important;
-    color: white !important;
-    border-radius: 12px !important;
+    background-color: white !important;
+    color: #111827 !important;
+    border-radius: 10px !important;
 }
 
 /* SELECT BOX */
 
 .stSelectbox div[data-baseweb="select"] {
-    background-color: #111827 !important;
-    border-radius: 12px;
-    border: 1px solid rgba(255,255,255,0.08);
+    background-color: white !important;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.08);
 }
 
-/* SELECT BOX TEXT */
+/* SELECT TEXT */
 
 .stSelectbox * {
-    color: #F8FAFC !important;
+    color: #111827 !important;
 }
 
-/* SLIDERS */
+/* SLIDER */
 
 .stSlider * {
-    color: #F8FAFC !important;
+    color: #111827 !important;
 }
 
-/* CUSTOM GLASS BOX */
+/* CUSTOM BOX */
 
 .tech-box {
-    background: rgba(17,24,39,0.72);
-    border: 1px solid rgba(255,255,255,0.06);
+    background: rgba(255,255,255,0.75);
+    border-radius: 20px;
     padding: 24px;
-    border-radius: 22px;
-    backdrop-filter: blur(12px);
-    box-shadow: 0px 8px 28px rgba(0,0,0,0.32);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 8px 24px rgba(0,0,0,0.08);
 }
 
 /* CHAT BOX */
 
 .chat-box {
-    background: rgba(17,24,39,0.92);
-    border: 1px solid rgba(59,130,246,0.22);
+    background: rgba(255,255,255,0.92);
+    border-radius: 16px;
     padding: 22px;
-    border-radius: 18px;
+    box-shadow: 0px 6px 18px rgba(0,0,0,0.08);
 }
 
 /* DATAFRAME */
 
 [data-testid="stDataFrame"] {
-    background: #111827 !important;
     border-radius: 16px;
-}
-
-/* BUTTONS */
-
-.stButton button {
-    background: linear-gradient(
-        90deg,
-        #2563EB,
-        #06B6D4
-    );
-    color: white !important;
-    border-radius: 12px;
-    border: none;
-    padding: 10px 18px;
-    font-weight: 600;
+    overflow: hidden;
 }
 
 </style>
@@ -297,7 +274,7 @@ A behavioral finance and portfolio analytics system designed for RuDo Wealth to 
 st.markdown("---")
 
 # =========================================================
-# KPI CARDS
+# KPI SECTION
 # =========================================================
 
 c1, c2, c3, c4 = st.columns(4)
@@ -306,22 +283,13 @@ with c1:
     st.metric("Total Investors", len(df))
 
 with c2:
-    st.metric(
-        "Behavioral Score",
-        "78/100"
-    )
+    st.metric("Behavioral Score", "78/100")
 
 with c3:
-    st.metric(
-        "Portfolio Value",
-        "₹30.7L"
-    )
+    st.metric("Portfolio Value", "₹30.7L")
 
 with c4:
-    st.metric(
-        "Risk Appetite",
-        f"{risk_input}/10"
-    )
+    st.metric("Risk Appetite", f"{risk_input}/10")
 
 # =========================================================
 # TABS
@@ -337,6 +305,18 @@ tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
 ])
 
 # =========================================================
+# CHART COLORS
+# =========================================================
+
+chart_colors = [
+    "#4F46E5",
+    "#6366F1",
+    "#7C3AED",
+    "#8B5CF6",
+    "#A78BFA"
+]
+
+# =========================================================
 # TAB 1
 # =========================================================
 
@@ -346,14 +326,14 @@ with tab1:
         df,
         x="Age",
         color="Investor_Type",
-        template="plotly_dark",
-        title="Investor Demographics Distribution"
+        title="Investor Demographics Distribution",
+        color_discrete_sequence=chart_colors
     )
 
     fig1.update_layout(
-        paper_bgcolor="#0F172A",
-        plot_bgcolor="#0F172A",
-        font_color="white"
+        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(0,0,0,0)",
+        font_color="#111827"
     )
 
     st.plotly_chart(fig1, use_container_width=True)
@@ -444,15 +424,16 @@ with tab2:
         bias_df,
         x="Bias",
         y="Score",
-        color="Score",
-        template="plotly_dark",
+        color="Bias",
+        color_discrete_sequence=chart_colors,
         title="Behavioral Bias Breakdown"
     )
 
     fig2.update_layout(
-        paper_bgcolor="#0F172A",
-        plot_bgcolor="#0F172A",
-        font_color="white"
+        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(0,0,0,0)",
+        font_color="#111827",
+        showlegend=False
     )
 
     st.plotly_chart(fig2, use_container_width=True)
@@ -480,14 +461,15 @@ with tab3:
             "FOMO",
             "Frequency Bias"
         ],
-        fill='toself'
+        fill='toself',
+        line_color="#4F46E5"
     ))
 
     radar.update_layout(
-        template="plotly_dark",
-        paper_bgcolor="#0F172A",
-        font_color="white",
+        paper_bgcolor="rgba(0,0,0,0)",
+        font_color="#111827",
         polar=dict(
+            bgcolor="rgba(0,0,0,0)",
             radialaxis=dict(
                 visible=True,
                 range=[0,100]
@@ -509,14 +491,14 @@ with tab4:
         y="Portfolio_Value",
         size="Behavioral_Score",
         color="Investor_Type",
-        template="plotly_dark",
+        color_discrete_sequence=chart_colors,
         title="Portfolio Intelligence Mapping"
     )
 
     fig3.update_layout(
-        paper_bgcolor="#0F172A",
-        plot_bgcolor="#0F172A",
-        font_color="white"
+        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(0,0,0,0)",
+        font_color="#111827"
     )
 
     st.plotly_chart(fig3, use_container_width=True)
@@ -553,13 +535,13 @@ with tab5:
             "Gold",
             "Cash"
         ],
-        template="plotly_dark",
+        color_discrete_sequence=chart_colors,
         title="Suggested Asset Allocation"
     )
 
     allocation.update_layout(
-        paper_bgcolor="#0F172A",
-        font_color="white"
+        paper_bgcolor="rgba(0,0,0,0)",
+        font_color="#111827"
     )
 
     st.plotly_chart(allocation, use_container_width=True)
@@ -581,13 +563,13 @@ with tab6:
         if overall_score > 75:
 
             response = """
-Your behavioral profile indicates elevated emotional investing tendencies. You may benefit from structured investing frameworks, disciplined SIP allocation, and reduced portfolio monitoring frequency.
+Your behavioral profile indicates elevated emotional investing tendencies. You may benefit from disciplined SIP allocation, lower portfolio monitoring frequency, and stronger diversification strategies.
             """
 
         elif overall_score > 50:
 
             response = """
-Your profile reflects moderate behavioral influence. Increasing diversification and reducing trend-following behavior may improve long-term wealth outcomes.
+Your profile reflects moderate behavioral influence. Improving diversification and reducing trend-following behavior may improve long-term outcomes.
             """
 
         else:
